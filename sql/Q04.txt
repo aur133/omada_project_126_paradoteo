@@ -1,0 +1,2 @@
+prescribing_doc_id	first_name	last_name	avg_medical_care	avg_hosp_exp
+42			Griselda	Kenyon		5.0000			3.0336

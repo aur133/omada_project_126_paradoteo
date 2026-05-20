@@ -1,0 +1,4 @@
+hosp_id	sub1_id	sub2_id	times_combined
+12	974	1019		2
+12	605	1019		2
+13	779	888		2

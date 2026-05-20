@@ -1,0 +1,2079 @@
+dept_name	shift_id	subclass	                                                       required_staff
+Pulmonology	421	Administrative staff with role: Human Resources Manager	                        1
+Pulmonology	421	Administrative staff with role: Software Applications Administrator (Software)	1
+Pulmonology	421	Doctor with specialty: Pulmonology						3
+Pulmonology	421	Nurse with rank: Assistant_Nurse	                                        1
+Pulmonology	421	Nurse with rank: Senior_Nurse	                                                4
+Pulmonology	421	Nurse with rank: Supervisor_Nurse						1
+Pulmonology	422	Administrative staff with role: Accountant					1
+Pulmonology	422	Administrative staff with role: Secretary					1
+Pulmonology	422	Doctor with specialty: Pulmonology						3
+Pulmonology	422	Nurse with rank: Assistant_Nurse						2
+Pulmonology	422	Nurse with rank: Senior_Nurse							2
+Pulmonology	422	Nurse with rank: Supervisor_Nurse						2
+Biopathology	423	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Biopathology	423	Administrative staff with role: Software Applications Administrator (Software)	1
+Biopathology	423	Doctor with specialty: Biopathology	1
+Biopathology	423	Doctor with specialty: Microbiology	1
+Biopathology	423	Doctor with specialty: Radiology	1
+Biopathology	423	Nurse with rank: Assistant_Nurse	2
+Biopathology	423	Nurse with rank: Senior_Nurse	3
+Biopathology	423	Nurse with rank: Supervisor_Nurse	1
+Biopathology	424	Administrative staff with role: Procurement Officer				1
+Biopathology	424	Administrative staff with role: Secretary	1
+Biopathology	424	Doctor with specialty: Biopathology	1
+Biopathology	424	Doctor with specialty: Microbiology	1
+Biopathology	424	Doctor with specialty: Pathology	1
+Biopathology	424	Nurse with rank: Assistant_Nurse	1
+Biopathology	424	Nurse with rank: Senior_Nurse	4
+Biopathology	424	Nurse with rank: Supervisor_Nurse	1
+Biopathology	425	Administrative staff with role: Accountant	1
+Biopathology	425	Administrative staff with role: Secretary	1
+Biopathology	425	Doctor with specialty: Biopathology	1
+Biopathology	425	Doctor with specialty: Neurosurgery	1
+Biopathology	425	Doctor with specialty: Pathology	1
+Biopathology	425	Nurse with rank: Senior_Nurse	3
+Biopathology	425	Nurse with rank: Supervisor_Nurse	3
+Endocrinology	426	Administrative staff with role: Accountant	1
+Endocrinology	426	Administrative staff with role: Human Resources Manager	1
+Endocrinology	426	Doctor with specialty: Endocrinology	2
+Endocrinology	426	Doctor with specialty: Gastroenterology	1
+Endocrinology	426	Nurse with rank: Assistant_Nurse	5
+Endocrinology	426	Nurse with rank: Senior_Nurse	1
+Endocrinology	427	Administrative staff with role: Accountant	1
+Endocrinology	427	Administrative staff with role: Procurement Officer	1
+Endocrinology	427	Doctor with specialty: Endocrinology	1
+Endocrinology	427	Doctor with specialty: Gastroenterology	1
+Endocrinology	427	Doctor with specialty: Internal Medicine	1
+Endocrinology	427	Nurse with rank: Assistant_Nurse	3
+Endocrinology	427	Nurse with rank: Senior_Nurse	1
+Endocrinology	427	Nurse with rank: Supervisor_Nurse	2
+Endocrinology	428	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Endocrinology	428	Administrative staff with role: Procurement Officer	1
+Endocrinology	428	Doctor with specialty: Endocrinology	1
+Endocrinology	428	Doctor with specialty: Gastroenterology	1
+Endocrinology	428	Doctor with specialty: Internal Medicine	1
+Endocrinology	428	Nurse with rank: Assistant_Nurse	2
+Endocrinology	428	Nurse with rank: Senior_Nurse	1
+Endocrinology	428	Nurse with rank: Supervisor_Nurse	3
+Internal Medicine	429	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Internal Medicine	429	Administrative staff with role: Software Applications Administrator (Software)	1
+Internal Medicine	429	Doctor with specialty: Gastroenterology	1
+Internal Medicine	429	Doctor with specialty: Nephrology	1
+Internal Medicine	429	Doctor with specialty: Rheumatology	1
+Internal Medicine	429	Nurse with rank: Assistant_Nurse	2
+Internal Medicine	429	Nurse with rank: Senior_Nurse	4
+Internal Medicine	430	Administrative staff with role: Human Resources Manager	1
+Internal Medicine	430	Administrative staff with role: Software Applications Administrator (Software)	1
+Internal Medicine	430	Doctor with specialty: Gastroenterology	2
+Internal Medicine	430	Doctor with specialty: Nephrology	1
+Internal Medicine	430	Nurse with rank: Senior_Nurse	4
+Internal Medicine	430	Nurse with rank: Supervisor_Nurse	2
+Internal Medicine	431	Administrative staff with role: Accountant	1
+Internal Medicine	431	Administrative staff with role: Software Applications Administrator (Software)	1
+Internal Medicine	431	Doctor with specialty: Dermatology	1
+Internal Medicine	431	Doctor with specialty: Nephrology	1
+Internal Medicine	431	Doctor with specialty: Rheumatology	1
+Internal Medicine	431	Nurse with rank: Assistant_Nurse	1
+Internal Medicine	431	Nurse with rank: Senior_Nurse	2
+Internal Medicine	431	Nurse with rank: Supervisor_Nurse	3
+Pediatrics	432	Administrative staff with role: Network and Computer Administrator (Hardware)	2
+Pediatrics	432	Doctor with specialty: Pediatrics	3
+Pediatrics	432	Nurse with rank: Assistant_Nurse	1
+Pediatrics	432	Nurse with rank: Senior_Nurse	3
+Pediatrics	432	Nurse with rank: Supervisor_Nurse	2
+Pediatrics	433	Administrative staff with role: Accountant	1
+Pediatrics	433	Administrative staff with role: Software Applications Administrator (Software)	1
+Pediatrics	433	Doctor with specialty: Cardiac Surgery	1
+Pediatrics	433	Doctor with specialty: Pediatrics	2
+Pediatrics	433	Nurse with rank: Assistant_Nurse	4
+Pediatrics	433	Nurse with rank: Senior_Nurse	1
+Pediatrics	433	Nurse with rank: Supervisor_Nurse	1
+Pediatrics	434	Administrative staff with role: Procurement Officer	1
+Pediatrics	434	Administrative staff with role: Software Applications Administrator (Software)	1
+Pediatrics	434	Doctor with specialty: Cardiac Surgery	1
+Pediatrics	434	Doctor with specialty: Pediatrics	2
+Pediatrics	434	Nurse with rank: Assistant_Nurse	2
+Pediatrics	434	Nurse with rank: Senior_Nurse	1
+Pediatrics	434	Nurse with rank: Supervisor_Nurse	3
+Gastroenterology	435	Administrative staff with role: Accountant	1
+Gastroenterology	435	Administrative staff with role: Human Resources Manager	1
+Gastroenterology	435	Doctor with specialty: Gastroenterology	2
+Gastroenterology	435	Doctor with specialty: General Surgery	1
+Gastroenterology	435	Nurse with rank: Assistant_Nurse	3
+Gastroenterology	435	Nurse with rank: Senior_Nurse	3
+Gastroenterology	436	Administrative staff with role: Accountant	1
+Gastroenterology	436	Administrative staff with role: Secretary	1
+Gastroenterology	436	Doctor with specialty: Gastroenterology	1
+Gastroenterology	436	Doctor with specialty: General Surgery	1
+Gastroenterology	436	Doctor with specialty: Internal Medicine	1
+Gastroenterology	436	Nurse with rank: Assistant_Nurse	3
+Gastroenterology	436	Nurse with rank: Senior_Nurse	1
+Gastroenterology	436	Nurse with rank: Supervisor_Nurse	2
+Gastroenterology	437	Administrative staff with role: Accountant	1
+Gastroenterology	437	Administrative staff with role: Procurement Officer	1
+Gastroenterology	437	Doctor with specialty: Gastroenterology	1
+Gastroenterology	437	Doctor with specialty: General Surgery	1
+Gastroenterology	437	Doctor with specialty: Radiology	1
+Gastroenterology	437	Nurse with rank: Assistant_Nurse	2
+Gastroenterology	437	Nurse with rank: Senior_Nurse	3
+Gastroenterology	437	Nurse with rank: Supervisor_Nurse	1
+Cardiology	438	Administrative staff with role: Procurement Officer	1
+Cardiology	438	Administrative staff with role: Software Applications Administrator (Software)	1
+Cardiology	438	Doctor with specialty: Cardiac Surgery	1
+Cardiology	438	Doctor with specialty: Cardiology	1
+Cardiology	438	Doctor with specialty: Vascular Surgery	1
+Cardiology	438	Nurse with rank: Assistant_Nurse	3
+Cardiology	438	Nurse with rank: Senior_Nurse	1
+Cardiology	438	Nurse with rank: Supervisor_Nurse	2
+Cardiology	439	Administrative staff with role: Secretary	2
+Cardiology	439	Doctor with specialty: Cardiac Surgery	1
+Cardiology	439	Doctor with specialty: Cardiology	1
+Cardiology	439	Doctor with specialty: Vascular Surgery	1
+Cardiology	439	Nurse with rank: Assistant_Nurse	2
+Cardiology	439	Nurse with rank: Senior_Nurse	1
+Cardiology	439	Nurse with rank: Supervisor_Nurse	3
+Cardiology	440	Administrative staff with role: Secretary	2
+Cardiology	440	Doctor with specialty: Cardiac Surgery	1
+Cardiology	440	Doctor with specialty: Cardiology	2
+Cardiology	440	Nurse with rank: Assistant_Nurse	1
+Cardiology	440	Nurse with rank: Senior_Nurse	2
+Cardiology	440	Nurse with rank: Supervisor_Nurse	3
+Surgical Department	441	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Surgical Department	441	Administrative staff with role: Procurement Officer	1
+Surgical Department	441	Doctor with specialty: Cardiac Surgery	2
+Surgical Department	441	Doctor with specialty: Urology	1
+Surgical Department	441	Nurse with rank: Assistant_Nurse	2
+Surgical Department	441	Nurse with rank: Senior_Nurse	2
+Surgical Department	441	Nurse with rank: Supervisor_Nurse	2
+Surgical Department	442	Administrative staff with role: Procurement Officer	1
+Surgical Department	442	Administrative staff with role: Secretary	1
+Surgical Department	442	Doctor with specialty: Ophthalmology	1
+Surgical Department	442	Doctor with specialty: Otorhinolaryngology - ENT	1
+Surgical Department	442	Doctor with specialty: Urology	1
+Surgical Department	442	Nurse with rank: Assistant_Nurse	2
+Surgical Department	442	Nurse with rank: Senior_Nurse	2
+Surgical Department	442	Nurse with rank: Supervisor_Nurse	2
+Surgical Department	443	Administrative staff with role: Secretary	1
+Surgical Department	443	Administrative staff with role: Software Applications Administrator (Software)	1
+Surgical Department	443	Doctor with specialty: Plastic Surgery	1
+Surgical Department	443	Doctor with specialty: Urology	1
+Surgical Department	443	Doctor with specialty: Vascular Surgery	1
+Surgical Department	443	Nurse with rank: Assistant_Nurse	3
+Surgical Department	443	Nurse with rank: Supervisor_Nurse	3
+Neurology	444	Administrative staff with role: Human Resources Manager	1
+Neurology	444	Administrative staff with role: Software Applications Administrator (Software)	1
+Neurology	444	Doctor with specialty: Neurology	2
+Neurology	444	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	444	Nurse with rank: Assistant_Nurse	2
+Neurology	444	Nurse with rank: Senior_Nurse	2
+Neurology	444	Nurse with rank: Supervisor_Nurse	2
+Neurology	445	Administrative staff with role: Human Resources Manager	1
+Neurology	445	Administrative staff with role: Software Applications Administrator (Software)	1
+Neurology	445	Doctor with specialty: Gastroenterology	1
+Neurology	445	Doctor with specialty: Neurology	1
+Neurology	445	Doctor with specialty: Neurosurgery	1
+Neurology	445	Nurse with rank: Assistant_Nurse	2
+Neurology	445	Nurse with rank: Senior_Nurse	2
+Neurology	445	Nurse with rank: Supervisor_Nurse	2
+Neurology	446	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Neurology	446	Administrative staff with role: Secretary	1
+Neurology	446	Doctor with specialty: Gastroenterology	1
+Neurology	446	Doctor with specialty: Neurology	1
+Neurology	446	Doctor with specialty: Neurosurgery	1
+Neurology	446	Nurse with rank: Assistant_Nurse	2
+Neurology	446	Nurse with rank: Senior_Nurse	3
+Neurology	446	Nurse with rank: Supervisor_Nurse	1
+Emergency Department	447	Administrative staff with role: Human Resources Manager	1
+Emergency Department	447	Administrative staff with role: Software Applications Administrator (Software)	1
+Emergency Department	447	Doctor with specialty: General Surgery	1
+Emergency Department	447	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	1
+Emergency Department	447	Doctor with specialty: Orthopedics	1
+Emergency Department	447	Nurse with rank: Assistant_Nurse	2
+Emergency Department	447	Nurse with rank: Senior_Nurse	4
+Emergency Department	448	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Emergency Department	448	Administrative staff with role: Procurement Officer	1
+Emergency Department	448	Doctor with specialty: Cardiology	1
+Emergency Department	448	Doctor with specialty: Orthopedics	2
+Emergency Department	448	Nurse with rank: Senior_Nurse	3
+Emergency Department	448	Nurse with rank: Supervisor_Nurse	3
+Emergency Department	449	Administrative staff with role: Procurement Officer	1
+Emergency Department	449	Administrative staff with role: Secretary	1
+Emergency Department	449	Doctor with specialty: Orthopedics	3
+Emergency Department	449	Nurse with rank: Senior_Nurse	4
+Emergency Department	449	Nurse with rank: Supervisor_Nurse	2
+ICU (Intensive Care Unit)	450	Administrative staff with role: Human Resources Manager	1
+ICU (Intensive Care Unit)	450	Administrative staff with role: Secretary	1
+ICU (Intensive Care Unit)	450	Doctor with specialty: Cardiology	1
+ICU (Intensive Care Unit)	450	Doctor with specialty: Internal Medicine	1
+ICU (Intensive Care Unit)	450	Doctor with specialty: Pulmonology	1
+ICU (Intensive Care Unit)	450	Nurse with rank: Assistant_Nurse	2
+ICU (Intensive Care Unit)	450	Nurse with rank: Senior_Nurse	2
+ICU (Intensive Care Unit)	450	Nurse with rank: Supervisor_Nurse	2
+ICU (Intensive Care Unit)	451	Administrative staff with role: Accountant	2
+ICU (Intensive Care Unit)	451	Doctor with specialty: Nephrology	1
+ICU (Intensive Care Unit)	451	Doctor with specialty: Rheumatology	1
+ICU (Intensive Care Unit)	451	Nurse with rank: Assistant_Nurse	2
+ICU (Intensive Care Unit)	451	Nurse with rank: Senior_Nurse	2
+ICU (Intensive Care Unit)	451	Nurse with rank: Supervisor_Nurse	2
+ICU (Intensive Care Unit)	452	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+ICU (Intensive Care Unit)	452	Administrative staff with role: Secretary	1
+ICU (Intensive Care Unit)	452	Doctor with specialty: Internal Medicine	1
+ICU (Intensive Care Unit)	452	Doctor with specialty: Nephrology	1
+ICU (Intensive Care Unit)	452	Doctor with specialty: Rheumatology	1
+ICU (Intensive Care Unit)	452	Nurse with rank: Assistant_Nurse	1
+ICU (Intensive Care Unit)	452	Nurse with rank: Senior_Nurse	2
+ICU (Intensive Care Unit)	452	Nurse with rank: Supervisor_Nurse	3
+Orthopedics	453	Administrative staff with role: Accountant	1
+Orthopedics	453	Administrative staff with role: Procurement Officer	1
+Orthopedics	453	Doctor with specialty: Orthopedics	1
+Orthopedics	453	Doctor with specialty: Rheumatology	2
+Orthopedics	453	Nurse with rank: Assistant_Nurse	2
+Orthopedics	453	Nurse with rank: Senior_Nurse	1
+Orthopedics	453	Nurse with rank: Supervisor_Nurse	3
+Orthopedics	454	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	454	Administrative staff with role: Secretary	1
+Orthopedics	454	Doctor with specialty: Orthopedics	1
+Orthopedics	454	Doctor with specialty: Rheumatology	2
+Orthopedics	454	Nurse with rank: Assistant_Nurse	1
+Orthopedics	454	Nurse with rank: Senior_Nurse	1
+Orthopedics	454	Nurse with rank: Supervisor_Nurse	4
+Orthopedics	455	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	455	Administrative staff with role: Procurement Officer	1
+Orthopedics	455	Doctor with specialty: Physical Medicine & Rehabilitation	2
+Orthopedics	455	Doctor with specialty: Rheumatology	1
+Orthopedics	455	Nurse with rank: Assistant_Nurse	1
+Orthopedics	455	Nurse with rank: Senior_Nurse	1
+Orthopedics	455	Nurse with rank: Supervisor_Nurse	4
+OB/GYN	456	Administrative staff with role: Network and Computer Administrator (Hardware)	2
+OB/GYN	456	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	3
+OB/GYN	456	Nurse with rank: Assistant_Nurse	2
+OB/GYN	456	Nurse with rank: Senior_Nurse	2
+OB/GYN	456	Nurse with rank: Supervisor_Nurse	2
+OB/GYN	457	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+OB/GYN	457	Administrative staff with role: Secretary	1
+OB/GYN	457	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	3
+OB/GYN	457	Nurse with rank: Assistant_Nurse	1
+OB/GYN	457	Nurse with rank: Senior_Nurse	3
+OB/GYN	457	Nurse with rank: Supervisor_Nurse	2
+OB/GYN	458	Administrative staff with role: Accountant	1
+OB/GYN	458	Administrative staff with role: Procurement Officer	1
+OB/GYN	458	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	3
+OB/GYN	458	Nurse with rank: Assistant_Nurse	1
+OB/GYN	458	Nurse with rank: Senior_Nurse	2
+OB/GYN	458	Nurse with rank: Supervisor_Nurse	3
+Anesthesiology	459	Administrative staff with role: Software Applications Administrator (Software)	2
+Anesthesiology	459	Doctor with specialty: Anesthesiology	2
+Anesthesiology	459	Doctor with specialty: Ophthalmology	1
+Anesthesiology	459	Nurse with rank: Assistant_Nurse	2
+Anesthesiology	459	Nurse with rank: Supervisor_Nurse	4
+Anesthesiology	460	Administrative staff with role: Accountant	1
+Anesthesiology	460	Administrative staff with role: Secretary	1
+Anesthesiology	460	Doctor with specialty: Anesthesiology	2
+Anesthesiology	460	Doctor with specialty: Ophthalmology	1
+Anesthesiology	460	Nurse with rank: Assistant_Nurse	1
+Anesthesiology	460	Nurse with rank: Senior_Nurse	4
+Anesthesiology	460	Nurse with rank: Supervisor_Nurse	1
+Anesthesiology	461	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Anesthesiology	461	Administrative staff with role: Procurement Officer	1
+Anesthesiology	461	Doctor with specialty: Anesthesiology	2
+Anesthesiology	461	Doctor with specialty: Ophthalmology	1
+Anesthesiology	461	Nurse with rank: Assistant_Nurse	2
+Anesthesiology	461	Nurse with rank: Senior_Nurse	4
+Psychiatry	462	Administrative staff with role: Human Resources Manager	1
+Psychiatry	462	Administrative staff with role: Secretary	1
+Psychiatry	462	Doctor with specialty: Psychiatry	3
+Psychiatry	462	Nurse with rank: Assistant_Nurse	1
+Psychiatry	462	Nurse with rank: Senior_Nurse	1
+Psychiatry	462	Nurse with rank: Supervisor_Nurse	4
+Psychiatry	463	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Psychiatry	463	Administrative staff with role: Software Applications Administrator (Software)	1
+Psychiatry	463	Doctor with specialty: Psychiatry	3
+Psychiatry	463	Nurse with rank: Assistant_Nurse	2
+Psychiatry	463	Nurse with rank: Senior_Nurse	4
+Psychiatry	464	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Psychiatry	464	Administrative staff with role: Software Applications Administrator (Software)	1
+Psychiatry	464	Doctor with specialty: Cardiac Surgery	1
+Psychiatry	464	Doctor with specialty: Psychiatry	2
+Psychiatry	464	Nurse with rank: Assistant_Nurse	2
+Psychiatry	464	Nurse with rank: Senior_Nurse	2
+Psychiatry	464	Nurse with rank: Supervisor_Nurse	2
+Pulmonology	465	Administrative staff with role: Software Applications Administrator (Software)	2
+Pulmonology	465	Doctor with specialty: Oncology	2
+Pulmonology	465	Nurse with rank: Assistant_Nurse	3
+Pulmonology	465	Nurse with rank: Senior_Nurse	1
+Pulmonology	465	Nurse with rank: Supervisor_Nurse	2
+Pulmonology	466	Administrative staff with role: Software Applications Administrator (Software)	2
+Pulmonology	466	Doctor with specialty: Oncology	1
+Pulmonology	466	Doctor with specialty: Pathology	1
+Pulmonology	466	Doctor with specialty: Pulmonology	1
+Pulmonology	466	Nurse with rank: Assistant_Nurse	1
+Pulmonology	466	Nurse with rank: Senior_Nurse	1
+Pulmonology	466	Nurse with rank: Supervisor_Nurse	4
+Pulmonology	467	Administrative staff with role: Human Resources Manager	2
+Pulmonology	467	Doctor with specialty: Oncology	1
+Pulmonology	467	Doctor with specialty: Pathology	1
+Pulmonology	467	Doctor with specialty: Pulmonology	1
+Pulmonology	467	Nurse with rank: Assistant_Nurse	1
+Pulmonology	467	Nurse with rank: Senior_Nurse	2
+Pulmonology	467	Nurse with rank: Supervisor_Nurse	3
+Biopathology	468	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Biopathology	468	Administrative staff with role: Procurement Officer	1
+Biopathology	468	Doctor with specialty: Microbiology	2
+Biopathology	468	Doctor with specialty: Radiology	1
+Biopathology	468	Nurse with rank: Assistant_Nurse	2
+Biopathology	468	Nurse with rank: Senior_Nurse	1
+Biopathology	468	Nurse with rank: Supervisor_Nurse	3
+Biopathology	469	Administrative staff with role: Human Resources Manager	1
+Biopathology	469	Administrative staff with role: Procurement Officer	1
+Biopathology	469	Doctor with specialty: Biopathology	1
+Biopathology	469	Doctor with specialty: Neurosurgery	1
+Biopathology	469	Doctor with specialty: Radiology	1
+Biopathology	469	Nurse with rank: Assistant_Nurse	1
+Biopathology	469	Nurse with rank: Senior_Nurse	2
+Biopathology	469	Nurse with rank: Supervisor_Nurse	3
+Biopathology	470	Administrative staff with role: Accountant	1
+Biopathology	470	Administrative staff with role: Software Applications Administrator (Software)	1
+Biopathology	470	Doctor with specialty: Biopathology	3
+Biopathology	470	Nurse with rank: Assistant_Nurse	2
+Biopathology	470	Nurse with rank: Senior_Nurse	3
+Biopathology	470	Nurse with rank: Supervisor_Nurse	1
+Endocrinology	471	Administrative staff with role: Human Resources Manager	2
+Endocrinology	471	Doctor with specialty: Endocrinology	1
+Endocrinology	471	Nurse with rank: Assistant_Nurse	4
+Endocrinology	471	Nurse with rank: Senior_Nurse	1
+Endocrinology	471	Nurse with rank: Supervisor_Nurse	1
+Endocrinology	472	Administrative staff with role: Network and Computer Administrator (Hardware)	2
+Endocrinology	472	Doctor with specialty: Endocrinology	1
+Endocrinology	472	Doctor with specialty: Gastroenterology	1
+Endocrinology	472	Doctor with specialty: Internal Medicine	1
+Endocrinology	472	Nurse with rank: Assistant_Nurse	3
+Endocrinology	472	Nurse with rank: Senior_Nurse	1
+Endocrinology	472	Nurse with rank: Supervisor_Nurse	2
+Endocrinology	473	Administrative staff with role: Network and Computer Administrator (Hardware)	2
+Endocrinology	473	Doctor with specialty: Endocrinology	1
+Endocrinology	473	Doctor with specialty: Gastroenterology	1
+Endocrinology	473	Doctor with specialty: Internal Medicine	1
+Endocrinology	473	Nurse with rank: Assistant_Nurse	3
+Endocrinology	473	Nurse with rank: Senior_Nurse	2
+Endocrinology	473	Nurse with rank: Supervisor_Nurse	1
+Internal Medicine	474	Administrative staff with role: Human Resources Manager	1
+Internal Medicine	474	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Internal Medicine	474	Doctor with specialty: Dermatology	1
+Internal Medicine	474	Doctor with specialty: Gastroenterology	2
+Internal Medicine	474	Nurse with rank: Assistant_Nurse	2
+Internal Medicine	474	Nurse with rank: Senior_Nurse	2
+Internal Medicine	474	Nurse with rank: Supervisor_Nurse	2
+Internal Medicine	475	Administrative staff with role: Accountant	1
+Internal Medicine	475	Administrative staff with role: Human Resources Manager	1
+Internal Medicine	475	Doctor with specialty: Cardiac Surgery	1
+Internal Medicine	475	Doctor with specialty: Oncology	1
+Internal Medicine	475	Doctor with specialty: Rheumatology	1
+Internal Medicine	475	Nurse with rank: Assistant_Nurse	1
+Internal Medicine	475	Nurse with rank: Senior_Nurse	4
+Internal Medicine	475	Nurse with rank: Supervisor_Nurse	1
+Internal Medicine	476	Administrative staff with role: Accountant	2
+Internal Medicine	476	Doctor with specialty: Endocrinology	1
+Internal Medicine	476	Doctor with specialty: Gastroenterology	1
+Internal Medicine	476	Doctor with specialty: Rheumatology	1
+Internal Medicine	476	Nurse with rank: Assistant_Nurse	2
+Internal Medicine	476	Nurse with rank: Senior_Nurse	2
+Internal Medicine	476	Nurse with rank: Supervisor_Nurse	2
+Pediatrics	477	Administrative staff with role: Procurement Officer	2
+Pediatrics	477	Doctor with specialty: Pediatrics	1
+Pediatrics	477	Nurse with rank: Assistant_Nurse	2
+Pediatrics	477	Nurse with rank: Senior_Nurse	3
+Pediatrics	477	Nurse with rank: Supervisor_Nurse	1
+Pediatrics	478	Administrative staff with role: Accountant	1
+Pediatrics	478	Administrative staff with role: Procurement Officer	1
+Pediatrics	478	Doctor with specialty: Pediatrics	3
+Pediatrics	478	Nurse with rank: Assistant_Nurse	2
+Pediatrics	478	Nurse with rank: Senior_Nurse	2
+Pediatrics	478	Nurse with rank: Supervisor_Nurse	2
+Pediatrics	479	Administrative staff with role: Accountant	1
+Pediatrics	479	Administrative staff with role: Software Applications Administrator (Software)	1
+Pediatrics	479	Doctor with specialty: Cardiac Surgery	1
+Pediatrics	479	Doctor with specialty: Pediatrics	2
+Pediatrics	479	Nurse with rank: Assistant_Nurse	1
+Pediatrics	479	Nurse with rank: Senior_Nurse	3
+Pediatrics	479	Nurse with rank: Supervisor_Nurse	2
+Gastroenterology	480	Administrative staff with role: Human Resources Manager	1
+Gastroenterology	480	Administrative staff with role: Software Applications Administrator (Software)	1
+Gastroenterology	480	Doctor with specialty: General Surgery	2
+Gastroenterology	480	Nurse with rank: Assistant_Nurse	3
+Gastroenterology	480	Nurse with rank: Senior_Nurse	1
+Gastroenterology	480	Nurse with rank: Supervisor_Nurse	2
+Gastroenterology	481	Administrative staff with role: Accountant	1
+Gastroenterology	481	Administrative staff with role: Secretary	1
+Gastroenterology	481	Doctor with specialty: Gastroenterology	2
+Gastroenterology	481	Doctor with specialty: General Surgery	1
+Gastroenterology	481	Nurse with rank: Senior_Nurse	3
+Gastroenterology	481	Nurse with rank: Supervisor_Nurse	3
+Gastroenterology	482	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Gastroenterology	482	Administrative staff with role: Procurement Officer	1
+Gastroenterology	482	Doctor with specialty: Gastroenterology	1
+Gastroenterology	482	Doctor with specialty: General Surgery	1
+Gastroenterology	482	Doctor with specialty: Radiology	1
+Gastroenterology	482	Nurse with rank: Senior_Nurse	3
+Gastroenterology	482	Nurse with rank: Supervisor_Nurse	3
+Cardiology	483	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Cardiology	483	Administrative staff with role: Software Applications Administrator (Software)	1
+Cardiology	483	Doctor with specialty: Cardiac Surgery	2
+Cardiology	483	Nurse with rank: Assistant_Nurse	1
+Cardiology	483	Nurse with rank: Senior_Nurse	2
+Cardiology	483	Nurse with rank: Supervisor_Nurse	3
+Cardiology	484	Administrative staff with role: Procurement Officer	1
+Cardiology	484	Administrative staff with role: Secretary	1
+Cardiology	484	Doctor with specialty: Cardiac Surgery	2
+Cardiology	484	Doctor with specialty: Internal Medicine	1
+Cardiology	484	Nurse with rank: Assistant_Nurse	1
+Cardiology	484	Nurse with rank: Senior_Nurse	1
+Cardiology	484	Nurse with rank: Supervisor_Nurse	4
+Cardiology	485	Administrative staff with role: Human Resources Manager	1
+Cardiology	485	Administrative staff with role: Secretary	1
+Cardiology	485	Doctor with specialty: Cardiology	2
+Cardiology	485	Doctor with specialty: Internal Medicine	1
+Cardiology	485	Nurse with rank: Assistant_Nurse	1
+Cardiology	485	Nurse with rank: Senior_Nurse	3
+Cardiology	485	Nurse with rank: Supervisor_Nurse	2
+Surgical Department	486	Administrative staff with role: Network and Computer Administrator (Hardware)	2
+Surgical Department	486	Doctor with specialty: Ophthalmology	1
+Surgical Department	486	Doctor with specialty: Otorhinolaryngology - ENT	1
+Surgical Department	486	Doctor with specialty: Urology	1
+Surgical Department	486	Nurse with rank: Assistant_Nurse	1
+Surgical Department	486	Nurse with rank: Senior_Nurse	4
+Surgical Department	486	Nurse with rank: Supervisor_Nurse	1
+Surgical Department	487	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Surgical Department	487	Administrative staff with role: Secretary	1
+Surgical Department	487	Doctor with specialty: Ophthalmology	1
+Surgical Department	487	Doctor with specialty: Plastic Surgery	1
+Surgical Department	487	Doctor with specialty: Vascular Surgery	1
+Surgical Department	487	Nurse with rank: Assistant_Nurse	2
+Surgical Department	487	Nurse with rank: Senior_Nurse	1
+Surgical Department	487	Nurse with rank: Supervisor_Nurse	3
+Surgical Department	488	Administrative staff with role: Procurement Officer	1
+Surgical Department	488	Administrative staff with role: Secretary	1
+Surgical Department	488	Doctor with specialty: Neurosurgery	1
+Surgical Department	488	Doctor with specialty: Urology	2
+Surgical Department	488	Nurse with rank: Assistant_Nurse	2
+Surgical Department	488	Nurse with rank: Senior_Nurse	1
+Surgical Department	488	Nurse with rank: Supervisor_Nurse	3
+Neurology	489	Administrative staff with role: Human Resources Manager	1
+Neurology	489	Administrative staff with role: Procurement Officer	1
+Neurology	489	Doctor with specialty: Neurology	2
+Neurology	489	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	489	Nurse with rank: Assistant_Nurse	3
+Neurology	489	Nurse with rank: Senior_Nurse	2
+Neurology	489	Nurse with rank: Supervisor_Nurse	1
+Neurology	490	Administrative staff with role: Human Resources Manager	1
+Neurology	490	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Neurology	490	Doctor with specialty: Neurology	1
+Neurology	490	Doctor with specialty: Neurosurgery	1
+Neurology	490	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	490	Nurse with rank: Assistant_Nurse	2
+Neurology	490	Nurse with rank: Senior_Nurse	2
+Neurology	490	Nurse with rank: Supervisor_Nurse	2
+Neurology	491	Administrative staff with role: Secretary	1
+Neurology	491	Administrative staff with role: Software Applications Administrator (Software)	1
+Neurology	491	Doctor with specialty: Neurology	2
+Neurology	491	Doctor with specialty: Neurosurgery	1
+Neurology	491	Nurse with rank: Assistant_Nurse	2
+Neurology	491	Nurse with rank: Senior_Nurse	3
+Neurology	491	Nurse with rank: Supervisor_Nurse	1
+Emergency Department	492	Administrative staff with role: Procurement Officer	1
+Emergency Department	492	Administrative staff with role: Software Applications Administrator (Software)	1
+Emergency Department	492	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	1
+Emergency Department	492	Nurse with rank: Assistant_Nurse	3
+Emergency Department	492	Nurse with rank: Senior_Nurse	2
+Emergency Department	492	Nurse with rank: Supervisor_Nurse	1
+Emergency Department	493	Administrative staff with role: Human Resources Manager	1
+Emergency Department	493	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Emergency Department	493	Doctor with specialty: Cardiology	1
+Emergency Department	493	Doctor with specialty: Orthopedics	2
+Emergency Department	493	Nurse with rank: Assistant_Nurse	3
+Emergency Department	493	Nurse with rank: Senior_Nurse	1
+Emergency Department	493	Nurse with rank: Supervisor_Nurse	2
+Emergency Department	494	Administrative staff with role: Human Resources Manager	1
+Emergency Department	494	Administrative staff with role: Procurement Officer	1
+Emergency Department	494	Doctor with specialty: General Surgery	1
+Emergency Department	494	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	1
+Emergency Department	494	Doctor with specialty: Orthopedics	1
+Emergency Department	494	Nurse with rank: Assistant_Nurse	5
+Emergency Department	494	Nurse with rank: Supervisor_Nurse	1
+ICU (Intensive Care Unit)	495	Administrative staff with role: Accountant	1
+ICU (Intensive Care Unit)	495	Administrative staff with role: Human Resources Manager	1
+ICU (Intensive Care Unit)	495	Nurse with rank: Assistant_Nurse	2
+ICU (Intensive Care Unit)	495	Nurse with rank: Senior_Nurse	2
+ICU (Intensive Care Unit)	495	Nurse with rank: Supervisor_Nurse	2
+ICU (Intensive Care Unit)	496	Administrative staff with role: Accountant	1
+ICU (Intensive Care Unit)	496	Administrative staff with role: Secretary	1
+ICU (Intensive Care Unit)	496	Doctor with specialty: Nephrology	1
+ICU (Intensive Care Unit)	496	Doctor with specialty: Pulmonology	1
+ICU (Intensive Care Unit)	496	Doctor with specialty: Rheumatology	1
+ICU (Intensive Care Unit)	496	Nurse with rank: Assistant_Nurse	1
+ICU (Intensive Care Unit)	496	Nurse with rank: Senior_Nurse	2
+ICU (Intensive Care Unit)	496	Nurse with rank: Supervisor_Nurse	3
+ICU (Intensive Care Unit)	497	Administrative staff with role: Accountant	1
+ICU (Intensive Care Unit)	497	Administrative staff with role: Secretary	1
+ICU (Intensive Care Unit)	497	Doctor with specialty: Nephrology	1
+ICU (Intensive Care Unit)	497	Doctor with specialty: Pulmonology	1
+ICU (Intensive Care Unit)	497	Doctor with specialty: Rheumatology	1
+ICU (Intensive Care Unit)	497	Nurse with rank: Assistant_Nurse	2
+ICU (Intensive Care Unit)	497	Nurse with rank: Supervisor_Nurse	4
+Orthopedics	498	Administrative staff with role: Accountant	1
+Orthopedics	498	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	498	Nurse with rank: Assistant_Nurse	3
+Orthopedics	498	Nurse with rank: Senior_Nurse	1
+Orthopedics	498	Nurse with rank: Supervisor_Nurse	2
+Orthopedics	499	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	499	Administrative staff with role: Software Applications Administrator (Software)	1
+Orthopedics	499	Doctor with specialty: Orthopedics	1
+Orthopedics	499	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Orthopedics	499	Doctor with specialty: Rheumatology	1
+Orthopedics	499	Nurse with rank: Assistant_Nurse	1
+Orthopedics	499	Nurse with rank: Senior_Nurse	2
+Orthopedics	499	Nurse with rank: Supervisor_Nurse	3
+Orthopedics	500	Administrative staff with role: Procurement Officer	1
+Orthopedics	500	Administrative staff with role: Secretary	1
+Orthopedics	500	Doctor with specialty: Orthopedics	2
+Orthopedics	500	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Orthopedics	500	Nurse with rank: Assistant_Nurse	2
+Orthopedics	500	Nurse with rank: Supervisor_Nurse	4
+OB/GYN	501	Administrative staff with role: Network and Computer Administrator (Hardware)	2
+OB/GYN	501	Nurse with rank: Assistant_Nurse	3
+OB/GYN	501	Nurse with rank: Senior_Nurse	1
+OB/GYN	501	Nurse with rank: Supervisor_Nurse	2
+OB/GYN	502	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+OB/GYN	502	Administrative staff with role: Procurement Officer	1
+OB/GYN	502	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	3
+OB/GYN	502	Nurse with rank: Assistant_Nurse	1
+OB/GYN	502	Nurse with rank: Senior_Nurse	4
+OB/GYN	502	Nurse with rank: Supervisor_Nurse	1
+OB/GYN	503	Administrative staff with role: Accountant	1
+OB/GYN	503	Administrative staff with role: Secretary	1
+OB/GYN	503	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	3
+OB/GYN	503	Nurse with rank: Assistant_Nurse	2
+OB/GYN	503	Nurse with rank: Senior_Nurse	3
+OB/GYN	503	Nurse with rank: Supervisor_Nurse	1
+Anesthesiology	504	Administrative staff with role: Procurement Officer	1
+Anesthesiology	504	Administrative staff with role: Software Applications Administrator (Software)	1
+Anesthesiology	504	Nurse with rank: Assistant_Nurse	1
+Anesthesiology	504	Nurse with rank: Senior_Nurse	3
+Anesthesiology	504	Nurse with rank: Supervisor_Nurse	2
+Anesthesiology	505	Administrative staff with role: Software Applications Administrator (Software)	2
+Anesthesiology	505	Doctor with specialty: Anesthesiology	2
+Anesthesiology	505	Doctor with specialty: Ophthalmology	1
+Anesthesiology	505	Nurse with rank: Assistant_Nurse	3
+Anesthesiology	505	Nurse with rank: Senior_Nurse	1
+Anesthesiology	505	Nurse with rank: Supervisor_Nurse	2
+Anesthesiology	506	Administrative staff with role: Human Resources Manager	1
+Anesthesiology	506	Administrative staff with role: Software Applications Administrator (Software)	1
+Anesthesiology	506	Doctor with specialty: Anesthesiology	2
+Anesthesiology	506	Doctor with specialty: Ophthalmology	1
+Anesthesiology	506	Nurse with rank: Assistant_Nurse	1
+Anesthesiology	506	Nurse with rank: Senior_Nurse	4
+Anesthesiology	506	Nurse with rank: Supervisor_Nurse	1
+Psychiatry	507	Administrative staff with role: Human Resources Manager	1
+Psychiatry	507	Administrative staff with role: Software Applications Administrator (Software)	1
+Psychiatry	507	Doctor with specialty: Psychiatry	1
+Psychiatry	507	Nurse with rank: Assistant_Nurse	4
+Psychiatry	507	Nurse with rank: Senior_Nurse	1
+Psychiatry	507	Nurse with rank: Supervisor_Nurse	1
+Psychiatry	508	Administrative staff with role: Human Resources Manager	1
+Psychiatry	508	Administrative staff with role: Procurement Officer	1
+Psychiatry	508	Doctor with specialty: Psychiatry	3
+Psychiatry	508	Nurse with rank: Assistant_Nurse	3
+Psychiatry	508	Nurse with rank: Senior_Nurse	1
+Psychiatry	508	Nurse with rank: Supervisor_Nurse	2
+Psychiatry	509	Administrative staff with role: Accountant	1
+Psychiatry	509	Administrative staff with role: Secretary	1
+Psychiatry	509	Doctor with specialty: Cardiac Surgery	1
+Psychiatry	509	Doctor with specialty: Psychiatry	2
+Psychiatry	509	Nurse with rank: Assistant_Nurse	2
+Psychiatry	509	Nurse with rank: Senior_Nurse	1
+Psychiatry	509	Nurse with rank: Supervisor_Nurse	3
+Pulmonology	510	Administrative staff with role: Procurement Officer	1
+Pulmonology	510	Administrative staff with role: Software Applications Administrator (Software)	1
+Pulmonology	510	Doctor with specialty: Oncology	1
+Pulmonology	510	Doctor with specialty: Pulmonology	1
+Pulmonology	510	Nurse with rank: Senior_Nurse	2
+Pulmonology	510	Nurse with rank: Supervisor_Nurse	4
+Pulmonology	511	Administrative staff with role: Human Resources Manager	1
+Pulmonology	511	Administrative staff with role: Software Applications Administrator (Software)	1
+Pulmonology	511	Doctor with specialty: Pathology	1
+Pulmonology	511	Doctor with specialty: Pulmonology	2
+Pulmonology	511	Nurse with rank: Assistant_Nurse	1
+Pulmonology	511	Nurse with rank: Senior_Nurse	2
+Pulmonology	511	Nurse with rank: Supervisor_Nurse	3
+Pulmonology	512	Administrative staff with role: Accountant	1
+Pulmonology	512	Administrative staff with role: Secretary	1
+Pulmonology	512	Doctor with specialty: Oncology	1
+Pulmonology	512	Doctor with specialty: Pulmonology	2
+Pulmonology	512	Nurse with rank: Assistant_Nurse	3
+Pulmonology	512	Nurse with rank: Senior_Nurse	1
+Pulmonology	512	Nurse with rank: Supervisor_Nurse	2
+Biopathology	513	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Biopathology	513	Administrative staff with role: Procurement Officer	1
+Biopathology	513	Doctor with specialty: Microbiology	2
+Biopathology	513	Doctor with specialty: Pathology	1
+Biopathology	513	Nurse with rank: Assistant_Nurse	3
+Biopathology	513	Nurse with rank: Senior_Nurse	1
+Biopathology	513	Nurse with rank: Supervisor_Nurse	2
+Biopathology	514	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Biopathology	514	Administrative staff with role: Secretary	1
+Biopathology	514	Doctor with specialty: Biopathology	1
+Biopathology	514	Doctor with specialty: Microbiology	2
+Biopathology	514	Nurse with rank: Assistant_Nurse	3
+Biopathology	514	Nurse with rank: Senior_Nurse	2
+Biopathology	514	Nurse with rank: Supervisor_Nurse	1
+Biopathology	515	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Biopathology	515	Administrative staff with role: Procurement Officer	1
+Biopathology	515	Doctor with specialty: Microbiology	1
+Biopathology	515	Doctor with specialty: Pathology	1
+Biopathology	515	Doctor with specialty: Radiology	1
+Biopathology	515	Nurse with rank: Assistant_Nurse	1
+Biopathology	515	Nurse with rank: Senior_Nurse	2
+Biopathology	515	Nurse with rank: Supervisor_Nurse	3
+Endocrinology	516	Administrative staff with role: Human Resources Manager	1
+Endocrinology	516	Administrative staff with role: Procurement Officer	1
+Endocrinology	516	Nurse with rank: Assistant_Nurse	4
+Endocrinology	516	Nurse with rank: Senior_Nurse	1
+Endocrinology	516	Nurse with rank: Supervisor_Nurse	1
+Endocrinology	517	Administrative staff with role: Human Resources Manager	1
+Endocrinology	517	Administrative staff with role: Procurement Officer	1
+Endocrinology	517	Doctor with specialty: Endocrinology	2
+Endocrinology	517	Doctor with specialty: Gastroenterology	1
+Endocrinology	517	Nurse with rank: Assistant_Nurse	3
+Endocrinology	517	Nurse with rank: Supervisor_Nurse	3
+Endocrinology	518	Administrative staff with role: Accountant	1
+Endocrinology	518	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Endocrinology	518	Doctor with specialty: Endocrinology	1
+Endocrinology	518	Doctor with specialty: Gastroenterology	1
+Endocrinology	518	Doctor with specialty: Internal Medicine	1
+Endocrinology	518	Nurse with rank: Assistant_Nurse	3
+Endocrinology	518	Nurse with rank: Supervisor_Nurse	3
+Internal Medicine	519	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Internal Medicine	519	Administrative staff with role: Software Applications Administrator (Software)	1
+Internal Medicine	519	Doctor with specialty: Cardiac Surgery	1
+Internal Medicine	519	Doctor with specialty: Nephrology	1
+Internal Medicine	519	Doctor with specialty: Rheumatology	1
+Internal Medicine	519	Nurse with rank: Assistant_Nurse	2
+Internal Medicine	519	Nurse with rank: Senior_Nurse	3
+Internal Medicine	519	Nurse with rank: Supervisor_Nurse	1
+Internal Medicine	520	Administrative staff with role: Secretary	1
+Internal Medicine	520	Administrative staff with role: Software Applications Administrator (Software)	1
+Internal Medicine	520	Doctor with specialty: Dermatology	1
+Internal Medicine	520	Doctor with specialty: Nephrology	1
+Internal Medicine	520	Doctor with specialty: Rheumatology	1
+Internal Medicine	520	Nurse with rank: Assistant_Nurse	1
+Internal Medicine	520	Nurse with rank: Senior_Nurse	2
+Internal Medicine	520	Nurse with rank: Supervisor_Nurse	3
+Internal Medicine	521	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Internal Medicine	521	Administrative staff with role: Software Applications Administrator (Software)	1
+Internal Medicine	521	Doctor with specialty: Dermatology	1
+Internal Medicine	521	Doctor with specialty: Rheumatology	2
+Internal Medicine	521	Nurse with rank: Assistant_Nurse	4
+Internal Medicine	521	Nurse with rank: Senior_Nurse	1
+Internal Medicine	521	Nurse with rank: Supervisor_Nurse	1
+Pediatrics	522	Administrative staff with role: Human Resources Manager	1
+Pediatrics	522	Administrative staff with role: Software Applications Administrator (Software)	1
+Pediatrics	522	Doctor with specialty: Pediatrics	1
+Pediatrics	522	Nurse with rank: Assistant_Nurse	3
+Pediatrics	522	Nurse with rank: Senior_Nurse	2
+Pediatrics	522	Nurse with rank: Supervisor_Nurse	1
+Pediatrics	523	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Pediatrics	523	Administrative staff with role: Software Applications Administrator (Software)	1
+Pediatrics	523	Doctor with specialty: Cardiac Surgery	1
+Pediatrics	523	Doctor with specialty: Pediatrics	2
+Pediatrics	523	Nurse with rank: Assistant_Nurse	2
+Pediatrics	523	Nurse with rank: Senior_Nurse	1
+Pediatrics	523	Nurse with rank: Supervisor_Nurse	3
+Pediatrics	524	Administrative staff with role: Accountant	1
+Pediatrics	524	Administrative staff with role: Procurement Officer	1
+Pediatrics	524	Doctor with specialty: Cardiac Surgery	1
+Pediatrics	524	Doctor with specialty: Pediatrics	2
+Pediatrics	524	Nurse with rank: Assistant_Nurse	3
+Pediatrics	524	Nurse with rank: Senior_Nurse	1
+Pediatrics	524	Nurse with rank: Supervisor_Nurse	2
+Gastroenterology	525	Administrative staff with role: Accountant	1
+Gastroenterology	525	Administrative staff with role: Software Applications Administrator (Software)	1
+Gastroenterology	525	Doctor with specialty: Gastroenterology	2
+Gastroenterology	525	Doctor with specialty: General Surgery	1
+Gastroenterology	525	Nurse with rank: Assistant_Nurse	2
+Gastroenterology	525	Nurse with rank: Senior_Nurse	3
+Gastroenterology	525	Nurse with rank: Supervisor_Nurse	1
+Gastroenterology	526	Administrative staff with role: Accountant	1
+Gastroenterology	526	Administrative staff with role: Procurement Officer	1
+Gastroenterology	526	Doctor with specialty: Gastroenterology	1
+Gastroenterology	526	Doctor with specialty: General Surgery	1
+Gastroenterology	526	Doctor with specialty: Internal Medicine	1
+Gastroenterology	526	Nurse with rank: Assistant_Nurse	1
+Gastroenterology	526	Nurse with rank: Senior_Nurse	2
+Gastroenterology	526	Nurse with rank: Supervisor_Nurse	3
+Gastroenterology	527	Administrative staff with role: Procurement Officer	1
+Gastroenterology	527	Administrative staff with role: Secretary	1
+Gastroenterology	527	Doctor with specialty: Gastroenterology	1
+Gastroenterology	527	Doctor with specialty: General Surgery	1
+Gastroenterology	527	Doctor with specialty: Internal Medicine	1
+Gastroenterology	527	Nurse with rank: Assistant_Nurse	3
+Gastroenterology	527	Nurse with rank: Senior_Nurse	2
+Gastroenterology	527	Nurse with rank: Supervisor_Nurse	1
+Cardiology	528	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Cardiology	528	Administrative staff with role: Software Applications Administrator (Software)	1
+Cardiology	528	Doctor with specialty: Cardiac Surgery	2
+Cardiology	528	Doctor with specialty: Vascular Surgery	1
+Cardiology	528	Nurse with rank: Assistant_Nurse	2
+Cardiology	528	Nurse with rank: Senior_Nurse	1
+Cardiology	528	Nurse with rank: Supervisor_Nurse	3
+Cardiology	529	Administrative staff with role: Human Resources Manager	1
+Cardiology	529	Administrative staff with role: Procurement Officer	1
+Cardiology	529	Doctor with specialty: Cardiac Surgery	1
+Cardiology	529	Doctor with specialty: Cardiology	1
+Cardiology	529	Doctor with specialty: Vascular Surgery	1
+Cardiology	529	Nurse with rank: Senior_Nurse	2
+Cardiology	529	Nurse with rank: Supervisor_Nurse	4
+Cardiology	530	Administrative staff with role: Human Resources Manager	1
+Cardiology	530	Administrative staff with role: Procurement Officer	1
+Cardiology	530	Doctor with specialty: Cardiac Surgery	1
+Cardiology	530	Doctor with specialty: Cardiology	1
+Cardiology	530	Doctor with specialty: Vascular Surgery	1
+Cardiology	530	Nurse with rank: Assistant_Nurse	1
+Cardiology	530	Nurse with rank: Senior_Nurse	3
+Cardiology	530	Nurse with rank: Supervisor_Nurse	2
+Surgical Department	531	Administrative staff with role: Procurement Officer	1
+Surgical Department	531	Administrative staff with role: Software Applications Administrator (Software)	1
+Surgical Department	531	Doctor with specialty: Plastic Surgery	1
+Surgical Department	531	Doctor with specialty: Urology	2
+Surgical Department	531	Nurse with rank: Assistant_Nurse	3
+Surgical Department	531	Nurse with rank: Senior_Nurse	2
+Surgical Department	531	Nurse with rank: Supervisor_Nurse	1
+Surgical Department	532	Administrative staff with role: Accountant	1
+Surgical Department	532	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Surgical Department	532	Doctor with specialty: Neurosurgery	1
+Surgical Department	532	Doctor with specialty: Ophthalmology	2
+Surgical Department	532	Nurse with rank: Assistant_Nurse	3
+Surgical Department	532	Nurse with rank: Senior_Nurse	2
+Surgical Department	532	Nurse with rank: Supervisor_Nurse	1
+Surgical Department	533	Administrative staff with role: Accountant	1
+Surgical Department	533	Administrative staff with role: Procurement Officer	1
+Surgical Department	533	Doctor with specialty: General Surgery	1
+Surgical Department	533	Doctor with specialty: Neurosurgery	1
+Surgical Department	533	Doctor with specialty: Vascular Surgery	1
+Surgical Department	533	Nurse with rank: Assistant_Nurse	3
+Surgical Department	533	Nurse with rank: Senior_Nurse	1
+Surgical Department	533	Nurse with rank: Supervisor_Nurse	2
+Neurology	534	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Neurology	534	Administrative staff with role: Procurement Officer	1
+Neurology	534	Doctor with specialty: Neurology	1
+Neurology	534	Doctor with specialty: Neurosurgery	1
+Neurology	534	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	534	Nurse with rank: Assistant_Nurse	2
+Neurology	534	Nurse with rank: Senior_Nurse	3
+Neurology	534	Nurse with rank: Supervisor_Nurse	1
+Neurology	535	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Neurology	535	Administrative staff with role: Software Applications Administrator (Software)	1
+Neurology	535	Doctor with specialty: Neurology	1
+Neurology	535	Doctor with specialty: Neurosurgery	1
+Neurology	535	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	535	Nurse with rank: Assistant_Nurse	3
+Neurology	535	Nurse with rank: Senior_Nurse	3
+Neurology	536	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Neurology	536	Administrative staff with role: Software Applications Administrator (Software)	1
+Neurology	536	Doctor with specialty: Neurology	1
+Neurology	536	Doctor with specialty: Neurosurgery	1
+Neurology	536	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	536	Nurse with rank: Assistant_Nurse	1
+Neurology	536	Nurse with rank: Senior_Nurse	3
+Neurology	536	Nurse with rank: Supervisor_Nurse	2
+Emergency Department	537	Administrative staff with role: Human Resources Manager	1
+Emergency Department	537	Administrative staff with role: Secretary	1
+Emergency Department	537	Nurse with rank: Assistant_Nurse	1
+Emergency Department	537	Nurse with rank: Senior_Nurse	3
+Emergency Department	537	Nurse with rank: Supervisor_Nurse	2
+Emergency Department	538	Administrative staff with role: Human Resources Manager	2
+Emergency Department	538	Doctor with specialty: Cardiology	1
+Emergency Department	538	Doctor with specialty: General Surgery	1
+Emergency Department	538	Doctor with specialty: Orthopedics	1
+Emergency Department	538	Nurse with rank: Assistant_Nurse	3
+Emergency Department	538	Nurse with rank: Senior_Nurse	3
+Emergency Department	539	Administrative staff with role: Human Resources Manager	1
+Emergency Department	539	Administrative staff with role: Software Applications Administrator (Software)	1
+Emergency Department	539	Doctor with specialty: Cardiology	1
+Emergency Department	539	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	1
+Emergency Department	539	Doctor with specialty: Orthopedics	1
+Emergency Department	539	Nurse with rank: Assistant_Nurse	3
+Emergency Department	539	Nurse with rank: Senior_Nurse	2
+Emergency Department	539	Nurse with rank: Supervisor_Nurse	1
+ICU (Intensive Care Unit)	540	Administrative staff with role: Secretary	2
+ICU (Intensive Care Unit)	540	Nurse with rank: Senior_Nurse	3
+ICU (Intensive Care Unit)	540	Nurse with rank: Supervisor_Nurse	3
+ICU (Intensive Care Unit)	541	Administrative staff with role: Human Resources Manager	1
+ICU (Intensive Care Unit)	541	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+ICU (Intensive Care Unit)	541	Doctor with specialty: Internal Medicine	1
+ICU (Intensive Care Unit)	541	Doctor with specialty: Pulmonology	1
+ICU (Intensive Care Unit)	541	Doctor with specialty: Rheumatology	1
+ICU (Intensive Care Unit)	541	Nurse with rank: Assistant_Nurse	2
+ICU (Intensive Care Unit)	541	Nurse with rank: Senior_Nurse	3
+ICU (Intensive Care Unit)	541	Nurse with rank: Supervisor_Nurse	1
+ICU (Intensive Care Unit)	542	Administrative staff with role: Accountant	2
+ICU (Intensive Care Unit)	542	Doctor with specialty: Nephrology	1
+ICU (Intensive Care Unit)	542	Doctor with specialty: Pulmonology	1
+ICU (Intensive Care Unit)	542	Nurse with rank: Assistant_Nurse	3
+ICU (Intensive Care Unit)	542	Nurse with rank: Supervisor_Nurse	3
+Orthopedics	543	Administrative staff with role: Accountant	1
+Orthopedics	543	Administrative staff with role: Human Resources Manager	1
+Orthopedics	543	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Orthopedics	543	Nurse with rank: Assistant_Nurse	1
+Orthopedics	543	Nurse with rank: Senior_Nurse	2
+Orthopedics	543	Nurse with rank: Supervisor_Nurse	3
+Orthopedics	544	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	544	Administrative staff with role: Procurement Officer	1
+Orthopedics	544	Doctor with specialty: Orthopedics	1
+Orthopedics	544	Doctor with specialty: Physical Medicine & Rehabilitation	2
+Orthopedics	544	Nurse with rank: Assistant_Nurse	2
+Orthopedics	544	Nurse with rank: Senior_Nurse	3
+Orthopedics	544	Nurse with rank: Supervisor_Nurse	1
+Orthopedics	545	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	545	Administrative staff with role: Secretary	1
+Orthopedics	545	Doctor with specialty: Orthopedics	1
+Orthopedics	545	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Orthopedics	545	Doctor with specialty: Rheumatology	1
+Orthopedics	545	Nurse with rank: Assistant_Nurse	2
+Orthopedics	545	Nurse with rank: Senior_Nurse	2
+Orthopedics	545	Nurse with rank: Supervisor_Nurse	2
+OB/GYN	546	Administrative staff with role: Accountant	1
+OB/GYN	546	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+OB/GYN	546	Nurse with rank: Assistant_Nurse	3
+OB/GYN	546	Nurse with rank: Senior_Nurse	2
+OB/GYN	546	Nurse with rank: Supervisor_Nurse	1
+OB/GYN	547	Administrative staff with role: Network and Computer Administrator (Hardware)	2
+OB/GYN	547	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	3
+OB/GYN	547	Nurse with rank: Assistant_Nurse	2
+OB/GYN	547	Nurse with rank: Senior_Nurse	1
+OB/GYN	547	Nurse with rank: Supervisor_Nurse	3
+OB/GYN	548	Administrative staff with role: Accountant	1
+OB/GYN	548	Administrative staff with role: Secretary	1
+OB/GYN	548	Doctor with specialty: Neurosurgery	1
+OB/GYN	548	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	2
+OB/GYN	548	Nurse with rank: Assistant_Nurse	1
+OB/GYN	548	Nurse with rank: Senior_Nurse	3
+OB/GYN	548	Nurse with rank: Supervisor_Nurse	2
+Anesthesiology	549	Administrative staff with role: Procurement Officer	1
+Anesthesiology	549	Administrative staff with role: Secretary	1
+Anesthesiology	549	Nurse with rank: Assistant_Nurse	4
+Anesthesiology	549	Nurse with rank: Senior_Nurse	1
+Anesthesiology	549	Nurse with rank: Supervisor_Nurse	1
+Anesthesiology	550	Administrative staff with role: Accountant	1
+Anesthesiology	550	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Anesthesiology	550	Doctor with specialty: Anesthesiology	2
+Anesthesiology	550	Nurse with rank: Assistant_Nurse	1
+Anesthesiology	550	Nurse with rank: Senior_Nurse	2
+Anesthesiology	550	Nurse with rank: Supervisor_Nurse	3
+Anesthesiology	551	Administrative staff with role: Accountant	1
+Anesthesiology	551	Administrative staff with role: Software Applications Administrator (Software)	1
+Anesthesiology	551	Doctor with specialty: Anesthesiology	2
+Anesthesiology	551	Doctor with specialty: Ophthalmology	1
+Anesthesiology	551	Nurse with rank: Assistant_Nurse	2
+Anesthesiology	551	Nurse with rank: Senior_Nurse	3
+Anesthesiology	551	Nurse with rank: Supervisor_Nurse	1
+Psychiatry	552	Administrative staff with role: Accountant	1
+Psychiatry	552	Administrative staff with role: Human Resources Manager	1
+Psychiatry	552	Doctor with specialty: Psychiatry	1
+Psychiatry	552	Nurse with rank: Assistant_Nurse	1
+Psychiatry	552	Nurse with rank: Senior_Nurse	3
+Psychiatry	552	Nurse with rank: Supervisor_Nurse	2
+Psychiatry	553	Administrative staff with role: Human Resources Manager	1
+Psychiatry	553	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Psychiatry	553	Doctor with specialty: Cardiac Surgery	1
+Psychiatry	553	Doctor with specialty: Psychiatry	2
+Psychiatry	553	Nurse with rank: Assistant_Nurse	1
+Psychiatry	553	Nurse with rank: Senior_Nurse	3
+Psychiatry	553	Nurse with rank: Supervisor_Nurse	2
+Psychiatry	554	Administrative staff with role: Accountant	1
+Psychiatry	554	Administrative staff with role: Procurement Officer	1
+Psychiatry	554	Doctor with specialty: Cardiac Surgery	1
+Psychiatry	554	Doctor with specialty: Psychiatry	2
+Psychiatry	554	Nurse with rank: Assistant_Nurse	2
+Psychiatry	554	Nurse with rank: Senior_Nurse	2
+Psychiatry	554	Nurse with rank: Supervisor_Nurse	2
+Pulmonology	555	Administrative staff with role: Human Resources Manager	1
+Pulmonology	555	Administrative staff with role: Procurement Officer	1
+Pulmonology	555	Doctor with specialty: Oncology	1
+Pulmonology	555	Nurse with rank: Assistant_Nurse	1
+Pulmonology	555	Nurse with rank: Senior_Nurse	3
+Pulmonology	555	Nurse with rank: Supervisor_Nurse	2
+Pulmonology	556	Administrative staff with role: Accountant	1
+Pulmonology	556	Administrative staff with role: Secretary	1
+Pulmonology	556	Doctor with specialty: Oncology	1
+Pulmonology	556	Doctor with specialty: Pathology	1
+Pulmonology	556	Doctor with specialty: Pulmonology	1
+Pulmonology	556	Nurse with rank: Assistant_Nurse	2
+Pulmonology	556	Nurse with rank: Senior_Nurse	2
+Pulmonology	556	Nurse with rank: Supervisor_Nurse	2
+Pulmonology	557	Administrative staff with role: Human Resources Manager	1
+Pulmonology	557	Administrative staff with role: Software Applications Administrator (Software)	1
+Pulmonology	557	Doctor with specialty: Oncology	1
+Pulmonology	557	Doctor with specialty: Pathology	1
+Pulmonology	557	Doctor with specialty: Pulmonology	1
+Pulmonology	557	Nurse with rank: Assistant_Nurse	1
+Pulmonology	557	Nurse with rank: Senior_Nurse	3
+Pulmonology	557	Nurse with rank: Supervisor_Nurse	2
+Biopathology	558	Administrative staff with role: Human Resources Manager	1
+Biopathology	558	Administrative staff with role: Software Applications Administrator (Software)	1
+Biopathology	558	Doctor with specialty: Biopathology	2
+Biopathology	558	Doctor with specialty: Microbiology	1
+Biopathology	558	Nurse with rank: Assistant_Nurse	1
+Biopathology	558	Nurse with rank: Senior_Nurse	2
+Biopathology	558	Nurse with rank: Supervisor_Nurse	3
+Biopathology	559	Administrative staff with role: Software Applications Administrator (Software)	2
+Biopathology	559	Doctor with specialty: Biopathology	1
+Biopathology	559	Doctor with specialty: Microbiology	1
+Biopathology	559	Doctor with specialty: Radiology	1
+Biopathology	559	Nurse with rank: Assistant_Nurse	4
+Biopathology	559	Nurse with rank: Senior_Nurse	2
+Biopathology	560	Administrative staff with role: Network and Computer Administrator (Hardware)	2
+Biopathology	560	Doctor with specialty: Pathology	1
+Biopathology	560	Doctor with specialty: Radiology	2
+Biopathology	560	Nurse with rank: Assistant_Nurse	2
+Biopathology	560	Nurse with rank: Senior_Nurse	3
+Biopathology	560	Nurse with rank: Supervisor_Nurse	1
+Endocrinology	561	Administrative staff with role: Network and Computer Administrator (Hardware)	2
+Endocrinology	561	Doctor with specialty: Endocrinology	1
+Endocrinology	561	Nurse with rank: Assistant_Nurse	3
+Endocrinology	561	Nurse with rank: Senior_Nurse	2
+Endocrinology	561	Nurse with rank: Supervisor_Nurse	1
+Endocrinology	562	Administrative staff with role: Accountant	1
+Endocrinology	562	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Endocrinology	562	Doctor with specialty: Endocrinology	1
+Endocrinology	562	Doctor with specialty: Gastroenterology	1
+Endocrinology	562	Doctor with specialty: Internal Medicine	1
+Endocrinology	562	Nurse with rank: Assistant_Nurse	1
+Endocrinology	562	Nurse with rank: Senior_Nurse	3
+Endocrinology	562	Nurse with rank: Supervisor_Nurse	2
+Endocrinology	563	Administrative staff with role: Human Resources Manager	1
+Endocrinology	563	Administrative staff with role: Procurement Officer	1
+Endocrinology	563	Doctor with specialty: Endocrinology	1
+Endocrinology	563	Doctor with specialty: Gastroenterology	1
+Endocrinology	563	Doctor with specialty: Internal Medicine	1
+Endocrinology	563	Nurse with rank: Assistant_Nurse	3
+Endocrinology	563	Nurse with rank: Senior_Nurse	2
+Endocrinology	563	Nurse with rank: Supervisor_Nurse	1
+Internal Medicine	564	Administrative staff with role: Secretary	1
+Internal Medicine	564	Administrative staff with role: Software Applications Administrator (Software)	1
+Internal Medicine	564	Doctor with specialty: Gastroenterology	3
+Internal Medicine	564	Nurse with rank: Assistant_Nurse	1
+Internal Medicine	564	Nurse with rank: Senior_Nurse	3
+Internal Medicine	564	Nurse with rank: Supervisor_Nurse	2
+Internal Medicine	565	Administrative staff with role: Accountant	1
+Internal Medicine	565	Administrative staff with role: Software Applications Administrator (Software)	1
+Internal Medicine	565	Doctor with specialty: Gastroenterology	2
+Internal Medicine	565	Doctor with specialty: Nephrology	1
+Internal Medicine	565	Nurse with rank: Assistant_Nurse	1
+Internal Medicine	565	Nurse with rank: Senior_Nurse	2
+Internal Medicine	565	Nurse with rank: Supervisor_Nurse	3
+Internal Medicine	566	Administrative staff with role: Accountant	1
+Internal Medicine	566	Administrative staff with role: Human Resources Manager	1
+Internal Medicine	566	Doctor with specialty: Dermatology	1
+Internal Medicine	566	Doctor with specialty: Endocrinology	1
+Internal Medicine	566	Doctor with specialty: Nephrology	1
+Internal Medicine	566	Nurse with rank: Assistant_Nurse	1
+Internal Medicine	566	Nurse with rank: Senior_Nurse	3
+Internal Medicine	566	Nurse with rank: Supervisor_Nurse	2
+Pediatrics	567	Administrative staff with role: Procurement Officer	2
+Pediatrics	567	Doctor with specialty: Pediatrics	1
+Pediatrics	567	Nurse with rank: Assistant_Nurse	1
+Pediatrics	567	Nurse with rank: Senior_Nurse	2
+Pediatrics	567	Nurse with rank: Supervisor_Nurse	3
+Pediatrics	568	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Pediatrics	568	Administrative staff with role: Procurement Officer	1
+Pediatrics	568	Doctor with specialty: Cardiac Surgery	1
+Pediatrics	568	Doctor with specialty: Pediatrics	2
+Pediatrics	568	Nurse with rank: Assistant_Nurse	2
+Pediatrics	568	Nurse with rank: Senior_Nurse	3
+Pediatrics	568	Nurse with rank: Supervisor_Nurse	1
+Pediatrics	569	Administrative staff with role: Human Resources Manager	1
+Pediatrics	569	Administrative staff with role: Software Applications Administrator (Software)	1
+Pediatrics	569	Doctor with specialty: Cardiac Surgery	1
+Pediatrics	569	Doctor with specialty: Pediatrics	2
+Pediatrics	569	Nurse with rank: Assistant_Nurse	1
+Pediatrics	569	Nurse with rank: Senior_Nurse	5
+Gastroenterology	570	Administrative staff with role: Accountant	1
+Gastroenterology	570	Administrative staff with role: Human Resources Manager	1
+Gastroenterology	570	Doctor with specialty: General Surgery	1
+Gastroenterology	570	Doctor with specialty: Radiology	1
+Gastroenterology	570	Nurse with rank: Assistant_Nurse	2
+Gastroenterology	570	Nurse with rank: Senior_Nurse	1
+Gastroenterology	570	Nurse with rank: Supervisor_Nurse	3
+Gastroenterology	571	Administrative staff with role: Accountant	1
+Gastroenterology	571	Administrative staff with role: Human Resources Manager	1
+Gastroenterology	571	Doctor with specialty: Gastroenterology	1
+Gastroenterology	571	Doctor with specialty: General Surgery	2
+Gastroenterology	571	Nurse with rank: Assistant_Nurse	1
+Gastroenterology	571	Nurse with rank: Senior_Nurse	4
+Gastroenterology	571	Nurse with rank: Supervisor_Nurse	1
+Gastroenterology	572	Administrative staff with role: Accountant	1
+Gastroenterology	572	Administrative staff with role: Procurement Officer	1
+Gastroenterology	572	Doctor with specialty: Gastroenterology	1
+Gastroenterology	572	Doctor with specialty: General Surgery	2
+Gastroenterology	572	Nurse with rank: Assistant_Nurse	3
+Gastroenterology	572	Nurse with rank: Senior_Nurse	3
+Cardiology	573	Administrative staff with role: Human Resources Manager	1
+Cardiology	573	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Cardiology	573	Doctor with specialty: Cardiac Surgery	2
+Cardiology	573	Nurse with rank: Assistant_Nurse	1
+Cardiology	573	Nurse with rank: Senior_Nurse	2
+Cardiology	573	Nurse with rank: Supervisor_Nurse	3
+Cardiology	574	Administrative staff with role: Human Resources Manager	1
+Cardiology	574	Administrative staff with role: Secretary	1
+Cardiology	574	Doctor with specialty: Cardiac Surgery	1
+Cardiology	574	Doctor with specialty: Cardiology	1
+Cardiology	574	Doctor with specialty: Vascular Surgery	1
+Cardiology	574	Nurse with rank: Assistant_Nurse	3
+Cardiology	574	Nurse with rank: Senior_Nurse	1
+Cardiology	574	Nurse with rank: Supervisor_Nurse	2
+Cardiology	575	Administrative staff with role: Human Resources Manager	1
+Cardiology	575	Administrative staff with role: Secretary	1
+Cardiology	575	Doctor with specialty: Cardiac Surgery	1
+Cardiology	575	Doctor with specialty: Cardiology	1
+Cardiology	575	Doctor with specialty: Vascular Surgery	1
+Cardiology	575	Nurse with rank: Assistant_Nurse	2
+Cardiology	575	Nurse with rank: Senior_Nurse	1
+Cardiology	575	Nurse with rank: Supervisor_Nurse	3
+Surgical Department	576	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Surgical Department	576	Administrative staff with role: Procurement Officer	1
+Surgical Department	576	Doctor with specialty: Ophthalmology	1
+Surgical Department	576	Doctor with specialty: Urology	2
+Surgical Department	576	Nurse with rank: Assistant_Nurse	1
+Surgical Department	576	Nurse with rank: Senior_Nurse	4
+Surgical Department	576	Nurse with rank: Supervisor_Nurse	1
+Surgical Department	577	Administrative staff with role: Secretary	1
+Surgical Department	577	Administrative staff with role: Software Applications Administrator (Software)	1
+Surgical Department	577	Doctor with specialty: General Surgery	1
+Surgical Department	577	Doctor with specialty: Nephrology	1
+Surgical Department	577	Doctor with specialty: Neurosurgery	1
+Surgical Department	577	Nurse with rank: Senior_Nurse	1
+Surgical Department	577	Nurse with rank: Supervisor_Nurse	5
+Surgical Department	578	Administrative staff with role: Secretary	1
+Surgical Department	578	Administrative staff with role: Software Applications Administrator (Software)	1
+Surgical Department	578	Doctor with specialty: Cardiac Surgery	1
+Surgical Department	578	Doctor with specialty: General Surgery	1
+Surgical Department	578	Doctor with specialty: Otorhinolaryngology - ENT	1
+Surgical Department	578	Nurse with rank: Assistant_Nurse	2
+Surgical Department	578	Nurse with rank: Senior_Nurse	1
+Surgical Department	578	Nurse with rank: Supervisor_Nurse	3
+Neurology	579	Administrative staff with role: Procurement Officer	1
+Neurology	579	Administrative staff with role: Software Applications Administrator (Software)	1
+Neurology	579	Doctor with specialty: Neurology	1
+Neurology	579	Doctor with specialty: Neurosurgery	1
+Neurology	579	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	579	Nurse with rank: Assistant_Nurse	2
+Neurology	579	Nurse with rank: Senior_Nurse	2
+Neurology	579	Nurse with rank: Supervisor_Nurse	2
+Neurology	580	Administrative staff with role: Human Resources Manager	1
+Neurology	580	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Neurology	580	Doctor with specialty: Neurology	1
+Neurology	580	Doctor with specialty: Neurosurgery	1
+Neurology	580	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	580	Nurse with rank: Assistant_Nurse	1
+Neurology	580	Nurse with rank: Senior_Nurse	3
+Neurology	580	Nurse with rank: Supervisor_Nurse	2
+Neurology	581	Administrative staff with role: Human Resources Manager	1
+Neurology	581	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Neurology	581	Doctor with specialty: Neurology	2
+Neurology	581	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	581	Nurse with rank: Assistant_Nurse	2
+Neurology	581	Nurse with rank: Senior_Nurse	2
+Neurology	581	Nurse with rank: Supervisor_Nurse	2
+Emergency Department	582	Administrative staff with role: Secretary	1
+Emergency Department	582	Administrative staff with role: Software Applications Administrator (Software)	1
+Emergency Department	582	Doctor with specialty: Orthopedics	1
+Emergency Department	582	Nurse with rank: Assistant_Nurse	2
+Emergency Department	582	Nurse with rank: Senior_Nurse	2
+Emergency Department	582	Nurse with rank: Supervisor_Nurse	2
+Emergency Department	583	Administrative staff with role: Human Resources Manager	1
+Emergency Department	583	Administrative staff with role: Procurement Officer	1
+Emergency Department	583	Doctor with specialty: Cardiology	1
+Emergency Department	583	Doctor with specialty: Orthopedics	2
+Emergency Department	583	Nurse with rank: Assistant_Nurse	2
+Emergency Department	583	Nurse with rank: Senior_Nurse	1
+Emergency Department	583	Nurse with rank: Supervisor_Nurse	3
+Emergency Department	584	Administrative staff with role: Human Resources Manager	2
+Emergency Department	584	Doctor with specialty: Cardiology	1
+Emergency Department	584	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	1
+Emergency Department	584	Doctor with specialty: Orthopedics	1
+Emergency Department	584	Nurse with rank: Assistant_Nurse	2
+Emergency Department	584	Nurse with rank: Senior_Nurse	4
+ICU (Intensive Care Unit)	585	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+ICU (Intensive Care Unit)	585	Administrative staff with role: Secretary	1
+ICU (Intensive Care Unit)	585	Doctor with specialty: Nephrology	1
+ICU (Intensive Care Unit)	585	Nurse with rank: Senior_Nurse	3
+ICU (Intensive Care Unit)	585	Nurse with rank: Supervisor_Nurse	3
+ICU (Intensive Care Unit)	586	Administrative staff with role: Accountant	1
+ICU (Intensive Care Unit)	586	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+ICU (Intensive Care Unit)	586	Doctor with specialty: Internal Medicine	1
+ICU (Intensive Care Unit)	586	Doctor with specialty: Pulmonology	1
+ICU (Intensive Care Unit)	586	Doctor with specialty: Rheumatology	1
+ICU (Intensive Care Unit)	586	Nurse with rank: Assistant_Nurse	1
+ICU (Intensive Care Unit)	586	Nurse with rank: Senior_Nurse	2
+ICU (Intensive Care Unit)	586	Nurse with rank: Supervisor_Nurse	3
+ICU (Intensive Care Unit)	587	Administrative staff with role: Secretary	2
+ICU (Intensive Care Unit)	587	Doctor with specialty: Internal Medicine	1
+ICU (Intensive Care Unit)	587	Doctor with specialty: Pulmonology	2
+ICU (Intensive Care Unit)	587	Nurse with rank: Assistant_Nurse	3
+ICU (Intensive Care Unit)	587	Nurse with rank: Senior_Nurse	1
+ICU (Intensive Care Unit)	587	Nurse with rank: Supervisor_Nurse	2
+Orthopedics	588	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	588	Administrative staff with role: Software Applications Administrator (Software)	1
+Orthopedics	588	Nurse with rank: Assistant_Nurse	3
+Orthopedics	588	Nurse with rank: Senior_Nurse	1
+Orthopedics	588	Nurse with rank: Supervisor_Nurse	2
+Orthopedics	589	Administrative staff with role: Accountant	1
+Orthopedics	589	Administrative staff with role: Software Applications Administrator (Software)	1
+Orthopedics	589	Doctor with specialty: Orthopedics	1
+Orthopedics	589	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Orthopedics	589	Doctor with specialty: Rheumatology	1
+Orthopedics	589	Nurse with rank: Assistant_Nurse	3
+Orthopedics	589	Nurse with rank: Senior_Nurse	1
+Orthopedics	589	Nurse with rank: Supervisor_Nurse	2
+Orthopedics	590	Administrative staff with role: Human Resources Manager	1
+Orthopedics	590	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	590	Doctor with specialty: Orthopedics	2
+Orthopedics	590	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Orthopedics	590	Nurse with rank: Assistant_Nurse	3
+Orthopedics	590	Nurse with rank: Senior_Nurse	1
+Orthopedics	590	Nurse with rank: Supervisor_Nurse	2
+OB/GYN	591	Administrative staff with role: Accountant	1
+OB/GYN	591	Administrative staff with role: Procurement Officer	1
+OB/GYN	591	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	1
+OB/GYN	591	Nurse with rank: Assistant_Nurse	3
+OB/GYN	591	Nurse with rank: Senior_Nurse	1
+OB/GYN	591	Nurse with rank: Supervisor_Nurse	2
+OB/GYN	592	Administrative staff with role: Procurement Officer	1
+OB/GYN	592	Administrative staff with role: Secretary	1
+OB/GYN	592	Doctor with specialty: Neurosurgery	1
+OB/GYN	592	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	2
+OB/GYN	592	Nurse with rank: Assistant_Nurse	1
+OB/GYN	592	Nurse with rank: Senior_Nurse	4
+OB/GYN	592	Nurse with rank: Supervisor_Nurse	1
+OB/GYN	593	Administrative staff with role: Accountant	1
+OB/GYN	593	Administrative staff with role: Secretary	1
+OB/GYN	593	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	3
+OB/GYN	593	Nurse with rank: Assistant_Nurse	1
+OB/GYN	593	Nurse with rank: Senior_Nurse	3
+OB/GYN	593	Nurse with rank: Supervisor_Nurse	2
+Anesthesiology	594	Administrative staff with role: Human Resources Manager	1
+Anesthesiology	594	Administrative staff with role: Secretary	1
+Anesthesiology	594	Nurse with rank: Assistant_Nurse	1
+Anesthesiology	594	Nurse with rank: Senior_Nurse	3
+Anesthesiology	594	Nurse with rank: Supervisor_Nurse	2
+Anesthesiology	595	Administrative staff with role: Procurement Officer	1
+Anesthesiology	595	Administrative staff with role: Secretary	1
+Anesthesiology	595	Doctor with specialty: Anesthesiology	2
+Anesthesiology	595	Doctor with specialty: Ophthalmology	1
+Anesthesiology	595	Nurse with rank: Assistant_Nurse	3
+Anesthesiology	595	Nurse with rank: Senior_Nurse	1
+Anesthesiology	595	Nurse with rank: Supervisor_Nurse	2
+Anesthesiology	596	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Anesthesiology	596	Administrative staff with role: Procurement Officer	1
+Anesthesiology	596	Doctor with specialty: Anesthesiology	2
+Anesthesiology	596	Doctor with specialty: Ophthalmology	1
+Anesthesiology	596	Nurse with rank: Assistant_Nurse	4
+Anesthesiology	596	Nurse with rank: Senior_Nurse	2
+Psychiatry	597	Administrative staff with role: Accountant	1
+Psychiatry	597	Administrative staff with role: Software Applications Administrator (Software)	1
+Psychiatry	597	Doctor with specialty: Psychiatry	1
+Psychiatry	597	Nurse with rank: Assistant_Nurse	2
+Psychiatry	597	Nurse with rank: Senior_Nurse	2
+Psychiatry	597	Nurse with rank: Supervisor_Nurse	2
+Psychiatry	598	Administrative staff with role: Accountant	1
+Psychiatry	598	Administrative staff with role: Human Resources Manager	1
+Psychiatry	598	Doctor with specialty: Cardiac Surgery	1
+Psychiatry	598	Doctor with specialty: Psychiatry	2
+Psychiatry	598	Nurse with rank: Assistant_Nurse	2
+Psychiatry	598	Nurse with rank: Senior_Nurse	2
+Psychiatry	598	Nurse with rank: Supervisor_Nurse	2
+Psychiatry	599	Administrative staff with role: Accountant	1
+Psychiatry	599	Administrative staff with role: Procurement Officer	1
+Psychiatry	599	Doctor with specialty: Psychiatry	2
+Psychiatry	599	Nurse with rank: Assistant_Nurse	2
+Psychiatry	599	Nurse with rank: Senior_Nurse	3
+Psychiatry	599	Nurse with rank: Supervisor_Nurse	1
+Pulmonology	600	Administrative staff with role: Procurement Officer	1
+Pulmonology	600	Administrative staff with role: Software Applications Administrator (Software)	1
+Pulmonology	600	Doctor with specialty: Oncology	1
+Pulmonology	600	Nurse with rank: Assistant_Nurse	2
+Pulmonology	600	Nurse with rank: Supervisor_Nurse	4
+Pulmonology	601	Administrative staff with role: Accountant	1
+Pulmonology	601	Administrative staff with role: Secretary	1
+Pulmonology	601	Doctor with specialty: Pathology	1
+Pulmonology	601	Doctor with specialty: Pulmonology	2
+Pulmonology	601	Nurse with rank: Assistant_Nurse	1
+Pulmonology	601	Nurse with rank: Senior_Nurse	3
+Pulmonology	601	Nurse with rank: Supervisor_Nurse	2
+Pulmonology	602	Administrative staff with role: Human Resources Manager	1
+Pulmonology	602	Administrative staff with role: Secretary	1
+Pulmonology	602	Doctor with specialty: Oncology	1
+Pulmonology	602	Doctor with specialty: Pathology	1
+Pulmonology	602	Doctor with specialty: Pulmonology	1
+Pulmonology	602	Nurse with rank: Assistant_Nurse	2
+Pulmonology	602	Nurse with rank: Senior_Nurse	3
+Pulmonology	602	Nurse with rank: Supervisor_Nurse	1
+Biopathology	603	Administrative staff with role: Secretary	1
+Biopathology	603	Administrative staff with role: Software Applications Administrator (Software)	1
+Biopathology	603	Doctor with specialty: Microbiology	2
+Biopathology	603	Doctor with specialty: Neurosurgery	1
+Biopathology	603	Nurse with rank: Assistant_Nurse	2
+Biopathology	603	Nurse with rank: Senior_Nurse	2
+Biopathology	603	Nurse with rank: Supervisor_Nurse	2
+Biopathology	604	Administrative staff with role: Procurement Officer	1
+Biopathology	604	Administrative staff with role: Software Applications Administrator (Software)	1
+Biopathology	604	Doctor with specialty: Microbiology	1
+Biopathology	604	Doctor with specialty: Neurosurgery	1
+Biopathology	604	Doctor with specialty: Pathology	1
+Biopathology	604	Nurse with rank: Assistant_Nurse	2
+Biopathology	604	Nurse with rank: Senior_Nurse	1
+Biopathology	604	Nurse with rank: Supervisor_Nurse	3
+Biopathology	605	Administrative staff with role: Procurement Officer	1
+Biopathology	605	Administrative staff with role: Software Applications Administrator (Software)	1
+Biopathology	605	Doctor with specialty: Biopathology	2
+Biopathology	605	Doctor with specialty: Radiology	1
+Biopathology	605	Nurse with rank: Assistant_Nurse	5
+Biopathology	605	Nurse with rank: Supervisor_Nurse	1
+Endocrinology	606	Administrative staff with role: Accountant	1
+Endocrinology	606	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Endocrinology	606	Nurse with rank: Assistant_Nurse	3
+Endocrinology	606	Nurse with rank: Senior_Nurse	2
+Endocrinology	606	Nurse with rank: Supervisor_Nurse	1
+Endocrinology	607	Administrative staff with role: Accountant	1
+Endocrinology	607	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Endocrinology	607	Doctor with specialty: Endocrinology	2
+Endocrinology	607	Doctor with specialty: Internal Medicine	1
+Endocrinology	607	Nurse with rank: Assistant_Nurse	4
+Endocrinology	607	Nurse with rank: Senior_Nurse	1
+Endocrinology	607	Nurse with rank: Supervisor_Nurse	1
+Endocrinology	608	Administrative staff with role: Human Resources Manager	1
+Endocrinology	608	Administrative staff with role: Procurement Officer	1
+Endocrinology	608	Doctor with specialty: Endocrinology	2
+Endocrinology	608	Doctor with specialty: Internal Medicine	1
+Endocrinology	608	Nurse with rank: Assistant_Nurse	3
+Endocrinology	608	Nurse with rank: Senior_Nurse	2
+Endocrinology	608	Nurse with rank: Supervisor_Nurse	1
+Internal Medicine	609	Administrative staff with role: Network and Computer Administrator (Hardware)	2
+Internal Medicine	609	Doctor with specialty: Dermatology	1
+Internal Medicine	609	Doctor with specialty: Gastroenterology	2
+Internal Medicine	609	Nurse with rank: Assistant_Nurse	2
+Internal Medicine	609	Nurse with rank: Senior_Nurse	2
+Internal Medicine	609	Nurse with rank: Supervisor_Nurse	2
+Internal Medicine	610	Administrative staff with role: Accountant	1
+Internal Medicine	610	Administrative staff with role: Software Applications Administrator (Software)	1
+Internal Medicine	610	Doctor with specialty: Gastroenterology	1
+Internal Medicine	610	Doctor with specialty: Nephrology	1
+Internal Medicine	610	Doctor with specialty: Rheumatology	1
+Internal Medicine	610	Nurse with rank: Assistant_Nurse	4
+Internal Medicine	610	Nurse with rank: Supervisor_Nurse	2
+Internal Medicine	611	Administrative staff with role: Accountant	1
+Internal Medicine	611	Administrative staff with role: Secretary	1
+Internal Medicine	611	Doctor with specialty: Dermatology	1
+Internal Medicine	611	Doctor with specialty: Nephrology	2
+Internal Medicine	611	Nurse with rank: Assistant_Nurse	2
+Internal Medicine	611	Nurse with rank: Senior_Nurse	3
+Internal Medicine	611	Nurse with rank: Supervisor_Nurse	1
+Pediatrics	612	Administrative staff with role: Network and Computer Administrator (Hardware)	2
+Pediatrics	612	Doctor with specialty: Pediatrics	1
+Pediatrics	612	Nurse with rank: Assistant_Nurse	2
+Pediatrics	612	Nurse with rank: Senior_Nurse	1
+Pediatrics	612	Nurse with rank: Supervisor_Nurse	3
+Pediatrics	613	Administrative staff with role: Accountant	1
+Pediatrics	613	Administrative staff with role: Procurement Officer	1
+Pediatrics	613	Doctor with specialty: Pediatrics	3
+Pediatrics	613	Nurse with rank: Senior_Nurse	4
+Pediatrics	613	Nurse with rank: Supervisor_Nurse	2
+Pediatrics	614	Administrative staff with role: Human Resources Manager	1
+Pediatrics	614	Administrative staff with role: Software Applications Administrator (Software)	1
+Pediatrics	614	Doctor with specialty: Cardiac Surgery	1
+Pediatrics	614	Doctor with specialty: Pediatrics	2
+Pediatrics	614	Nurse with rank: Assistant_Nurse	1
+Pediatrics	614	Nurse with rank: Senior_Nurse	4
+Pediatrics	614	Nurse with rank: Supervisor_Nurse	1
+Gastroenterology	615	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Gastroenterology	615	Administrative staff with role: Procurement Officer	1
+Gastroenterology	615	Doctor with specialty: Gastroenterology	1
+Gastroenterology	615	Nurse with rank: Assistant_Nurse	3
+Gastroenterology	615	Nurse with rank: Supervisor_Nurse	3
+Gastroenterology	616	Administrative staff with role: Accountant	1
+Gastroenterology	616	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Gastroenterology	616	Doctor with specialty: Gastroenterology	1
+Gastroenterology	616	Doctor with specialty: General Surgery	1
+Gastroenterology	616	Doctor with specialty: Internal Medicine	1
+Gastroenterology	616	Nurse with rank: Assistant_Nurse	2
+Gastroenterology	616	Nurse with rank: Senior_Nurse	2
+Gastroenterology	616	Nurse with rank: Supervisor_Nurse	2
+Gastroenterology	617	Administrative staff with role: Accountant	1
+Gastroenterology	617	Administrative staff with role: Human Resources Manager	1
+Gastroenterology	617	Doctor with specialty: Gastroenterology	2
+Gastroenterology	617	Doctor with specialty: General Surgery	1
+Gastroenterology	617	Nurse with rank: Assistant_Nurse	1
+Gastroenterology	617	Nurse with rank: Senior_Nurse	2
+Gastroenterology	617	Nurse with rank: Supervisor_Nurse	3
+Cardiology	618	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Cardiology	618	Administrative staff with role: Software Applications Administrator (Software)	1
+Cardiology	618	Doctor with specialty: Cardiac Surgery	2
+Cardiology	618	Nurse with rank: Assistant_Nurse	2
+Cardiology	618	Nurse with rank: Senior_Nurse	1
+Cardiology	618	Nurse with rank: Supervisor_Nurse	3
+Cardiology	619	Administrative staff with role: Human Resources Manager	2
+Cardiology	619	Doctor with specialty: Cardiac Surgery	3
+Cardiology	619	Nurse with rank: Assistant_Nurse	3
+Cardiology	619	Nurse with rank: Supervisor_Nurse	3
+Cardiology	620	Administrative staff with role: Secretary	2
+Cardiology	620	Doctor with specialty: Cardiac Surgery	1
+Cardiology	620	Doctor with specialty: Cardiology	1
+Cardiology	620	Doctor with specialty: Internal Medicine	1
+Cardiology	620	Nurse with rank: Assistant_Nurse	1
+Cardiology	620	Nurse with rank: Senior_Nurse	2
+Cardiology	620	Nurse with rank: Supervisor_Nurse	3
+Surgical Department	621	Administrative staff with role: Accountant	1
+Surgical Department	621	Administrative staff with role: Procurement Officer	1
+Surgical Department	621	Doctor with specialty: Neurosurgery	1
+Surgical Department	621	Doctor with specialty: Ophthalmology	1
+Surgical Department	621	Doctor with specialty: Urology	1
+Surgical Department	621	Nurse with rank: Assistant_Nurse	2
+Surgical Department	621	Nurse with rank: Senior_Nurse	1
+Surgical Department	621	Nurse with rank: Supervisor_Nurse	3
+Surgical Department	622	Administrative staff with role: Procurement Officer	1
+Surgical Department	622	Administrative staff with role: Secretary	1
+Surgical Department	622	Doctor with specialty: Neurosurgery	2
+Surgical Department	622	Doctor with specialty: Otorhinolaryngology - ENT	1
+Surgical Department	622	Nurse with rank: Assistant_Nurse	2
+Surgical Department	622	Nurse with rank: Senior_Nurse	2
+Surgical Department	622	Nurse with rank: Supervisor_Nurse	2
+Surgical Department	623	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Surgical Department	623	Administrative staff with role: Secretary	1
+Surgical Department	623	Doctor with specialty: Neurosurgery	1
+Surgical Department	623	Doctor with specialty: Urology	2
+Surgical Department	623	Nurse with rank: Assistant_Nurse	3
+Surgical Department	623	Nurse with rank: Senior_Nurse	2
+Surgical Department	623	Nurse with rank: Supervisor_Nurse	1
+Neurology	624	Administrative staff with role: Human Resources Manager	1
+Neurology	624	Administrative staff with role: Procurement Officer	1
+Neurology	624	Doctor with specialty: Neurology	1
+Neurology	624	Doctor with specialty: Neurosurgery	1
+Neurology	624	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	624	Nurse with rank: Assistant_Nurse	3
+Neurology	624	Nurse with rank: Senior_Nurse	3
+Neurology	625	Administrative staff with role: Procurement Officer	1
+Neurology	625	Administrative staff with role: Software Applications Administrator (Software)	1
+Neurology	625	Doctor with specialty: Gastroenterology	1
+Neurology	625	Doctor with specialty: Neurology	1
+Neurology	625	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	625	Nurse with rank: Senior_Nurse	3
+Neurology	625	Nurse with rank: Supervisor_Nurse	3
+Neurology	626	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Neurology	626	Administrative staff with role: Software Applications Administrator (Software)	1
+Neurology	626	Doctor with specialty: Neurology	1
+Neurology	626	Doctor with specialty: Neurosurgery	1
+Neurology	626	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	626	Nurse with rank: Assistant_Nurse	1
+Neurology	626	Nurse with rank: Senior_Nurse	2
+Neurology	626	Nurse with rank: Supervisor_Nurse	3
+Emergency Department	627	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Emergency Department	627	Administrative staff with role: Software Applications Administrator (Software)	1
+Emergency Department	627	Nurse with rank: Assistant_Nurse	3
+Emergency Department	627	Nurse with rank: Senior_Nurse	1
+Emergency Department	627	Nurse with rank: Supervisor_Nurse	2
+Emergency Department	628	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Emergency Department	628	Administrative staff with role: Software Applications Administrator (Software)	1
+Emergency Department	628	Doctor with specialty: General Surgery	1
+Emergency Department	628	Doctor with specialty: Orthopedics	2
+Emergency Department	628	Nurse with rank: Assistant_Nurse	1
+Emergency Department	628	Nurse with rank: Senior_Nurse	4
+Emergency Department	628	Nurse with rank: Supervisor_Nurse	1
+Emergency Department	629	Administrative staff with role: Secretary	1
+Emergency Department	629	Administrative staff with role: Software Applications Administrator (Software)	1
+Emergency Department	629	Doctor with specialty: General Surgery	1
+Emergency Department	629	Doctor with specialty: Orthopedics	2
+Emergency Department	629	Nurse with rank: Assistant_Nurse	2
+Emergency Department	629	Nurse with rank: Senior_Nurse	3
+Emergency Department	629	Nurse with rank: Supervisor_Nurse	1
+ICU (Intensive Care Unit)	630	Administrative staff with role: Accountant	1
+ICU (Intensive Care Unit)	630	Administrative staff with role: Secretary	1
+ICU (Intensive Care Unit)	630	Doctor with specialty: Nephrology	1
+ICU (Intensive Care Unit)	630	Doctor with specialty: Rheumatology	1
+ICU (Intensive Care Unit)	630	Nurse with rank: Assistant_Nurse	1
+ICU (Intensive Care Unit)	630	Nurse with rank: Senior_Nurse	2
+ICU (Intensive Care Unit)	630	Nurse with rank: Supervisor_Nurse	3
+ICU (Intensive Care Unit)	631	Administrative staff with role: Human Resources Manager	1
+ICU (Intensive Care Unit)	631	Administrative staff with role: Secretary	1
+ICU (Intensive Care Unit)	631	Doctor with specialty: Cardiology	1
+ICU (Intensive Care Unit)	631	Doctor with specialty: Nephrology	1
+ICU (Intensive Care Unit)	631	Doctor with specialty: Pulmonology	1
+ICU (Intensive Care Unit)	631	Nurse with rank: Senior_Nurse	2
+ICU (Intensive Care Unit)	631	Nurse with rank: Supervisor_Nurse	4
+ICU (Intensive Care Unit)	632	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+ICU (Intensive Care Unit)	632	Administrative staff with role: Secretary	1
+ICU (Intensive Care Unit)	632	Doctor with specialty: Pulmonology	2
+ICU (Intensive Care Unit)	632	Doctor with specialty: Rheumatology	1
+ICU (Intensive Care Unit)	632	Nurse with rank: Assistant_Nurse	1
+ICU (Intensive Care Unit)	632	Nurse with rank: Senior_Nurse	3
+ICU (Intensive Care Unit)	632	Nurse with rank: Supervisor_Nurse	2
+Orthopedics	633	Administrative staff with role: Procurement Officer	1
+Orthopedics	633	Administrative staff with role: Secretary	1
+Orthopedics	633	Doctor with specialty: Rheumatology	2
+Orthopedics	633	Nurse with rank: Assistant_Nurse	2
+Orthopedics	633	Nurse with rank: Senior_Nurse	3
+Orthopedics	633	Nurse with rank: Supervisor_Nurse	1
+Orthopedics	634	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	634	Administrative staff with role: Secretary	1
+Orthopedics	634	Doctor with specialty: Cardiology	1
+Orthopedics	634	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Orthopedics	634	Doctor with specialty: Rheumatology	1
+Orthopedics	634	Nurse with rank: Senior_Nurse	3
+Orthopedics	634	Nurse with rank: Supervisor_Nurse	3
+Orthopedics	635	Administrative staff with role: Accountant	1
+Orthopedics	635	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	635	Doctor with specialty: Orthopedics	1
+Orthopedics	635	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Orthopedics	635	Doctor with specialty: Rheumatology	1
+Orthopedics	635	Nurse with rank: Assistant_Nurse	1
+Orthopedics	635	Nurse with rank: Senior_Nurse	1
+Orthopedics	635	Nurse with rank: Supervisor_Nurse	4
+OB/GYN	636	Administrative staff with role: Accountant	1
+OB/GYN	636	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+OB/GYN	636	Doctor with specialty: Neurosurgery	1
+OB/GYN	636	Nurse with rank: Assistant_Nurse	2
+OB/GYN	636	Nurse with rank: Senior_Nurse	3
+OB/GYN	636	Nurse with rank: Supervisor_Nurse	1
+OB/GYN	637	Administrative staff with role: Accountant	1
+OB/GYN	637	Administrative staff with role: Secretary	1
+OB/GYN	637	Doctor with specialty: Neurosurgery	1
+OB/GYN	637	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	2
+OB/GYN	637	Nurse with rank: Assistant_Nurse	2
+OB/GYN	637	Nurse with rank: Senior_Nurse	1
+OB/GYN	637	Nurse with rank: Supervisor_Nurse	3
+OB/GYN	638	Administrative staff with role: Accountant	1
+OB/GYN	638	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+OB/GYN	638	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	3
+OB/GYN	638	Nurse with rank: Assistant_Nurse	1
+OB/GYN	638	Nurse with rank: Senior_Nurse	3
+OB/GYN	638	Nurse with rank: Supervisor_Nurse	2
+Anesthesiology	639	Administrative staff with role: Procurement Officer	1
+Anesthesiology	639	Administrative staff with role: Software Applications Administrator (Software)	1
+Anesthesiology	639	Nurse with rank: Assistant_Nurse	2
+Anesthesiology	639	Nurse with rank: Senior_Nurse	2
+Anesthesiology	639	Nurse with rank: Supervisor_Nurse	2
+Anesthesiology	640	Administrative staff with role: Procurement Officer	1
+Anesthesiology	640	Administrative staff with role: Secretary	1
+Anesthesiology	640	Doctor with specialty: Anesthesiology	2
+Anesthesiology	640	Doctor with specialty: Ophthalmology	1
+Anesthesiology	640	Nurse with rank: Assistant_Nurse	1
+Anesthesiology	640	Nurse with rank: Senior_Nurse	3
+Anesthesiology	640	Nurse with rank: Supervisor_Nurse	2
+Anesthesiology	641	Administrative staff with role: Human Resources Manager	1
+Anesthesiology	641	Administrative staff with role: Secretary	1
+Anesthesiology	641	Doctor with specialty: Anesthesiology	2
+Anesthesiology	641	Doctor with specialty: Ophthalmology	1
+Anesthesiology	641	Nurse with rank: Assistant_Nurse	4
+Anesthesiology	641	Nurse with rank: Senior_Nurse	2
+Psychiatry	642	Administrative staff with role: Human Resources Manager	1
+Psychiatry	642	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Psychiatry	642	Doctor with specialty: Psychiatry	1
+Psychiatry	642	Nurse with rank: Assistant_Nurse	1
+Psychiatry	642	Nurse with rank: Senior_Nurse	2
+Psychiatry	642	Nurse with rank: Supervisor_Nurse	3
+Psychiatry	643	Administrative staff with role: Accountant	1
+Psychiatry	643	Administrative staff with role: Procurement Officer	1
+Psychiatry	643	Doctor with specialty: Psychiatry	3
+Psychiatry	643	Nurse with rank: Assistant_Nurse	2
+Psychiatry	643	Nurse with rank: Senior_Nurse	2
+Psychiatry	643	Nurse with rank: Supervisor_Nurse	2
+Psychiatry	644	Administrative staff with role: Software Applications Administrator (Software)	2
+Psychiatry	644	Doctor with specialty: Cardiac Surgery	1
+Psychiatry	644	Doctor with specialty: Psychiatry	2
+Psychiatry	644	Nurse with rank: Assistant_Nurse	2
+Psychiatry	644	Nurse with rank: Senior_Nurse	3
+Psychiatry	644	Nurse with rank: Supervisor_Nurse	1
+Pulmonology	645	Administrative staff with role: Human Resources Manager	1
+Pulmonology	645	Administrative staff with role: Procurement Officer	1
+Pulmonology	645	Doctor with specialty: Oncology	1
+Pulmonology	645	Nurse with rank: Assistant_Nurse	3
+Pulmonology	645	Nurse with rank: Senior_Nurse	2
+Pulmonology	645	Nurse with rank: Supervisor_Nurse	1
+Pulmonology	646	Administrative staff with role: Procurement Officer	1
+Pulmonology	646	Administrative staff with role: Secretary	1
+Pulmonology	646	Doctor with specialty: Oncology	1
+Pulmonology	646	Doctor with specialty: Pulmonology	2
+Pulmonology	646	Nurse with rank: Assistant_Nurse	4
+Pulmonology	646	Nurse with rank: Senior_Nurse	1
+Pulmonology	646	Nurse with rank: Supervisor_Nurse	1
+Pulmonology	647	Administrative staff with role: Software Applications Administrator (Software)	2
+Pulmonology	647	Doctor with specialty: Oncology	1
+Pulmonology	647	Doctor with specialty: Pathology	1
+Pulmonology	647	Doctor with specialty: Pulmonology	1
+Pulmonology	647	Nurse with rank: Assistant_Nurse	3
+Pulmonology	647	Nurse with rank: Senior_Nurse	1
+Pulmonology	647	Nurse with rank: Supervisor_Nurse	2
+Biopathology	648	Administrative staff with role: Procurement Officer	1
+Biopathology	648	Administrative staff with role: Software Applications Administrator (Software)	1
+Biopathology	648	Doctor with specialty: Microbiology	1
+Biopathology	648	Doctor with specialty: Pathology	1
+Biopathology	648	Doctor with specialty: Radiology	1
+Biopathology	648	Nurse with rank: Senior_Nurse	3
+Biopathology	648	Nurse with rank: Supervisor_Nurse	3
+Biopathology	649	Administrative staff with role: Procurement Officer	1
+Biopathology	649	Administrative staff with role: Software Applications Administrator (Software)	1
+Biopathology	649	Doctor with specialty: Pathology	1
+Biopathology	649	Doctor with specialty: Radiology	2
+Biopathology	649	Nurse with rank: Assistant_Nurse	1
+Biopathology	649	Nurse with rank: Senior_Nurse	3
+Biopathology	649	Nurse with rank: Supervisor_Nurse	2
+Biopathology	650	Administrative staff with role: Human Resources Manager	1
+Biopathology	650	Administrative staff with role: Procurement Officer	1
+Biopathology	650	Doctor with specialty: Biopathology	1
+Biopathology	650	Doctor with specialty: Microbiology	1
+Biopathology	650	Doctor with specialty: Neurosurgery	1
+Biopathology	650	Nurse with rank: Assistant_Nurse	3
+Biopathology	650	Nurse with rank: Senior_Nurse	1
+Biopathology	650	Nurse with rank: Supervisor_Nurse	2
+Endocrinology	651	Administrative staff with role: Accountant	1
+Endocrinology	651	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Endocrinology	651	Doctor with specialty: Gastroenterology	1
+Endocrinology	651	Nurse with rank: Assistant_Nurse	2
+Endocrinology	651	Nurse with rank: Senior_Nurse	2
+Endocrinology	651	Nurse with rank: Supervisor_Nurse	2
+Endocrinology	652	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Endocrinology	652	Administrative staff with role: Procurement Officer	1
+Endocrinology	652	Doctor with specialty: Endocrinology	2
+Endocrinology	652	Doctor with specialty: Gastroenterology	1
+Endocrinology	652	Nurse with rank: Assistant_Nurse	3
+Endocrinology	652	Nurse with rank: Senior_Nurse	1
+Endocrinology	652	Nurse with rank: Supervisor_Nurse	2
+Endocrinology	653	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Endocrinology	653	Administrative staff with role: Procurement Officer	1
+Endocrinology	653	Doctor with specialty: Endocrinology	2
+Endocrinology	653	Doctor with specialty: Internal Medicine	1
+Endocrinology	653	Nurse with rank: Senior_Nurse	3
+Endocrinology	653	Nurse with rank: Supervisor_Nurse	3
+Internal Medicine	654	Administrative staff with role: Accountant	1
+Internal Medicine	654	Administrative staff with role: Human Resources Manager	1
+Internal Medicine	654	Doctor with specialty: Dermatology	1
+Internal Medicine	654	Doctor with specialty: Gastroenterology	2
+Internal Medicine	654	Nurse with rank: Assistant_Nurse	1
+Internal Medicine	654	Nurse with rank: Senior_Nurse	3
+Internal Medicine	654	Nurse with rank: Supervisor_Nurse	2
+Internal Medicine	655	Administrative staff with role: Human Resources Manager	1
+Internal Medicine	655	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Internal Medicine	655	Doctor with specialty: Gastroenterology	2
+Internal Medicine	655	Doctor with specialty: Rheumatology	1
+Internal Medicine	655	Nurse with rank: Assistant_Nurse	3
+Internal Medicine	655	Nurse with rank: Senior_Nurse	2
+Internal Medicine	655	Nurse with rank: Supervisor_Nurse	1
+Internal Medicine	656	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Internal Medicine	656	Administrative staff with role: Secretary	1
+Internal Medicine	656	Doctor with specialty: Gastroenterology	2
+Internal Medicine	656	Doctor with specialty: Rheumatology	1
+Internal Medicine	656	Nurse with rank: Assistant_Nurse	4
+Internal Medicine	656	Nurse with rank: Senior_Nurse	2
+Pediatrics	657	Administrative staff with role: Accountant	1
+Pediatrics	657	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Pediatrics	657	Doctor with specialty: Pediatrics	1
+Pediatrics	657	Nurse with rank: Assistant_Nurse	3
+Pediatrics	657	Nurse with rank: Senior_Nurse	1
+Pediatrics	657	Nurse with rank: Supervisor_Nurse	2
+Pediatrics	658	Administrative staff with role: Human Resources Manager	1
+Pediatrics	658	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Pediatrics	658	Doctor with specialty: Pediatrics	3
+Pediatrics	658	Nurse with rank: Assistant_Nurse	3
+Pediatrics	658	Nurse with rank: Senior_Nurse	2
+Pediatrics	658	Nurse with rank: Supervisor_Nurse	1
+Pediatrics	659	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Pediatrics	659	Administrative staff with role: Procurement Officer	1
+Pediatrics	659	Doctor with specialty: Cardiac Surgery	1
+Pediatrics	659	Doctor with specialty: Pediatrics	2
+Pediatrics	659	Nurse with rank: Assistant_Nurse	1
+Pediatrics	659	Nurse with rank: Senior_Nurse	1
+Pediatrics	659	Nurse with rank: Supervisor_Nurse	4
+Gastroenterology	660	Administrative staff with role: Accountant	1
+Gastroenterology	660	Administrative staff with role: Secretary	1
+Gastroenterology	660	Doctor with specialty: General Surgery	1
+Gastroenterology	660	Nurse with rank: Assistant_Nurse	2
+Gastroenterology	660	Nurse with rank: Senior_Nurse	2
+Gastroenterology	660	Nurse with rank: Supervisor_Nurse	2
+Gastroenterology	661	Administrative staff with role: Accountant	1
+Gastroenterology	661	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Gastroenterology	661	Doctor with specialty: General Surgery	1
+Gastroenterology	661	Doctor with specialty: Internal Medicine	2
+Gastroenterology	661	Nurse with rank: Senior_Nurse	1
+Gastroenterology	661	Nurse with rank: Supervisor_Nurse	5
+Gastroenterology	662	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Gastroenterology	662	Administrative staff with role: Software Applications Administrator (Software)	1
+Gastroenterology	662	Doctor with specialty: Gastroenterology	1
+Gastroenterology	662	Doctor with specialty: General Surgery	2
+Gastroenterology	662	Nurse with rank: Assistant_Nurse	2
+Gastroenterology	662	Nurse with rank: Senior_Nurse	3
+Gastroenterology	662	Nurse with rank: Supervisor_Nurse	1
+Cardiology	663	Administrative staff with role: Human Resources Manager	2
+Cardiology	663	Doctor with specialty: Cardiac Surgery	1
+Cardiology	663	Doctor with specialty: Cardiology	1
+Cardiology	663	Doctor with specialty: Vascular Surgery	1
+Cardiology	663	Nurse with rank: Senior_Nurse	2
+Cardiology	663	Nurse with rank: Supervisor_Nurse	4
+Cardiology	664	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Cardiology	664	Administrative staff with role: Secretary	1
+Cardiology	664	Doctor with specialty: Cardiac Surgery	2
+Cardiology	664	Doctor with specialty: Cardiology	1
+Cardiology	664	Nurse with rank: Senior_Nurse	2
+Cardiology	664	Nurse with rank: Supervisor_Nurse	4
+Cardiology	665	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Cardiology	665	Administrative staff with role: Procurement Officer	1
+Cardiology	665	Doctor with specialty: Cardiac Surgery	2
+Cardiology	665	Doctor with specialty: Cardiology	1
+Cardiology	665	Nurse with rank: Assistant_Nurse	1
+Cardiology	665	Nurse with rank: Senior_Nurse	2
+Cardiology	665	Nurse with rank: Supervisor_Nurse	3
+Surgical Department	666	Administrative staff with role: Procurement Officer	1
+Surgical Department	666	Administrative staff with role: Secretary	1
+Surgical Department	666	Doctor with specialty: Neurosurgery	1
+Surgical Department	666	Doctor with specialty: Plastic Surgery	1
+Surgical Department	666	Doctor with specialty: Urology	1
+Surgical Department	666	Nurse with rank: Senior_Nurse	2
+Surgical Department	666	Nurse with rank: Supervisor_Nurse	4
+Surgical Department	667	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Surgical Department	667	Administrative staff with role: Procurement Officer	1
+Surgical Department	667	Doctor with specialty: General Surgery	1
+Surgical Department	667	Doctor with specialty: Nephrology	1
+Surgical Department	667	Doctor with specialty: Neurosurgery	1
+Surgical Department	667	Nurse with rank: Assistant_Nurse	2
+Surgical Department	667	Nurse with rank: Senior_Nurse	3
+Surgical Department	667	Nurse with rank: Supervisor_Nurse	1
+Surgical Department	668	Administrative staff with role: Accountant	1
+Surgical Department	668	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Surgical Department	668	Doctor with specialty: Cardiac Surgery	1
+Surgical Department	668	Doctor with specialty: General Surgery	1
+Surgical Department	668	Doctor with specialty: Urology	1
+Surgical Department	668	Nurse with rank: Assistant_Nurse	1
+Surgical Department	668	Nurse with rank: Senior_Nurse	3
+Surgical Department	668	Nurse with rank: Supervisor_Nurse	2
+Neurology	669	Administrative staff with role: Human Resources Manager	1
+Neurology	669	Administrative staff with role: Procurement Officer	1
+Neurology	669	Doctor with specialty: Neurology	2
+Neurology	669	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	669	Nurse with rank: Assistant_Nurse	2
+Neurology	669	Nurse with rank: Senior_Nurse	2
+Neurology	669	Nurse with rank: Supervisor_Nurse	2
+Neurology	670	Administrative staff with role: Software Applications Administrator (Software)	2
+Neurology	670	Doctor with specialty: Neurology	2
+Neurology	670	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Neurology	670	Nurse with rank: Assistant_Nurse	2
+Neurology	670	Nurse with rank: Senior_Nurse	3
+Neurology	670	Nurse with rank: Supervisor_Nurse	1
+Neurology	671	Administrative staff with role: Human Resources Manager	2
+Neurology	671	Doctor with specialty: Physical Medicine & Rehabilitation	3
+Neurology	671	Nurse with rank: Assistant_Nurse	1
+Neurology	671	Nurse with rank: Senior_Nurse	2
+Neurology	671	Nurse with rank: Supervisor_Nurse	3
+Emergency Department	672	Administrative staff with role: Procurement Officer	2
+Emergency Department	672	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	1
+Emergency Department	672	Nurse with rank: Assistant_Nurse	3
+Emergency Department	672	Nurse with rank: Senior_Nurse	1
+Emergency Department	672	Nurse with rank: Supervisor_Nurse	2
+Emergency Department	673	Administrative staff with role: Human Resources Manager	1
+Emergency Department	673	Administrative staff with role: Software Applications Administrator (Software)	1
+Emergency Department	673	Doctor with specialty: Orthopedics	3
+Emergency Department	673	Nurse with rank: Assistant_Nurse	4
+Emergency Department	673	Nurse with rank: Senior_Nurse	1
+Emergency Department	673	Nurse with rank: Supervisor_Nurse	1
+Emergency Department	674	Administrative staff with role: Human Resources Manager	1
+Emergency Department	674	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Emergency Department	674	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	1
+Emergency Department	674	Doctor with specialty: Orthopedics	2
+Emergency Department	674	Nurse with rank: Assistant_Nurse	3
+Emergency Department	674	Nurse with rank: Senior_Nurse	2
+Emergency Department	674	Nurse with rank: Supervisor_Nurse	1
+ICU (Intensive Care Unit)	675	Administrative staff with role: Secretary	2
+ICU (Intensive Care Unit)	675	Nurse with rank: Assistant_Nurse	4
+ICU (Intensive Care Unit)	675	Nurse with rank: Senior_Nurse	1
+ICU (Intensive Care Unit)	675	Nurse with rank: Supervisor_Nurse	1
+ICU (Intensive Care Unit)	676	Administrative staff with role: Secretary	2
+ICU (Intensive Care Unit)	676	Doctor with specialty: Cardiology	1
+ICU (Intensive Care Unit)	676	Doctor with specialty: Nephrology	1
+ICU (Intensive Care Unit)	676	Doctor with specialty: Pulmonology	1
+ICU (Intensive Care Unit)	676	Nurse with rank: Assistant_Nurse	3
+ICU (Intensive Care Unit)	676	Nurse with rank: Senior_Nurse	2
+ICU (Intensive Care Unit)	676	Nurse with rank: Supervisor_Nurse	1
+ICU (Intensive Care Unit)	677	Administrative staff with role: Accountant	1
+ICU (Intensive Care Unit)	677	Administrative staff with role: Secretary	1
+ICU (Intensive Care Unit)	677	Doctor with specialty: Nephrology	1
+ICU (Intensive Care Unit)	677	Doctor with specialty: Pulmonology	2
+ICU (Intensive Care Unit)	677	Nurse with rank: Assistant_Nurse	2
+ICU (Intensive Care Unit)	677	Nurse with rank: Supervisor_Nurse	4
+Orthopedics	678	Administrative staff with role: Procurement Officer	1
+Orthopedics	678	Administrative staff with role: Secretary	1
+Orthopedics	678	Doctor with specialty: Rheumatology	1
+Orthopedics	678	Nurse with rank: Assistant_Nurse	3
+Orthopedics	678	Nurse with rank: Senior_Nurse	2
+Orthopedics	678	Nurse with rank: Supervisor_Nurse	1
+Orthopedics	679	Administrative staff with role: Human Resources Manager	1
+Orthopedics	679	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	679	Doctor with specialty: Physical Medicine & Rehabilitation	2
+Orthopedics	679	Doctor with specialty: Rheumatology	1
+Orthopedics	679	Nurse with rank: Assistant_Nurse	2
+Orthopedics	679	Nurse with rank: Senior_Nurse	2
+Orthopedics	679	Nurse with rank: Supervisor_Nurse	2
+Orthopedics	680	Administrative staff with role: Secretary	1
+Orthopedics	680	Administrative staff with role: Software Applications Administrator (Software)	1
+Orthopedics	680	Doctor with specialty: Orthopedics	1
+Orthopedics	680	Doctor with specialty: Rheumatology	2
+Orthopedics	680	Nurse with rank: Assistant_Nurse	2
+Orthopedics	680	Nurse with rank: Senior_Nurse	1
+Orthopedics	680	Nurse with rank: Supervisor_Nurse	3
+OB/GYN	681	Administrative staff with role: Accountant	1
+OB/GYN	681	Administrative staff with role: Procurement Officer	1
+OB/GYN	681	Nurse with rank: Assistant_Nurse	2
+OB/GYN	681	Nurse with rank: Senior_Nurse	2
+OB/GYN	681	Nurse with rank: Supervisor_Nurse	2
+OB/GYN	682	Administrative staff with role: Accountant	1
+OB/GYN	682	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+OB/GYN	682	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	3
+OB/GYN	682	Nurse with rank: Assistant_Nurse	2
+OB/GYN	682	Nurse with rank: Senior_Nurse	4
+OB/GYN	683	Administrative staff with role: Accountant	1
+OB/GYN	683	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+OB/GYN	683	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	3
+OB/GYN	683	Nurse with rank: Assistant_Nurse	2
+OB/GYN	683	Nurse with rank: Senior_Nurse	2
+OB/GYN	683	Nurse with rank: Supervisor_Nurse	2
+Anesthesiology	684	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Anesthesiology	684	Administrative staff with role: Software Applications Administrator (Software)	1
+Anesthesiology	684	Nurse with rank: Assistant_Nurse	3
+Anesthesiology	684	Nurse with rank: Senior_Nurse	1
+Anesthesiology	684	Nurse with rank: Supervisor_Nurse	2
+Anesthesiology	685	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Anesthesiology	685	Administrative staff with role: Software Applications Administrator (Software)	1
+Anesthesiology	685	Doctor with specialty: Anesthesiology	2
+Anesthesiology	685	Doctor with specialty: Ophthalmology	1
+Anesthesiology	685	Nurse with rank: Assistant_Nurse	1
+Anesthesiology	685	Nurse with rank: Senior_Nurse	4
+Anesthesiology	685	Nurse with rank: Supervisor_Nurse	1
+Anesthesiology	686	Administrative staff with role: Accountant	1
+Anesthesiology	686	Administrative staff with role: Procurement Officer	1
+Anesthesiology	686	Doctor with specialty: Anesthesiology	2
+Anesthesiology	686	Doctor with specialty: Ophthalmology	1
+Anesthesiology	686	Nurse with rank: Assistant_Nurse	2
+Anesthesiology	686	Nurse with rank: Senior_Nurse	2
+Anesthesiology	686	Nurse with rank: Supervisor_Nurse	2
+Psychiatry	687	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Psychiatry	687	Administrative staff with role: Procurement Officer	1
+Psychiatry	687	Doctor with specialty: Psychiatry	1
+Psychiatry	687	Nurse with rank: Assistant_Nurse	2
+Psychiatry	687	Nurse with rank: Senior_Nurse	1
+Psychiatry	687	Nurse with rank: Supervisor_Nurse	3
+Psychiatry	688	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Psychiatry	688	Administrative staff with role: Procurement Officer	1
+Psychiatry	688	Doctor with specialty: Cardiac Surgery	1
+Psychiatry	688	Doctor with specialty: Psychiatry	2
+Psychiatry	688	Nurse with rank: Assistant_Nurse	1
+Psychiatry	688	Nurse with rank: Senior_Nurse	2
+Psychiatry	688	Nurse with rank: Supervisor_Nurse	3
+Psychiatry	689	Administrative staff with role: Accountant	1
+Psychiatry	689	Administrative staff with role: Software Applications Administrator (Software)	1
+Psychiatry	689	Doctor with specialty: Cardiac Surgery	1
+Psychiatry	689	Doctor with specialty: Psychiatry	2
+Psychiatry	689	Nurse with rank: Assistant_Nurse	1
+Psychiatry	689	Nurse with rank: Senior_Nurse	3
+Psychiatry	689	Nurse with rank: Supervisor_Nurse	2
+Pulmonology	690	Administrative staff with role: Accountant	1
+Pulmonology	690	Administrative staff with role: Human Resources Manager	1
+Pulmonology	690	Doctor with specialty: Oncology	1
+Pulmonology	690	Nurse with rank: Assistant_Nurse	1
+Pulmonology	690	Nurse with rank: Senior_Nurse	3
+Pulmonology	690	Nurse with rank: Supervisor_Nurse	2
+Pulmonology	691	Administrative staff with role: Human Resources Manager	1
+Pulmonology	691	Administrative staff with role: Software Applications Administrator (Software)	1
+Pulmonology	691	Doctor with specialty: Oncology	1
+Pulmonology	691	Doctor with specialty: Pathology	1
+Pulmonology	691	Doctor with specialty: Pulmonology	1
+Pulmonology	691	Nurse with rank: Assistant_Nurse	3
+Pulmonology	691	Nurse with rank: Senior_Nurse	2
+Pulmonology	691	Nurse with rank: Supervisor_Nurse	1
+Pulmonology	692	Administrative staff with role: Human Resources Manager	1
+Pulmonology	692	Administrative staff with role: Secretary	1
+Pulmonology	692	Doctor with specialty: Oncology	1
+Pulmonology	692	Doctor with specialty: Pulmonology	2
+Pulmonology	692	Nurse with rank: Assistant_Nurse	4
+Pulmonology	692	Nurse with rank: Senior_Nurse	1
+Pulmonology	692	Nurse with rank: Supervisor_Nurse	1
+Biopathology	693	Administrative staff with role: Secretary	1
+Biopathology	693	Administrative staff with role: Software Applications Administrator (Software)	1
+Biopathology	693	Doctor with specialty: Biopathology	2
+Biopathology	693	Doctor with specialty: Microbiology	1
+Biopathology	693	Nurse with rank: Assistant_Nurse	2
+Biopathology	693	Nurse with rank: Senior_Nurse	3
+Biopathology	693	Nurse with rank: Supervisor_Nurse	1
+Biopathology	694	Administrative staff with role: Human Resources Manager	1
+Biopathology	694	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Biopathology	694	Doctor with specialty: Microbiology	2
+Biopathology	694	Doctor with specialty: Neurosurgery	1
+Biopathology	694	Nurse with rank: Assistant_Nurse	2
+Biopathology	694	Nurse with rank: Senior_Nurse	2
+Biopathology	694	Nurse with rank: Supervisor_Nurse	2
+Biopathology	695	Administrative staff with role: Human Resources Manager	1
+Biopathology	695	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Biopathology	695	Doctor with specialty: Microbiology	1
+Biopathology	695	Doctor with specialty: Pathology	1
+Biopathology	695	Doctor with specialty: Radiology	1
+Biopathology	695	Nurse with rank: Assistant_Nurse	3
+Biopathology	695	Nurse with rank: Senior_Nurse	1
+Biopathology	695	Nurse with rank: Supervisor_Nurse	2
+Endocrinology	696	Administrative staff with role: Human Resources Manager	1
+Endocrinology	696	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Endocrinology	696	Nurse with rank: Assistant_Nurse	4
+Endocrinology	696	Nurse with rank: Supervisor_Nurse	2
+Endocrinology	697	Administrative staff with role: Accountant	1
+Endocrinology	697	Administrative staff with role: Human Resources Manager	1
+Endocrinology	697	Doctor with specialty: Endocrinology	1
+Endocrinology	697	Doctor with specialty: Gastroenterology	1
+Endocrinology	697	Doctor with specialty: Internal Medicine	1
+Endocrinology	697	Nurse with rank: Assistant_Nurse	4
+Endocrinology	697	Nurse with rank: Senior_Nurse	1
+Endocrinology	697	Nurse with rank: Supervisor_Nurse	1
+Endocrinology	698	Administrative staff with role: Accountant	1
+Endocrinology	698	Administrative staff with role: Human Resources Manager	1
+Endocrinology	698	Doctor with specialty: Endocrinology	1
+Endocrinology	698	Doctor with specialty: Gastroenterology	1
+Endocrinology	698	Doctor with specialty: Internal Medicine	1
+Endocrinology	698	Nurse with rank: Assistant_Nurse	4
+Endocrinology	698	Nurse with rank: Senior_Nurse	1
+Endocrinology	698	Nurse with rank: Supervisor_Nurse	1
+Internal Medicine	699	Administrative staff with role: Human Resources Manager	1
+Internal Medicine	699	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Internal Medicine	699	Doctor with specialty: Dermatology	2
+Internal Medicine	699	Doctor with specialty: Gastroenterology	1
+Internal Medicine	699	Nurse with rank: Supervisor_Nurse	6
+Internal Medicine	700	Administrative staff with role: Accountant	1
+Internal Medicine	700	Administrative staff with role: Human Resources Manager	1
+Internal Medicine	700	Doctor with specialty: Cardiac Surgery	1
+Internal Medicine	700	Doctor with specialty: Gastroenterology	1
+Internal Medicine	700	Doctor with specialty: Rheumatology	1
+Internal Medicine	700	Nurse with rank: Senior_Nurse	3
+Internal Medicine	700	Nurse with rank: Supervisor_Nurse	3
+Internal Medicine	701	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Internal Medicine	701	Administrative staff with role: Secretary	1
+Internal Medicine	701	Doctor with specialty: Gastroenterology	2
+Internal Medicine	701	Doctor with specialty: Nephrology	1
+Internal Medicine	701	Nurse with rank: Assistant_Nurse	3
+Internal Medicine	701	Nurse with rank: Senior_Nurse	1
+Internal Medicine	701	Nurse with rank: Supervisor_Nurse	2
+Pediatrics	702	Administrative staff with role: Procurement Officer	2
+Pediatrics	702	Doctor with specialty: Pediatrics	1
+Pediatrics	702	Nurse with rank: Assistant_Nurse	2
+Pediatrics	702	Nurse with rank: Senior_Nurse	3
+Pediatrics	702	Nurse with rank: Supervisor_Nurse	1
+Pediatrics	703	Administrative staff with role: Human Resources Manager	1
+Pediatrics	703	Administrative staff with role: Procurement Officer	1
+Pediatrics	703	Doctor with specialty: Cardiac Surgery	1
+Pediatrics	703	Doctor with specialty: Pediatrics	2
+Pediatrics	703	Nurse with rank: Assistant_Nurse	3
+Pediatrics	703	Nurse with rank: Senior_Nurse	1
+Pediatrics	703	Nurse with rank: Supervisor_Nurse	2
+Pediatrics	704	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Pediatrics	704	Administrative staff with role: Procurement Officer	1
+Pediatrics	704	Doctor with specialty: Cardiac Surgery	1
+Pediatrics	704	Doctor with specialty: Pediatrics	2
+Pediatrics	704	Nurse with rank: Assistant_Nurse	3
+Pediatrics	704	Nurse with rank: Senior_Nurse	1
+Pediatrics	704	Nurse with rank: Supervisor_Nurse	2
+Gastroenterology	705	Administrative staff with role: Human Resources Manager	1
+Gastroenterology	705	Administrative staff with role: Secretary	1
+Gastroenterology	705	Doctor with specialty: Gastroenterology	1
+Gastroenterology	705	Doctor with specialty: Internal Medicine	1
+Gastroenterology	705	Doctor with specialty: Radiology	1
+Gastroenterology	705	Nurse with rank: Assistant_Nurse	3
+Gastroenterology	705	Nurse with rank: Senior_Nurse	2
+Gastroenterology	705	Nurse with rank: Supervisor_Nurse	1
+Gastroenterology	706	Administrative staff with role: Secretary	2
+Gastroenterology	706	Doctor with specialty: Gastroenterology	1
+Gastroenterology	706	Doctor with specialty: General Surgery	1
+Gastroenterology	706	Doctor with specialty: Internal Medicine	1
+Gastroenterology	706	Nurse with rank: Assistant_Nurse	2
+Gastroenterology	706	Nurse with rank: Senior_Nurse	2
+Gastroenterology	706	Nurse with rank: Supervisor_Nurse	2
+Gastroenterology	707	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Gastroenterology	707	Administrative staff with role: Secretary	1
+Gastroenterology	707	Doctor with specialty: General Surgery	2
+Gastroenterology	707	Doctor with specialty: Internal Medicine	1
+Gastroenterology	707	Nurse with rank: Senior_Nurse	3
+Gastroenterology	707	Nurse with rank: Supervisor_Nurse	3
+Cardiology	708	Administrative staff with role: Human Resources Manager	1
+Cardiology	708	Administrative staff with role: Secretary	1
+Cardiology	708	Doctor with specialty: Cardiology	1
+Cardiology	708	Doctor with specialty: Vascular Surgery	1
+Cardiology	708	Nurse with rank: Assistant_Nurse	1
+Cardiology	708	Nurse with rank: Senior_Nurse	2
+Cardiology	708	Nurse with rank: Supervisor_Nurse	3
+Cardiology	709	Administrative staff with role: Human Resources Manager	1
+Cardiology	709	Administrative staff with role: Secretary	1
+Cardiology	709	Doctor with specialty: Cardiac Surgery	1
+Cardiology	709	Doctor with specialty: Cardiology	2
+Cardiology	709	Nurse with rank: Assistant_Nurse	3
+Cardiology	709	Nurse with rank: Senior_Nurse	1
+Cardiology	709	Nurse with rank: Supervisor_Nurse	2
+Cardiology	710	Administrative staff with role: Human Resources Manager	1
+Cardiology	710	Administrative staff with role: Secretary	1
+Cardiology	710	Doctor with specialty: Cardiac Surgery	2
+Cardiology	710	Doctor with specialty: Cardiology	1
+Cardiology	710	Nurse with rank: Assistant_Nurse	3
+Cardiology	710	Nurse with rank: Senior_Nurse	1
+Cardiology	710	Nurse with rank: Supervisor_Nurse	2
+Surgical Department	711	Administrative staff with role: Procurement Officer	1
+Surgical Department	711	Administrative staff with role: Secretary	1
+Surgical Department	711	Doctor with specialty: Neurosurgery	1
+Surgical Department	711	Doctor with specialty: Otorhinolaryngology - ENT	1
+Surgical Department	711	Doctor with specialty: Plastic Surgery	1
+Surgical Department	711	Nurse with rank: Assistant_Nurse	2
+Surgical Department	711	Nurse with rank: Senior_Nurse	1
+Surgical Department	711	Nurse with rank: Supervisor_Nurse	3
+Surgical Department	712	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Surgical Department	712	Administrative staff with role: Secretary	1
+Surgical Department	712	Doctor with specialty: General Surgery	1
+Surgical Department	712	Doctor with specialty: Urology	2
+Surgical Department	712	Nurse with rank: Assistant_Nurse	1
+Surgical Department	712	Nurse with rank: Senior_Nurse	3
+Surgical Department	712	Nurse with rank: Supervisor_Nurse	2
+Surgical Department	713	Administrative staff with role: Accountant	1
+Surgical Department	713	Administrative staff with role: Procurement Officer	1
+Surgical Department	713	Doctor with specialty: Cardiac Surgery	1
+Surgical Department	713	Doctor with specialty: Ophthalmology	1
+Surgical Department	713	Doctor with specialty: Urology	1
+Surgical Department	713	Nurse with rank: Assistant_Nurse	1
+Surgical Department	713	Nurse with rank: Senior_Nurse	4
+Surgical Department	713	Nurse with rank: Supervisor_Nurse	1
+Neurology	714	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Neurology	714	Administrative staff with role: Software Applications Administrator (Software)	1
+Neurology	714	Doctor with specialty: Neurology	2
+Neurology	714	Doctor with specialty: Neurosurgery	1
+Neurology	714	Nurse with rank: Assistant_Nurse	4
+Neurology	714	Nurse with rank: Senior_Nurse	1
+Neurology	714	Nurse with rank: Supervisor_Nurse	1
+Neurology	715	Administrative staff with role: Human Resources Manager	1
+Neurology	715	Administrative staff with role: Software Applications Administrator (Software)	1
+Neurology	715	Doctor with specialty: Physical Medicine & Rehabilitation	3
+Neurology	715	Nurse with rank: Assistant_Nurse	1
+Neurology	715	Nurse with rank: Senior_Nurse	4
+Neurology	715	Nurse with rank: Supervisor_Nurse	1
+Neurology	716	Administrative staff with role: Human Resources Manager	1
+Neurology	716	Administrative staff with role: Procurement Officer	1
+Neurology	716	Doctor with specialty: Neurosurgery	1
+Neurology	716	Doctor with specialty: Physical Medicine & Rehabilitation	2
+Neurology	716	Nurse with rank: Assistant_Nurse	1
+Neurology	716	Nurse with rank: Senior_Nurse	2
+Neurology	716	Nurse with rank: Supervisor_Nurse	3
+Emergency Department	717	Administrative staff with role: Procurement Officer	2
+Emergency Department	717	Nurse with rank: Assistant_Nurse	2
+Emergency Department	717	Nurse with rank: Senior_Nurse	2
+Emergency Department	717	Nurse with rank: Supervisor_Nurse	2
+Emergency Department	718	Administrative staff with role: Secretary	1
+Emergency Department	718	Administrative staff with role: Software Applications Administrator (Software)	1
+Emergency Department	718	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	1
+Emergency Department	718	Doctor with specialty: Orthopedics	2
+Emergency Department	718	Nurse with rank: Assistant_Nurse	3
+Emergency Department	718	Nurse with rank: Supervisor_Nurse	3
+Emergency Department	719	Administrative staff with role: Secretary	1
+Emergency Department	719	Administrative staff with role: Software Applications Administrator (Software)	1
+Emergency Department	719	Doctor with specialty: Orthopedics	3
+Emergency Department	719	Nurse with rank: Assistant_Nurse	3
+Emergency Department	719	Nurse with rank: Supervisor_Nurse	3
+ICU (Intensive Care Unit)	720	Administrative staff with role: Secretary	2
+ICU (Intensive Care Unit)	720	Doctor with specialty: Nephrology	1
+ICU (Intensive Care Unit)	720	Nurse with rank: Assistant_Nurse	2
+ICU (Intensive Care Unit)	720	Nurse with rank: Senior_Nurse	2
+ICU (Intensive Care Unit)	720	Nurse with rank: Supervisor_Nurse	2
+ICU (Intensive Care Unit)	721	Administrative staff with role: Accountant	1
+ICU (Intensive Care Unit)	721	Administrative staff with role: Secretary	1
+ICU (Intensive Care Unit)	721	Doctor with specialty: Nephrology	1
+ICU (Intensive Care Unit)	721	Doctor with specialty: Pulmonology	1
+ICU (Intensive Care Unit)	721	Doctor with specialty: Rheumatology	1
+ICU (Intensive Care Unit)	721	Nurse with rank: Assistant_Nurse	3
+ICU (Intensive Care Unit)	721	Nurse with rank: Senior_Nurse	2
+ICU (Intensive Care Unit)	721	Nurse with rank: Supervisor_Nurse	1
+ICU (Intensive Care Unit)	722	Administrative staff with role: Accountant	2
+ICU (Intensive Care Unit)	722	Doctor with specialty: Cardiology	1
+ICU (Intensive Care Unit)	722	Doctor with specialty: Pulmonology	1
+ICU (Intensive Care Unit)	722	Doctor with specialty: Rheumatology	1
+ICU (Intensive Care Unit)	722	Nurse with rank: Assistant_Nurse	3
+ICU (Intensive Care Unit)	722	Nurse with rank: Senior_Nurse	2
+ICU (Intensive Care Unit)	722	Nurse with rank: Supervisor_Nurse	1
+Orthopedics	723	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	723	Administrative staff with role: Procurement Officer	1
+Orthopedics	723	Nurse with rank: Assistant_Nurse	2
+Orthopedics	723	Nurse with rank: Senior_Nurse	2
+Orthopedics	723	Nurse with rank: Supervisor_Nurse	2
+Orthopedics	724	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	724	Administrative staff with role: Secretary	1
+Orthopedics	724	Doctor with specialty: Orthopedics	1
+Orthopedics	724	Doctor with specialty: Rheumatology	1
+Orthopedics	724	Nurse with rank: Senior_Nurse	3
+Orthopedics	724	Nurse with rank: Supervisor_Nurse	3
+Orthopedics	725	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Orthopedics	725	Administrative staff with role: Secretary	1
+Orthopedics	725	Doctor with specialty: Physical Medicine & Rehabilitation	1
+Orthopedics	725	Doctor with specialty: Rheumatology	2
+Orthopedics	725	Nurse with rank: Assistant_Nurse	2
+Orthopedics	725	Nurse with rank: Supervisor_Nurse	4
+OB/GYN	726	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+OB/GYN	726	Administrative staff with role: Procurement Officer	1
+OB/GYN	726	Doctor with specialty: Neurosurgery	1
+OB/GYN	726	Nurse with rank: Assistant_Nurse	3
+OB/GYN	726	Nurse with rank: Senior_Nurse	2
+OB/GYN	726	Nurse with rank: Supervisor_Nurse	1
+OB/GYN	727	Administrative staff with role: Accountant	1
+OB/GYN	727	Administrative staff with role: Secretary	1
+OB/GYN	727	Doctor with specialty: Neurosurgery	1
+OB/GYN	727	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	2
+OB/GYN	727	Nurse with rank: Assistant_Nurse	1
+OB/GYN	727	Nurse with rank: Senior_Nurse	3
+OB/GYN	727	Nurse with rank: Supervisor_Nurse	2
+OB/GYN	728	Administrative staff with role: Accountant	1
+OB/GYN	728	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+OB/GYN	728	Doctor with specialty: Obstetrics & Gynecology - OB/GYN	3
+OB/GYN	728	Nurse with rank: Assistant_Nurse	2
+OB/GYN	728	Nurse with rank: Senior_Nurse	3
+OB/GYN	728	Nurse with rank: Supervisor_Nurse	1
+Anesthesiology	729	Administrative staff with role: Human Resources Manager	1
+Anesthesiology	729	Administrative staff with role: Software Applications Administrator (Software)	1
+Anesthesiology	729	Nurse with rank: Assistant_Nurse	3
+Anesthesiology	729	Nurse with rank: Senior_Nurse	2
+Anesthesiology	729	Nurse with rank: Supervisor_Nurse	1
+Anesthesiology	730	Administrative staff with role: Human Resources Manager	1
+Anesthesiology	730	Administrative staff with role: Software Applications Administrator (Software)	1
+Anesthesiology	730	Doctor with specialty: Anesthesiology	2
+Anesthesiology	730	Doctor with specialty: Ophthalmology	1
+Anesthesiology	730	Nurse with rank: Assistant_Nurse	3
+Anesthesiology	730	Nurse with rank: Senior_Nurse	2
+Anesthesiology	730	Nurse with rank: Supervisor_Nurse	1
+Anesthesiology	731	Administrative staff with role: Human Resources Manager	1
+Anesthesiology	731	Administrative staff with role: Procurement Officer	1
+Anesthesiology	731	Doctor with specialty: Anesthesiology	2
+Anesthesiology	731	Doctor with specialty: Ophthalmology	1
+Anesthesiology	731	Nurse with rank: Assistant_Nurse	3
+Anesthesiology	731	Nurse with rank: Senior_Nurse	2
+Anesthesiology	731	Nurse with rank: Supervisor_Nurse	1
+Psychiatry	732	Administrative staff with role: Human Resources Manager	1
+Psychiatry	732	Administrative staff with role: Network and Computer Administrator (Hardware)	1
+Psychiatry	732	Doctor with specialty: Psychiatry	1
+Psychiatry	732	Nurse with rank: Assistant_Nurse	1
+Psychiatry	732	Nurse with rank: Senior_Nurse	2
+Psychiatry	732	Nurse with rank: Supervisor_Nurse	3
+Psychiatry	733	Administrative staff with role: Accountant	1
+Psychiatry	733	Administrative staff with role: Human Resources Manager	1
+Psychiatry	733	Doctor with specialty: Cardiac Surgery	1
+Psychiatry	733	Doctor with specialty: Psychiatry	2
+Psychiatry	733	Nurse with rank: Assistant_Nurse	2
+Psychiatry	733	Nurse with rank: Senior_Nurse	2
+Psychiatry	733	Nurse with rank: Supervisor_Nurse	2
+Psychiatry	734	Administrative staff with role: Human Resources Manager	1
+Psychiatry	734	Administrative staff with role: Secretary	1
+Psychiatry	734	Doctor with specialty: Cardiac Surgery	1
+Psychiatry	734	Doctor with specialty: Psychiatry	2
+Psychiatry	734	Nurse with rank: Assistant_Nurse	2
+Psychiatry	734	Nurse with rank: Senior_Nurse	1
+Psychiatry	734	Nurse with rank: Supervisor_Nurse	3

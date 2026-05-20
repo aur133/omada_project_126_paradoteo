@@ -1,0 +1,6 @@
+doctor_id	first_name	last_name	had_shift_this_year	num_procedures_main_surgeon
+7		Doti		Smeeth		YES			5
+9		Tate		Sichardt	YES			7
+15		Benn		Rowlett		YES			4
+16		Lila		Niset		YES			9
+53		Noami		Taylder		YES			4	
