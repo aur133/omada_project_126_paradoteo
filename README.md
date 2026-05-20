@@ -27,6 +27,7 @@ i. Yποθέσεις/παραδοχές που έγιναν κατά την υλ
 ii. Υποθέσεις που έγιναν σχετικά με τα δεδομένα.
 1. Σχετικά με τα δεδομένα απο το link της παραπομπής 7 της εκφώνησης, που αφορά τα εγκεκριμένα φάρμακα, δεν φορτώθηκαν όλα τα δεδομένα στη βάση εξαιτίας του μεγάλου όγκου τους (χρησιμοποιήθηκαν ενδεικτικά 5000 κωδικοί).
 2. Οι πληροφορίες του link της παραπομπής 2 (Στατιστική Ταξινόμηση Νόσων και Σχετικών Προβλημάτων Υγείας ICD-10) της εκφώνησης χρησιμοποιήθηκαν για την ταξινόμηση των ICD-10 διαγνώσεων σε κατηγορίες, οι οποίες χρησιμοποιήθηκαν και στην απάντηση του ερωτήματος 14.
+3. Θεωρούμε ότι ο χρήστης εισάγει τις βάρδιες με την σειρά και δεν πάει να κάνει αλλαγή ενδίαμεσα.
 
 
 iii. Yποθέσεις/παραδοχές που έγιναν κατά την απάντηση των ερωτημάτων.
@@ -48,3 +49,172 @@ iii. Yποθέσεις/παραδοχές που έγιναν κατά την α
 16. Ομαδοποιήσαμε τα δεδομένα με βάση το τμήμα και το επίπεδο επείγοντος. Στην συνέχεια, υπολογίσαμε τον μεσο χρόνο αναμονής, το ποσοστό  περιστατικών που οδήγησαν σε νοσηλεία  και τον αριθμό ασθενών που νοσηλεύτηκαν στο συγκεκριμένο τμήμα και βαθμό επείγοντος.
     
 
+iv. Triggers:
+Λόγω της κατασκευής των dummy data ορισμένα triggers σταματούσαν το Loading των data στην βάση μας, για πρακτικούς λόγους αφαιρέθηκαν. Παρακάτω δίνουμε αναλυτικά τα trigger που δεν περιέχονται στην βάση, το οποία όμως επιβάλουν συμαντηκά business rules:
+1.Έλεγχος για το αν μια κλίνη είναι διαθέσιμη και αν ειναι να ενημερώνεται και το hospital_bed αντίστοιχα:
+
+DELIMITER $$
+
+CREATE TRIGGER hospitalization_check_hospital_beds
+BEFORE INSERT ON hospitalization
+FOR EACH ROW
+BEGIN
+	DECLARE new_bed_status VARCHAR(50); 
+
+	SELECT bed_status INTO new_bed_status FROM hospital_bed  WHERE bed_number=NEW.bed_number;
+	IF new_bed_status<> 'Available' THEN
+	   SIGNAL SQLSTATE '45000'
+	   SET MESSAGE_TEXT = 'This bed is not available right now.';
+	ELSE
+	   UPDATE hospital_bed
+		 SET bed_status='Oceupied'
+		 WHERE bed_number=NEW.bed_number;
+	
+	END IF ;
+END $$
+
+DELIMITER ;
+2.Περιορισμό που εξασφαλίζει οτι ο ασθενης έχει  prescripion μόνο άμα γίνεται hospitalized τότε.
+
+
+DELIMITER // 
+CREATE TRIGGER `valid_date_prescription` BEFORE INSERT ON `prescription` FOR EACH ROW BEGIN IF NOT EXISTS ( SELECT 1 FROM hospitalization h JOIN triage t ON h.triage_id = t.triage_id WHERE t.patient_id = NEW.patient_id AND NEW.start_date BETWEEN h.admission_date AND h.discharge_date ) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Prescriptions can only be given during an active hospitalization range.'; END IF; END //
+DELIMITER ;
+3.Οι βοηθοί των χειρουργείων θα πρέπει να έχουν βάρδια εκείνη την ημέρα και ώρα.
+
+DELIMITER //
+CREATE TRIGGER `valid_assistants_shift` BEFORE INSERT ON `assistants_procedure` FOR EACH ROW BEGIN DECLARE proc_date DATE; DECLARE proc_start_time TIME; DECLARE proc_time_type VARCHAR(20); SELECT procedure_date, start_time_procedure INTO proc_date, proc_start_time FROM medical_procedures WHERE med_procedure_id =NEW.med_procedure_id; SET proc_time_type=CASE WHEN proc_start_time BETWEEN '07:00:00' AND '15:00:00' THEN 'morning' WHEN proc_start_time BETWEEN '15:00:00' AND '23:00:00' THEN 'afternoon' ELSE 'night' END; IF NOT EXISTS (SELECT 1 FROM shift_department_team sdt JOIN shift s ON s.shift_id=sdt.shift_id WHERE sdt.faculty_id = NEW.faculty_id AND s.shift_date=proc_date AND s.shift_type=proc_time_type) THEN SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Faculty member does not have a shift during start time of procedure'; END IF; END //
+DELIMITER ;
+4.Κανένα μέλος προσωπικού δεν μπορει να συμμετεχει σε περισσοτερες από 3 συνεχομενες νυχτερινές βάρδιες.
+
+DELIMITER $$
+
+CREATE TRIGGER check_max_3_night_shifts
+BEFORE INSERT ON shift_department_team
+FOR EACH ROW
+BEGIN
+    DECLARE new_shift_date DATE;
+    DECLARE new_shift_type VARCHAR(20);
+    DECLARE consecutive_nights INT;
+
+
+    SELECT shift_date, shift_type INTO new_shift_date, new_shift_type
+    FROM shift
+    WHERE shift_id = NEW.shift_id;
+
+
+    IF new_shift_type = 'night' THEN
+ 
+ 
+        SELECT COUNT(*) INTO consecutive_nights
+        FROM shift_department_team sdt
+        JOIN shift s ON sdt.shift_id = s.shift_id
+        WHERE sdt.faculty_id = NEW.faculty_id
+          AND s.shift_type = 'night'
+          AND s.shift_date BETWEEN DATE_SUB(new_shift_date, INTERVAL 3 DAY)
+                               AND DATE_SUB(new_shift_date, INTERVAL 1 DAY);
+
+        
+        IF consecutive_nights >= 3 THEN
+            SIGNAL SQLSTATE '45000'
+            SET MESSAGE_TEXT = 'Error: Cannot exceed 3 consecutive night shifts.';
+        END IF;
+    END IF;
+
+END $$
+
+DELIMITER ;
+
+5.Μεταξύ δύο διαδοχικών βαρδιών του ίδιου μέλους προσωπικού πρέπει να μεσολαβεί ελάχιστο διάστημα ανάπαυσης 8 ωρών.
+DELIMITER $$
+
+CREATE TRIGGER check_shift_rest_period
+BEFORE INSERT ON shift_department_team
+FOR EACH ROW
+BEGIN
+    DECLARE new_date DATE;
+    DECLARE new_type VARCHAR(20);
+ 
+
+    SELECT shift_date, shift_type INTO new_date, new_type
+    FROM shift
+    WHERE shift_id = NEW.shift_id;
+
+ 
+    IF new_type = 'afternoon' THEN
+ 
+        IF EXISTS (SELECT 1 FROM shift_department_team sdt JOIN shift s ON sdt.shift_id = s.shift_id
+                   WHERE sdt.faculty_id = NEW.faculty_id AND s.shift_date = new_date
+                   AND s.shift_type='morning') THEN
+            SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Error: 0 hours rest with afternoon and morning shift.';
+        END IF;
+ 
+    ELSEIF new_type = 'morning' THEN
+ 
+        IF EXISTS (SELECT 1 FROM shift_department_team sdt JOIN shift s ON sdt.shift_id = s.shift_id
+                   WHERE sdt.faculty_id = NEW.faculty_id AND s.shift_date =DATE_SUB(new_date, INTERVAL 1 DAY)
+                   AND s.shift_type = 'night') THEN
+            SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Error: 0 hours rest between morning and night shift.';
+        END IF;
+ 
+
+    ELSEIF new_type = 'night' THEN
+ 
+        IF EXISTS (SELECT 1 FROM shift_department_team sdt JOIN shift s ON sdt.shift_id = s.shift_id
+                   WHERE sdt.faculty_id = NEW.faculty_id AND s.shift_date = new_date
+                   AND s.shift_type = 'afternoon') THEN
+           SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = 'Error: 0 hours rest between night and afternoon shift.';
+        END IF;
+ 
+    END IF;
+
+END $$
+
+DELIMITER ;
+
+6.Το σύστημα επιβάλλει τα ακόλουθα μέγιστα όρια βαρδιών ανά μήνα ανά
+κατηγορία προσωπικού: Ιατροί 15, Νοσηλευτές 20 και Διοικητικό Προσωπικό 25.
+DELIMITER $$
+
+CREATE TRIGGER max_shift_for_faculty
+BEFORE INSERT ON shift_department_team
+FOR EACH ROW
+BEGIN
+    DECLARE s_month INT;
+    DECLARE s_year INT;
+    DECLARE total_shift INT;
+    DECLARE f_category INT;
+
+    SELECT MONTH(shift_date), YEAR(shift_date)
+    INTO s_month, s_year
+    FROM shift
+    WHERE shift_id = NEW.shift_id;
+
+    SELECT COUNT(*) INTO total_shift
+    FROM shift_department_team sdt
+    INNER JOIN shift s ON sdt.shift_id = s.shift_id
+    WHERE sdt.faculty_id = NEW.faculty_id
+      AND MONTH(s.shift_date) = s_month
+      AND YEAR(s.shift_date) = s_year;
+
+    SET f_category = faculty_category(NEW.faculty_id);
+
+
+    IF f_category = 1 AND total_shift >= 15 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'ERROR: A doctor cannot work more than 15 shifts in a month';
+    ELSEIF f_category = 2 AND total_shift >= 20 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'ERROR: A nurse cannot work more than 20 shifts in a month.';
+    ELSEIF f_category = 3 AND total_shift >= 25 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'ERROR: An administrator cannot work more than 25 shifts in a month';
+    END IF;
+END $$
+
+DELIMITER ;
+7.Στο medical_procedure να είναι το date μεταξύ admission_date και discharge_date.
+
+DELIMITER //
+CREATE TRIGGER `valid_date_procedure` BEFORE INSERT ON `medical\_procedures` FOR EACH ROW BEGIN IF NOT EXISTS(SELECT 1 FROM hospitalization WHERE hospitalization_id=NEW. hospitalization_id AND (NEW.procedure_date<admission_date OR NEW.procedure_date>discharge_date)) THEN SIGNAL SQLSTATE  '45000' SET MESSAGE_TEXT='Medical procedures can only happen during an active hospitalization of the patient'; END IF; END//
+DELIMITER
