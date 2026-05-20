@@ -1,0 +1,464 @@
++---------------------------+------+----------+------------------+--------------------+--------------------+------------------------+------------------------+
+| department                | year | KEN_code | total_basic_cost | total_extra_cost   | total_income       | insurance_provider     | total_hospitalizations |
++---------------------------+------+----------+------------------+--------------------+--------------------+------------------------+------------------------+
+| Cardiology                | 2021 | ?01?     |            12420 |              37260 |              49680 | Beacon Health Options  |                      1 |
+| Cardiology                | 2021 | ?07??    |             7279 |            909.875 |           8188.875 | Highmark Health        |                      1 |
+| Cardiology                | 2021 | ?11?     |             3223 |                  0 |               3223 | Guardian Life          |                      1 |
+| Cardiology                | 2021 | ?11?     |             3223 |                  0 |               3223 | Highmark Health        |                      1 |
+| Cardiology                | 2021 | ?14??    |             1991 |                  0 |               1991 | Aetna                  |                      1 |
+| Cardiology                | 2021 | ?14?     |             2554 |            10854.5 |            13408.5 | Anthem                 |                      2 |
+| Cardiology                | 2022 | ?01?     |            12420 |                  0 |              12420 | Blue Cross Blue Shield |                      1 |
+| Cardiology                | 2022 | ?01?     |            12420 |               8280 |              20700 | Guardian Life          |                      1 |
+| Cardiology                | 2022 | ?01?     |            12420 |              12420 |              24840 | UnitedHealth Group     |                      1 |
+| Cardiology                | 2022 | ?07??    |             7279 |                  0 |               7279 | Blue Cross Blue Shield |                      1 |
+| Cardiology                | 2022 | ?07??    |             7279 |                  0 |               7279 | Priority Health        |                      1 |
+| Cardiology                | 2022 | ?11?     |             3223 |                  0 |               3223 | Health Net             |                      1 |
+| Cardiology                | 2022 | ?14?     |             1277 |             5746.5 |             7023.5 | Aetna                  |                      1 |
+| Cardiology                | 2022 | ?14?     |             1277 |             1915.5 |             3192.5 | Health Net             |                      1 |
+| Cardiology                | 2022 | ?14?     |             1277 |             1915.5 |             3192.5 | Humana                 |                      1 |
+| Cardiology                | 2023 | ?01?     |            12420 |              20700 |              33120 | Beacon Health Options  |                      1 |
+| Cardiology                | 2023 | ?01?     |            12420 |                  0 |              12420 | Centene Corporation    |                      1 |
+| Cardiology                | 2023 | ?01?     |            12420 |              33120 |              45540 | Health Net             |                      1 |
+| Cardiology                | 2023 | ?01?     |            12420 |                  0 |              12420 | Humana                 |                      1 |
+| Cardiology                | 2023 | ?07??    |             7279 |                  0 |               7279 | Anthem                 |                      1 |
+| Cardiology                | 2023 | ?07??    |             7279 |           4549.375 |          11828.375 | Blue Cross Blue Shield |                      1 |
+| Cardiology                | 2023 | ?07??    |             7279 |            5459.25 |           12738.25 | Highmark Health        |                      1 |
+| Cardiology                | 2023 | ?07??    |             7279 |            1819.75 |            9098.75 | UnitedHealth Group     |                      1 |
+| Cardiology                | 2023 | ?11?     |             3223 |                  0 |               3223 | Oscar Health           |                      1 |
+| Cardiology                | 2023 | ?11?     |             3223 |                  0 |               3223 | Priority Health        |                      1 |
+| Cardiology                | 2023 | ?14??    |             1991 |            1493.25 |            3484.25 | Humana                 |                      1 |
+| Cardiology                | 2023 | ?14?     |             1277 |             1915.5 |             3192.5 | Centene Corporation    |                      1 |
+| Cardiology                | 2023 | ?14?     |             1277 |             3192.5 |             4469.5 | Priority Health        |                      1 |
+| Cardiology                | 2024 | ?01?     |            12420 |              24840 |              37260 | Centene Corporation    |                      1 |
+| Cardiology                | 2024 | ?01?     |            24840 |              49680 |              74520 | Kaiser Permanente      |                      2 |
+| Cardiology                | 2024 | ?01?     |            12420 |              33120 |              45540 | MetLife                |                      1 |
+| Cardiology                | 2024 | ?07??    |             7279 |                  0 |               7279 | Centene Corporation    |                      1 |
+| Cardiology                | 2024 | ?14??    |             1991 |             4977.5 |             6968.5 | Health Net             |                      1 |
+| Cardiology                | 2024 | ?14??    |             1991 |             497.75 |            2488.75 | Molina Healthcare      |                      1 |
+| Cardiology                | 2024 | ?14?     |             1277 |               6385 |               7662 | Health Net             |                      1 |
+| Cardiology                | 2024 | ?14?     |             1277 |               1277 |               2554 | Highmark Health        |                      1 |
+| Cardiology                | 2025 | ?07??    |             7279 |           2729.625 |          10008.625 | Blue Cross Blue Shield |                      1 |
+| Cardiology                | 2025 | ?07??    |             7279 |                  0 |               7279 | Molina Healthcare      |                      1 |
+| Cardiology                | 2025 | ?07??    |             7279 |                  0 |               7279 | Mutual of Omaha        |                      1 |
+| Cardiology                | 2025 | ?11?     |             3223 |                  0 |               3223 | Highmark Health        |                      1 |
+| Cardiology                | 2025 | ?11?     |             6446 |                  0 |               6446 | Oscar Health           |                      2 |
+| Cardiology                | 2025 | ?14??    |             1991 |                  0 |               1991 | Anthem                 |                      1 |
+| Cardiology                | 2025 | ?14??    |             3982 |            4479.75 |            8461.75 | Beacon Health Options  |                      2 |
+| Cardiology                | 2025 | ?14??    |             1991 |                  0 |               1991 | Blue Cross Blue Shield |                      1 |
+| Cardiology                | 2025 | ?14?     |             1277 |               5108 |               6385 | Molina Healthcare      |                      1 |
+| Cardiology                | 2026 | ?14?     |             1277 |             5746.5 |             7023.5 | Molina Healthcare      |                      1 |
+| Endocrinology             | 2021 | ?02?     |             5135 |                  0 |               5135 | Centene Corporation    |                      1 |
+| Endocrinology             | 2021 | ?02?     |             5135 |                  0 |               5135 | Mutual of Omaha        |                      1 |
+| Endocrinology             | 2021 | ?20?     |             1580 |                  0 |               1580 | Anthem                 |                      1 |
+| Endocrinology             | 2021 | ?20?     |              731 |  2680.333251953125 |  3411.333251953125 | Beacon Health Options  |                      1 |
+| Endocrinology             | 2021 | ?20?     |             2311 |  3059.952392578125 |  5370.952392578125 | Guardian Life          |                      2 |
+| Endocrinology             | 2021 | ?20?     |             1580 |                  0 |               1580 | Health Net             |                      1 |
+| Endocrinology             | 2021 | ?20?     |              731 |  243.6666717529297 |  974.6666717529297 | MetLife                |                      1 |
+| Endocrinology             | 2021 | ?20?     |             1580 |  451.4285583496094 | 2031.4285583496094 | Molina Healthcare      |                      1 |
+| Endocrinology             | 2021 | ?20?     |              731 |  974.6666870117188 | 1705.6666870117188 | Oscar Health           |                      1 |
+| Endocrinology             | 2021 | ?20?     |             1580 |                  0 |               1580 | WellCare               |                      1 |
+| Endocrinology             | 2022 | ?02?     |             5135 |               1027 |               6162 | Health Net             |                      1 |
+| Endocrinology             | 2022 | ?20?     |             1580 |                  0 |               1580 | Aetna                  |                      1 |
+| Endocrinology             | 2022 | ?20?     |              731 |  243.6666717529297 |  974.6666717529297 | Beacon Health Options  |                      1 |
+| Endocrinology             | 2022 | ?20?     |             1580 |                  0 |               1580 | Blue Cross Blue Shield |                      1 |
+| Endocrinology             | 2022 | ?20?     |             1580 |  225.7142791748047 | 1805.7142791748047 | Cigna                  |                      1 |
+| Endocrinology             | 2022 | ?20?     |             1580 |  225.7142791748047 | 1805.7142791748047 | Highmark Health        |                      1 |
+| Endocrinology             | 2022 | ?20?     |             1580 |                  0 |               1580 | Kaiser Permanente      |                      1 |
+| Endocrinology             | 2022 | ?20?     |             1580 |  451.4285583496094 | 2031.4285583496094 | Mutual of Omaha        |                      1 |
+| Endocrinology             | 2023 | ?02?     |             5135 |                  0 |               5135 | Beacon Health Options  |                      1 |
+| Endocrinology             | 2023 | ?02?     |             5135 |                  0 |               5135 | Centene Corporation    |                      1 |
+| Endocrinology             | 2023 | ?02?     |             5135 |                  0 |               5135 | Molina Healthcare      |                      1 |
+| Endocrinology             | 2023 | ?20?     |             1580 |                  0 |               1580 | Ambetter               |                      1 |
+| Endocrinology             | 2023 | ?20?     |             1580 | 1128.5714111328125 | 2708.5714111328125 | Beacon Health Options  |                      1 |
+| Endocrinology             | 2023 | ?20?     |              731 |                731 |               1462 | Centene Corporation    |                      1 |
+| Endocrinology             | 2023 | ?20?     |              731 |                  0 |                731 | Highmark Health        |                      1 |
+| Endocrinology             | 2023 | ?20?     |             1580 | 1354.2857666015625 | 2934.2857666015625 | MetLife                |                      1 |
+| Endocrinology             | 2023 | ?20?     |             1580 |                  0 |               1580 | Oscar Health           |                      1 |
+| Endocrinology             | 2023 | ?20?     |              731 | 1218.3333740234375 | 1949.3333740234375 | UnitedHealth Group     |                      1 |
+| Endocrinology             | 2023 | ?20?     |              731 | 1218.3333740234375 | 1949.3333740234375 | WellCare               |                      1 |
+| Endocrinology             | 2024 | ?02?     |             5135 |              513.5 |             5648.5 | Aetna                  |                      1 |
+| Endocrinology             | 2024 | ?02?     |             5135 |              513.5 |             5648.5 | Anthem                 |                      1 |
+| Endocrinology             | 2024 | ?02?     |             5135 |                  0 |               5135 | Centene Corporation    |                      1 |
+| Endocrinology             | 2024 | ?02?     |             5135 |             1540.5 |             6675.5 | Guardian Life          |                      1 |
+| Endocrinology             | 2024 | ?20?     |              731 |               1462 |               2193 | Aetna                  |                      1 |
+| Endocrinology             | 2024 | ?20?     |              731 |  2436.666748046875 |  3167.666748046875 | Centene Corporation    |                      1 |
+| Endocrinology             | 2024 | ?20?     |              731 |               1462 |               2193 | Guardian Life          |                      1 |
+| Endocrinology             | 2024 | ?20?     |             1580 |                  0 |               1580 | Molina Healthcare      |                      1 |
+| Endocrinology             | 2025 | ?20?     |             1580 |                  0 |               1580 | Aetna                  |                      1 |
+| Endocrinology             | 2025 | ?20?     |              731 |  487.3333435058594 | 1218.3333435058594 | Beacon Health Options  |                      1 |
+| Endocrinology             | 2025 | ?20?     |             1580 |                  0 |               1580 | Cigna                  |                      1 |
+| Endocrinology             | 2025 | ?20?     |              731 |                731 |               1462 | Guardian Life          |                      1 |
+| Endocrinology             | 2025 | ?20?     |              731 |  974.6666870117188 | 1705.6666870117188 | Magellan Health        |                      1 |
+| Endocrinology             | 2025 | ?20?     |             1580 | 1354.2857666015625 | 2934.2857666015625 | Molina Healthcare      |                      1 |
+| Endocrinology             | 2025 | ?20?     |              731 |  487.3333435058594 | 1218.3333435058594 | Oscar Health           |                      1 |
+| Endocrinology             | 2025 | ?20?     |              731 |  974.6666870117188 | 1705.6666870117188 | Priority Health        |                      1 |
+| Endocrinology             | 2026 | ?02?     |             5135 |                  0 |               5135 | Highmark Health        |                      1 |
+| Endocrinology             | 2026 | ?20?     |              731 |  2436.666748046875 |  3167.666748046875 | Guardian Life          |                      1 |
+| Gastroenterology          | 2021 | ?01?     |             3857 |                  0 |               3857 | Anthem                 |                      1 |
+| Gastroenterology          | 2021 | ?01?     |             3857 |  428.5555419921875 | 4285.5555419921875 | Molina Healthcare      |                      1 |
+| Gastroenterology          | 2021 | ?01?     |             3857 |   857.111083984375 |  4714.111083984375 | Priority Health        |                      1 |
+| Gastroenterology          | 2021 | ?01?     |             3857 |                  0 |               3857 | UnitedHealth Group     |                      1 |
+| Gastroenterology          | 2021 | ?46?     |              327 |               1308 |               1635 | Beacon Health Options  |                      1 |
+| Gastroenterology          | 2021 | ?46?     |              327 |             1144.5 |             1471.5 | Cigna                  |                      1 |
+| Gastroenterology          | 2021 | ?46?     |              327 |                  0 |                327 | Health Net             |                      1 |
+| Gastroenterology          | 2021 | ?46?     |              327 |               1635 |               1962 | Molina Healthcare      |                      1 |
+| Gastroenterology          | 2021 | ?20?     |             2514 |                  0 |               2514 | Guardian Life          |                      1 |
+| Gastroenterology          | 2021 | ?20?     |             2514 |                  0 |               2514 | UnitedHealth Group     |                      1 |
+| Gastroenterology          | 2022 | ?01?     |             3857 | 1285.6666259765625 | 5142.6666259765625 | Ambetter               |                      1 |
+| Gastroenterology          | 2022 | ?01?     |             3857 |   857.111083984375 |  4714.111083984375 | WellCare               |                      1 |
+| Gastroenterology          | 2022 | ?46?     |              327 |                981 |               1308 | Centene Corporation    |                      1 |
+| Gastroenterology          | 2022 | ?46?     |              327 |                  0 |                327 | Humana                 |                      1 |
+| Gastroenterology          | 2022 | ?46?     |              327 |              163.5 |              490.5 | MetLife                |                      1 |
+| Gastroenterology          | 2022 | ?46?     |              327 |                327 |                654 | Molina Healthcare      |                      1 |
+| Gastroenterology          | 2022 | ?46?     |              327 |                981 |               1308 | Mutual of Omaha        |                      1 |
+| Gastroenterology          | 2022 | ?46?     |              327 |             1471.5 |             1798.5 | UnitedHealth Group     |                      1 |
+| Gastroenterology          | 2022 | ?20?     |             2514 |                  0 |               2514 | Mutual of Omaha        |                      1 |
+| Gastroenterology          | 2022 | ?20?     |             2514 |                  0 |               2514 | Oscar Health           |                      1 |
+| Gastroenterology          | 2022 | ?20?     |             2514 |  457.0909118652344 | 2971.0909118652344 | WellCare               |                      1 |
+| Gastroenterology          | 2023 | ?01?     |             7714 |   857.111083984375 |  8571.111083984375 | Centene Corporation    |                      2 |
+| Gastroenterology          | 2023 | ?01?     |             3857 |   1714.22216796875 |   5571.22216796875 | Health Net             |                      1 |
+| Gastroenterology          | 2023 | ?01?     |             3857 |                  0 |               3857 | Highmark Health        |                      1 |
+| Gastroenterology          | 2023 | ?46?     |              327 |              490.5 |              817.5 | Aetna                  |                      1 |
+| Gastroenterology          | 2023 | ?46?     |              327 |               1962 |               2289 | Guardian Life          |                      1 |
+| Gastroenterology          | 2023 | ?20?     |             2514 |                  0 |               2514 | Aetna                  |                      1 |
+| Gastroenterology          | 2023 | ?20?     |             2514 |                  0 |               2514 | MetLife                |                      1 |
+| Gastroenterology          | 2023 | ?20?     |             2514 |  228.5454559326172 |  2742.545455932617 | Mutual of Omaha        |                      1 |
+| Gastroenterology          | 2024 | ?01?     |             3857 |   1714.22216796875 |   5571.22216796875 | Aetna                  |                      1 |
+| Gastroenterology          | 2024 | ?01?     |             3857 | 1285.6666259765625 | 5142.6666259765625 | Blue Cross Blue Shield |                      1 |
+| Gastroenterology          | 2024 | ?01?     |             3857 |                  0 |               3857 | Highmark Health        |                      1 |
+| Gastroenterology          | 2024 | ?01?     |             3857 |                  0 |               3857 | MetLife                |                      1 |
+| Gastroenterology          | 2024 | ?01?     |             3857 |                  0 |               3857 | Priority Health        |                      1 |
+| Gastroenterology          | 2024 | ?01?     |             3857 |                  0 |               3857 | WellCare               |                      1 |
+| Gastroenterology          | 2024 | ?46?     |              327 |                654 |                981 | Beacon Health Options  |                      1 |
+| Gastroenterology          | 2024 | ?46?     |              327 |              817.5 |             1144.5 | Cigna                  |                      1 |
+| Gastroenterology          | 2024 | ?46?     |              327 |             1144.5 |             1471.5 | Highmark Health        |                      1 |
+| Gastroenterology          | 2024 | ?20?     |             2514 |  685.6363525390625 | 3199.6363525390625 | Blue Cross Blue Shield |                      1 |
+| Gastroenterology          | 2024 | ?20?     |             5028 |                  0 |               5028 | Centene Corporation    |                      2 |
+| Gastroenterology          | 2024 | ?20?     |             2514 |  228.5454559326172 |  2742.545455932617 | Cigna                  |                      1 |
+| Gastroenterology          | 2024 | ?20?     |             2514 |                  0 |               2514 | Guardian Life          |                      1 |
+| Gastroenterology          | 2024 | ?20?     |             2514 |                  0 |               2514 | Health Net             |                      1 |
+| Gastroenterology          | 2025 | ?01?     |             3857 |                  0 |               3857 | Cigna                  |                      1 |
+| Gastroenterology          | 2025 | ?01?     |             3857 |                  0 |               3857 | Guardian Life          |                      1 |
+| Gastroenterology          | 2025 | ?01?     |             7714 |   857.111083984375 |  8571.111083984375 | Highmark Health        |                      2 |
+| Gastroenterology          | 2025 | ?46?     |              327 |                  0 |                327 | Aetna                  |                      1 |
+| Gastroenterology          | 2025 | ?46?     |              327 |              163.5 |              490.5 | Anthem                 |                      1 |
+| Gastroenterology          | 2025 | ?46?     |              327 |              163.5 |              490.5 | Centene Corporation    |                      1 |
+| Gastroenterology          | 2025 | ?46?     |              327 |                654 |                981 | Mutual of Omaha        |                      1 |
+| Gastroenterology          | 2025 | ?20?     |             5028 |                  0 |               5028 | Guardian Life          |                      2 |
+| Gastroenterology          | 2025 | ?20?     |             2514 |                  0 |               2514 | Kaiser Permanente      |                      1 |
+| Gastroenterology          | 2025 | ?20?     |             2514 |                  0 |               2514 | Oscar Health           |                      1 |
+| Gastroenterology          | 2025 | ?20?     |             2514 |                  0 |               2514 | Priority Health        |                      1 |
+| Gastroenterology          | 2025 | ?20?     |             2514 |                  0 |               2514 | UnitedHealth Group     |                      1 |
+| Gastroenterology          | 2026 | ?46?     |              327 |              490.5 |              817.5 | Aetna                  |                      1 |
+| Gastroenterology          | 2026 | ?46?     |              327 |                981 |               1308 | Molina Healthcare      |                      1 |
+| Gastroenterology          | 2026 | ?20?     |             2514 |                  0 |               2514 | Health Net             |                      1 |
+| ICU (Intensive Care Unit) | 2021 | ?10?     |             1473 |                  0 |               1473 | Anthem                 |                      1 |
+| ICU (Intensive Care Unit) | 2021 | ?10?     |             2946 | 210.42857360839844 | 3156.4285736083984 | MetLife                |                      2 |
+| ICU (Intensive Care Unit) | 2021 | ?10?     |             1473 | 1262.5714111328125 | 2735.5714111328125 | Molina Healthcare      |                      1 |
+| ICU (Intensive Care Unit) | 2021 | ?10?     |             1473 |                  0 |               1473 | UnitedHealth Group     |                      1 |
+| ICU (Intensive Care Unit) | 2022 | ?10?     |             1473 | 210.42857360839844 | 1683.4285736083984 | Anthem                 |                      1 |
+| ICU (Intensive Care Unit) | 2022 | ?10?     |             1473 |                  0 |               1473 | Beacon Health Options  |                      1 |
+| ICU (Intensive Care Unit) | 2022 | ?10?     |             1473 |  1052.142822265625 |  2525.142822265625 | Centene Corporation    |                      1 |
+| ICU (Intensive Care Unit) | 2022 | ?10?     |             1473 |                  0 |               1473 | Humana                 |                      1 |
+| ICU (Intensive Care Unit) | 2022 | ?10?     |             1473 | 1262.5714111328125 | 2735.5714111328125 | Kaiser Permanente      |                      1 |
+| ICU (Intensive Care Unit) | 2023 | ?10?     |             1473 | 1262.5714111328125 | 2735.5714111328125 | Cigna                  |                      1 |
+| ICU (Intensive Care Unit) | 2024 | ?10?     |             1473 |                  0 |               1473 | Guardian Life          |                      1 |
+| ICU (Intensive Care Unit) | 2024 | ?10?     |             1473 |  841.7142944335938 | 2314.7142944335938 | Oscar Health           |                      1 |
+| ICU (Intensive Care Unit) | 2025 | ?10?     |             2946 |  1052.142822265625 |  3998.142822265625 | Guardian Life          |                      2 |
+| Internal Medicine         | 2021 | ?10??    |             7118 |                  0 |               7118 | Highmark Health        |                      1 |
+| Internal Medicine         | 2021 | ?10??    |             7118 |                  0 |               7118 | MetLife                |                      1 |
+| Internal Medicine         | 2021 | ?10??    |            14236 |                  0 |              14236 | Priority Health        |                      2 |
+| Internal Medicine         | 2021 | ?21?     |              231 |               1155 |               1386 | Beacon Health Options  |                      1 |
+| Internal Medicine         | 2021 | ?21?     |              231 |               2772 |               3003 | Centene Corporation    |                      1 |
+| Internal Medicine         | 2021 | ?21?     |              693 |               4158 |               4851 | Molina Healthcare      |                      3 |
+| Internal Medicine         | 2021 | ?22?     |             1471 |                  0 |               1471 | Oscar Health           |                      1 |
+| Internal Medicine         | 2022 | ?10??    |             7118 |                  0 |               7118 | Centene Corporation    |                      1 |
+| Internal Medicine         | 2022 | ?10??    |             7118 |                  0 |               7118 | Guardian Life          |                      1 |
+| Internal Medicine         | 2022 | ?10??    |             7118 |                  0 |               7118 | Humana                 |                      1 |
+| Internal Medicine         | 2022 | ?10??    |             7118 |                  0 |               7118 | Kaiser Permanente      |                      1 |
+| Internal Medicine         | 2022 | ?10??    |             7118 |                  0 |               7118 | MetLife                |                      1 |
+| Internal Medicine         | 2022 | ?10??    |             7118 |                  0 |               7118 | Molina Healthcare      |                      1 |
+| Internal Medicine         | 2022 | ?10??    |             7118 |                  0 |               7118 | Oscar Health           |                      1 |
+| Internal Medicine         | 2022 | ?20?     |              767 |             3451.5 |             4218.5 | Cigna                  |                      1 |
+| Internal Medicine         | 2022 | ?20?     |              767 |               4602 |               5369 | Guardian Life          |                      1 |
+| Internal Medicine         | 2022 | ?20?     |              767 |               2301 |               3068 | Magellan Health        |                      1 |
+| Internal Medicine         | 2022 | ?20?     |              767 |               4602 |               5369 | MetLife                |                      1 |
+| Internal Medicine         | 2022 | ?20?     |              767 |               4602 |               5369 | Oscar Health           |                      1 |
+| Internal Medicine         | 2022 | ?21?     |              462 |               1848 |               2310 | Beacon Health Options  |                      2 |
+| Internal Medicine         | 2022 | ?21?     |              231 |               2310 |               2541 | Centene Corporation    |                      1 |
+| Internal Medicine         | 2022 | ?22?     |             1471 |                  0 |               1471 | Anthem                 |                      1 |
+| Internal Medicine         | 2022 | ?22?     |             1471 | 1050.7142333984375 | 2521.7142333984375 | Health Net             |                      1 |
+| Internal Medicine         | 2023 | ?10??    |             7118 |                  0 |               7118 | Anthem                 |                      1 |
+| Internal Medicine         | 2023 | ?10??    |             7118 |                  0 |               7118 | Blue Cross Blue Shield |                      1 |
+| Internal Medicine         | 2023 | ?10??    |             7118 |                  0 |               7118 | Centene Corporation    |                      1 |
+| Internal Medicine         | 2023 | ?10??    |             7118 |                  0 |               7118 | Health Net             |                      1 |
+| Internal Medicine         | 2023 | ?10??    |             7118 |                  0 |               7118 | MetLife                |                      1 |
+| Internal Medicine         | 2023 | ?20?     |              767 |             1150.5 |             1917.5 | Molina Healthcare      |                      1 |
+| Internal Medicine         | 2023 | ?20?     |              767 |             4218.5 |             4985.5 | Mutual of Omaha        |                      1 |
+| Internal Medicine         | 2023 | ?20?     |              767 |               3068 |               3835 | Oscar Health           |                      1 |
+| Internal Medicine         | 2023 | ?21?     |              231 |               2310 |               2541 | Aetna                  |                      1 |
+| Internal Medicine         | 2023 | ?21?     |              231 |               1386 |               1617 | Centene Corporation    |                      1 |
+| Internal Medicine         | 2023 | ?21?     |              462 |               1848 |               2310 | Guardian Life          |                      2 |
+| Internal Medicine         | 2023 | ?21?     |              231 |                924 |               1155 | Kaiser Permanente      |                      1 |
+| Internal Medicine         | 2023 | ?21?     |              231 |                  0 |                231 | UnitedHealth Group     |                      1 |
+| Internal Medicine         | 2023 | ?22?     |             1471 |  840.5714111328125 | 2311.5714111328125 | Kaiser Permanente      |                      1 |
+| Internal Medicine         | 2024 | ?10??    |             7118 |                  0 |               7118 | Kaiser Permanente      |                      1 |
+| Internal Medicine         | 2024 | ?10??    |             7118 |                  0 |               7118 | MetLife                |                      1 |
+| Internal Medicine         | 2024 | ?10??    |             7118 |                  0 |               7118 | Molina Healthcare      |                      1 |
+| Internal Medicine         | 2024 | ?10??    |             7118 |                  0 |               7118 | Mutual of Omaha        |                      1 |
+| Internal Medicine         | 2024 | ?10??    |             7118 |                  0 |               7118 | Priority Health        |                      1 |
+| Internal Medicine         | 2024 | ?10??    |             7118 |                  0 |               7118 | UnitedHealth Group     |                      1 |
+| Internal Medicine         | 2024 | ?20?     |              767 |              383.5 |             1150.5 | Ambetter               |                      1 |
+| Internal Medicine         | 2024 | ?20?     |              767 |             2684.5 |             3451.5 | Centene Corporation    |                      1 |
+| Internal Medicine         | 2024 | ?20?     |              767 |             3451.5 |             4218.5 | MetLife                |                      1 |
+| Internal Medicine         | 2024 | ?20?     |              767 |               2301 |               3068 | Oscar Health           |                      1 |
+| Internal Medicine         | 2024 | ?20?     |              767 |             2684.5 |             3451.5 | WellCare               |                      1 |
+| Internal Medicine         | 2024 | ?21?     |              231 |                693 |                924 | MetLife                |                      1 |
+| Internal Medicine         | 2024 | ?21?     |              231 |               2541 |               2772 | Molina Healthcare      |                      1 |
+| Internal Medicine         | 2024 | ?22?     |             1471 |  1260.857177734375 |  2731.857177734375 | Cigna                  |                      1 |
+| Internal Medicine         | 2024 | ?22?     |             1471 |  840.5714111328125 | 2311.5714111328125 | Molina Healthcare      |                      1 |
+| Internal Medicine         | 2024 | ?22?     |             1471 |  630.4285888671875 | 2101.4285888671875 | Oscar Health           |                      1 |
+| Internal Medicine         | 2024 | ?22?     |             1471 |  630.4285888671875 | 2101.4285888671875 | WellCare               |                      1 |
+| Internal Medicine         | 2025 | ?10??    |             7118 |                  0 |               7118 | Guardian Life          |                      1 |
+| Internal Medicine         | 2025 | ?20?     |              767 |               1534 |               2301 | Blue Cross Blue Shield |                      1 |
+| Internal Medicine         | 2025 | ?21?     |              231 |                924 |               1155 | Ambetter               |                      1 |
+| Internal Medicine         | 2025 | ?21?     |              231 |               1386 |               1617 | UnitedHealth Group     |                      1 |
+| Internal Medicine         | 2025 | ?21?     |              231 |               2541 |               2772 | WellCare               |                      1 |
+| Internal Medicine         | 2025 | ?22?     |             1471 | 420.28570556640625 | 1891.2857055664062 | Blue Cross Blue Shield |                      1 |
+| Internal Medicine         | 2025 | ?22?     |             1471 |                  0 |               1471 | Centene Corporation    |                      1 |
+| Internal Medicine         | 2025 | ?22?     |             1471 |  840.5714111328125 | 2311.5714111328125 | Cigna                  |                      1 |
+| Internal Medicine         | 2025 | ?22?     |             2942 |                  0 |               2942 | Health Net             |                      2 |
+| Internal Medicine         | 2026 | ?20?     |              767 |             1917.5 |             2684.5 | WellCare               |                      1 |
+| Internal Medicine         | 2026 | ?21?     |              231 |               1386 |               1617 | Aetna                  |                      1 |
+| Internal Medicine         | 2026 | ?21?     |              231 |                693 |                924 | Oscar Health           |                      1 |
+| Internal Medicine         | 2026 | ?22?     |             1471 |                  0 |               1471 | Mutual of Omaha        |                      1 |
+| Neurology                 | 2021 | ?21?     |             1494 |              373.5 |             1867.5 | Blue Cross Blue Shield |                      1 |
+| Neurology                 | 2021 | ?21?     |             1494 |               1494 |               2988 | Centene Corporation    |                      1 |
+| Neurology                 | 2021 | ?21?     |             1494 |                  0 |               1494 | Kaiser Permanente      |                      1 |
+| Neurology                 | 2021 | ?21?     |             1494 |                  0 |               1494 | Molina Healthcare      |                      1 |
+| Neurology                 | 2021 | ?21?     |             1885 |               1508 |               3393 | Cigna                  |                      1 |
+| Neurology                 | 2021 | ?21?     |             1885 |                  0 |               1885 | MetLife                |                      1 |
+| Neurology                 | 2021 | ?21?     |             1885 |                  0 |               1885 | Priority Health        |                      1 |
+| Neurology                 | 2021 | ?41?     |             1837 |  183.6999969482422 | 2020.6999969482422 | Guardian Life          |                      1 |
+| Neurology                 | 2021 | ?41?     |             1837 |  551.0999755859375 | 2388.0999755859375 | Molina Healthcare      |                      1 |
+| Neurology                 | 2021 | ?41?     |             1837 |                  0 |               1837 | WellCare               |                      1 |
+| Neurology                 | 2022 | ?21?     |             1494 |             1120.5 |             2614.5 | Health Net             |                      1 |
+| Neurology                 | 2022 | ?21?     |             1885 |               2262 |               4147 | Aetna                  |                      1 |
+| Neurology                 | 2022 | ?21?     |             3770 |               1885 |               5655 | Centene Corporation    |                      2 |
+| Neurology                 | 2022 | ?21?     |             1885 |               1885 |               3770 | UnitedHealth Group     |                      1 |
+| Neurology                 | 2022 | ?41?     |             1837 |  734.7999877929688 | 2571.7999877929688 | Aetna                  |                      1 |
+| Neurology                 | 2022 | ?41?     |             1837 |  734.7999877929688 | 2571.7999877929688 | Health Net             |                      1 |
+| Neurology                 | 2022 | ?41?     |             1837 |  183.6999969482422 | 2020.6999969482422 | Kaiser Permanente      |                      1 |
+| Neurology                 | 2023 | ?21?     |             1494 |                  0 |               1494 | Aetna                  |                      1 |
+| Neurology                 | 2023 | ?21?     |             1494 |                  0 |               1494 | Centene Corporation    |                      1 |
+| Neurology                 | 2023 | ?21?     |             2988 |               2241 |               5229 | Health Net             |                      2 |
+| Neurology                 | 2023 | ?21?     |             1885 |                  0 |               1885 | Ambetter               |                      1 |
+| Neurology                 | 2023 | ?21?     |             1885 |               3393 |               5278 | Health Net             |                      1 |
+| Neurology                 | 2023 | ?21?     |             1885 |                  0 |               1885 | Molina Healthcare      |                      1 |
+| Neurology                 | 2023 | ?21?     |             1885 |               1508 |               3393 | Mutual of Omaha        |                      1 |
+| Neurology                 | 2023 | ?41?     |             1837 |                  0 |               1837 | Aetna                  |                      1 |
+| Neurology                 | 2023 | ?41?     |             1837 |                  0 |               1837 | Beacon Health Options  |                      1 |
+| Neurology                 | 2023 | ?41?     |             1837 |  183.6999969482422 | 2020.6999969482422 | Centene Corporation    |                      1 |
+| Neurology                 | 2023 | ?41?     |             1837 |                  0 |               1837 | Kaiser Permanente      |                      1 |
+| Neurology                 | 2023 | ?41?     |             1837 |                  0 |               1837 | Mutual of Omaha        |                      1 |
+| Neurology                 | 2023 | ?41?     |             1837 |                  0 |               1837 | UnitedHealth Group     |                      1 |
+| Neurology                 | 2024 | ?21?     |             1494 |             1120.5 |             2614.5 | Aetna                  |                      1 |
+| Neurology                 | 2024 | ?21?     |             1494 |               2241 |               3735 | Kaiser Permanente      |                      1 |
+| Neurology                 | 2024 | ?21?     |             1494 |              373.5 |             1867.5 | Mutual of Omaha        |                      1 |
+| Neurology                 | 2024 | ?21?     |             1885 |               3016 |               4901 | Beacon Health Options  |                      1 |
+| Neurology                 | 2024 | ?21?     |             1885 |               2262 |               4147 | Cigna                  |                      1 |
+| Neurology                 | 2024 | ?21?     |             1885 |                  0 |               1885 | Molina Healthcare      |                      1 |
+| Neurology                 | 2024 | ?21?     |             1885 |               1885 |               3770 | WellCare               |                      1 |
+| Neurology                 | 2024 | ?41?     |             1837 |  183.6999969482422 | 2020.6999969482422 | Aetna                  |                      1 |
+| Neurology                 | 2024 | ?41?     |             3674 | 1102.1999816894531 |  4776.199981689453 | Centene Corporation    |                      2 |
+| Neurology                 | 2024 | ?41?     |             1837 |  551.0999755859375 | 2388.0999755859375 | Cigna                  |                      1 |
+| Neurology                 | 2024 | ?41?     |             1837 |  183.6999969482422 | 2020.6999969482422 | Guardian Life          |                      1 |
+| Neurology                 | 2024 | ?41?     |             1837 |                  0 |               1837 | UnitedHealth Group     |                      1 |
+| Neurology                 | 2024 | ?41?     |             1837 |                  0 |               1837 | WellCare               |                      1 |
+| Neurology                 | 2025 | ?21?     |             1494 |                747 |               2241 | MetLife                |                      1 |
+| Neurology                 | 2025 | ?21?     |             1494 |                  0 |               1494 | Molina Healthcare      |                      1 |
+| Neurology                 | 2025 | ?21?     |             1885 |                  0 |               1885 | Health Net             |                      1 |
+| Neurology                 | 2025 | ?41?     |             3674 |                  0 |               3674 | Aetna                  |                      2 |
+| Neurology                 | 2025 | ?41?     |             1837 |  551.0999755859375 | 2388.0999755859375 | Health Net             |                      1 |
+| Neurology                 | 2025 | ?41?     |             1837 |  734.7999877929688 | 2571.7999877929688 | Highmark Health        |                      1 |
+| Neurology                 | 2025 | ?41?     |             1837 |  183.6999969482422 | 2020.6999969482422 | Molina Healthcare      |                      1 |
+| Neurology                 | 2026 | ?21?     |             1494 |                  0 |               1494 | Mutual of Omaha        |                      1 |
+| Neurology                 | 2026 | ?41?     |             1837 |  183.6999969482422 | 2020.6999969482422 | Centene Corporation    |                      1 |
+| Orthopedics               | 2021 | ?04?     |             8798 |                  0 |               8798 | Guardian Life          |                      1 |
+| Orthopedics               | 2021 | ?04?     |             8798 |                  0 |               8798 | Humana                 |                      1 |
+| Orthopedics               | 2021 | ?04?     |             8798 |                  0 |               8798 | MetLife                |                      1 |
+| Orthopedics               | 2021 | ?04?     |             8798 |                  0 |               8798 | Mutual of Omaha        |                      1 |
+| Orthopedics               | 2021 | ?04?     |            11116 | 1515.8182373046875 | 12631.818237304688 | Kaiser Permanente      |                      2 |
+| Orthopedics               | 2021 | ?04?     |             5558 |                  0 |               5558 | MetLife                |                      1 |
+| Orthopedics               | 2021 | ?25?     |             1256 |                628 |               1884 | Magellan Health        |                      1 |
+| Orthopedics               | 2022 | ?04?     |             8798 |                  0 |               8798 | Beacon Health Options  |                      1 |
+| Orthopedics               | 2022 | ?04?     |             8798 |                  0 |               8798 | Kaiser Permanente      |                      1 |
+| Orthopedics               | 2022 | ?04?     |             8798 |                  0 |               8798 | Priority Health        |                      1 |
+| Orthopedics               | 2022 | ?04?     |             5558 | 1010.5454711914062 |  6568.545471191406 | Beacon Health Options  |                      1 |
+| Orthopedics               | 2022 | ?04?     |             5558 |                  0 |               5558 | Molina Healthcare      |                      1 |
+| Orthopedics               | 2022 | ?04?     |             5558 |                  0 |               5558 | UnitedHealth Group     |                      1 |
+| Orthopedics               | 2022 | ?25?     |             1256 |               3140 |               4396 | Ambetter               |                      1 |
+| Orthopedics               | 2022 | ?25?     |             1256 |                628 |               1884 | Centene Corporation    |                      1 |
+| Orthopedics               | 2022 | ?25?     |             1256 |                628 |               1884 | Mutual of Omaha        |                      1 |
+| Orthopedics               | 2022 | ?25?     |             1256 |                  0 |               1256 | Priority Health        |                      1 |
+| Orthopedics               | 2023 | ?04?     |             8798 |                  0 |               8798 | Aetna                  |                      1 |
+| Orthopedics               | 2023 | ?04?     |             8798 |                  0 |               8798 | Beacon Health Options  |                      1 |
+| Orthopedics               | 2023 | ?04?     |             8798 |                  0 |               8798 | UnitedHealth Group     |                      1 |
+| Orthopedics               | 2023 | ?04?     |             5558 |                  0 |               5558 | Aetna                  |                      1 |
+| Orthopedics               | 2023 | ?04?     |             5558 |                  0 |               5558 | Guardian Life          |                      1 |
+| Orthopedics               | 2023 | ?04?     |             5558 |                  0 |               5558 | Health Net             |                      1 |
+| Orthopedics               | 2023 | ?04?     |             5558 |                  0 |               5558 | MetLife                |                      1 |
+| Orthopedics               | 2023 | ?25?     |             2512 |               3768 |               6280 | Aetna                  |                      2 |
+| Orthopedics               | 2023 | ?25?     |             1256 |               2512 |               3768 | Anthem                 |                      1 |
+| Orthopedics               | 2023 | ?25?     |             1256 |                  0 |               1256 | Centene Corporation    |                      1 |
+| Orthopedics               | 2023 | ?25?     |             2512 |               3768 |               6280 | Health Net             |                      2 |
+| Orthopedics               | 2023 | ?25?     |             2512 |               3768 |               6280 | Humana                 |                      2 |
+| Orthopedics               | 2024 | ?04?     |             8798 |                  0 |               8798 | Centene Corporation    |                      1 |
+| Orthopedics               | 2024 | ?04?     |             8798 |                  0 |               8798 | Cigna                  |                      1 |
+| Orthopedics               | 2024 | ?04?     |            17596 |                  0 |              17596 | Molina Healthcare      |                      2 |
+| Orthopedics               | 2024 | ?04?     |             8798 |                  0 |               8798 | Mutual of Omaha        |                      1 |
+| Orthopedics               | 2024 | ?04?     |             5558 |                  0 |               5558 | Highmark Health        |                      1 |
+| Orthopedics               | 2024 | ?04?     |             5558 |                  0 |               5558 | Mutual of Omaha        |                      1 |
+| Orthopedics               | 2024 | ?25?     |             1256 |                  0 |               1256 | Highmark Health        |                      1 |
+| Orthopedics               | 2024 | ?25?     |             2512 |                628 |               3140 | Molina Healthcare      |                      2 |
+| Orthopedics               | 2024 | ?25?     |             1256 |               2826 |               4082 | WellCare               |                      1 |
+| Orthopedics               | 2025 | ?04?     |             8798 |                  0 |               8798 | Aetna                  |                      1 |
+| Orthopedics               | 2025 | ?04?     |            17596 |                  0 |              17596 | Anthem                 |                      2 |
+| Orthopedics               | 2025 | ?04?     |             8798 |                  0 |               8798 | Blue Cross Blue Shield |                      1 |
+| Orthopedics               | 2025 | ?04?     |             5558 |                  0 |               5558 | Aetna                  |                      1 |
+| Orthopedics               | 2025 | ?04?     |             5558 |                  0 |               5558 | Beacon Health Options  |                      1 |
+| Orthopedics               | 2025 | ?04?     |             5558 |                  0 |               5558 | Centene Corporation    |                      1 |
+| Orthopedics               | 2025 | ?04?     |             5558 |                  0 |               5558 | Health Net             |                      1 |
+| Orthopedics               | 2025 | ?25?     |             1256 |               2512 |               3768 | Blue Cross Blue Shield |                      1 |
+| Orthopedics               | 2025 | ?25?     |             1256 |               2512 |               3768 | Centene Corporation    |                      1 |
+| Orthopedics               | 2025 | ?25?     |             1256 |                314 |               1570 | Cigna                  |                      1 |
+| Orthopedics               | 2025 | ?25?     |             1256 |               2198 |               3454 | Guardian Life          |                      1 |
+| Orthopedics               | 2025 | ?25?     |             1256 |                  0 |               1256 | Kaiser Permanente      |                      1 |
+| Orthopedics               | 2026 | ?04?     |             8798 |                  0 |               8798 | Oscar Health           |                      1 |
+| Psychiatry                | 2021 | ?20?     |              148 |                  0 |                148 | Molina Healthcare      |                      1 |
+| Psychiatry                | 2021 | ?20?     |              148 |                  0 |                148 | Mutual of Omaha        |                      1 |
+| Psychiatry                | 2021 | ?48?     |             3261 |                  0 |               3261 | Kaiser Permanente      |                      1 |
+| Psychiatry                | 2021 | ?48?     |             6522 |  978.2999877929688 |  7500.299987792969 | UnitedHealth Group     |                      2 |
+| Psychiatry                | 2022 | ?20?     |              148 |                888 |               1036 | Ambetter               |                      1 |
+| Psychiatry                | 2022 | ?20?     |              148 |               1184 |               1332 | Blue Cross Blue Shield |                      1 |
+| Psychiatry                | 2022 | ?20?     |              148 |                888 |               1036 | Guardian Life          |                      1 |
+| Psychiatry                | 2022 | ?20?     |              148 |                740 |                888 | Mutual of Omaha        |                      1 |
+| Psychiatry                | 2022 | ?20?     |              148 |               1184 |               1332 | Oscar Health           |                      1 |
+| Psychiatry                | 2022 | ?48?     |             3261 |  652.2000122070312 | 3913.2000122070312 | Blue Cross Blue Shield |                      1 |
+| Psychiatry                | 2022 | ?48?     |             3261 |                  0 |               3261 | Cigna                  |                      1 |
+| Psychiatry                | 2022 | ?48?     |             3261 |  652.2000122070312 | 3913.2000122070312 | Molina Healthcare      |                      1 |
+| Psychiatry                | 2022 | ?48?     |             3261 |                  0 |               3261 | Mutual of Omaha        |                      1 |
+| Psychiatry                | 2022 | ?48?     |             6522 |                  0 |               6522 | Oscar Health           |                      2 |
+| Psychiatry                | 2022 | ?48?     |             3261 |                  0 |               3261 | WellCare               |                      1 |
+| Psychiatry                | 2023 | ?20?     |              148 |               1480 |               1628 | Guardian Life          |                      1 |
+| Psychiatry                | 2023 | ?20?     |              148 |               1628 |               1776 | Health Net             |                      1 |
+| Psychiatry                | 2023 | ?20?     |              296 |               1332 |               1628 | Kaiser Permanente      |                      2 |
+| Psychiatry                | 2023 | ?20?     |              148 |                296 |                444 | MetLife                |                      1 |
+| Psychiatry                | 2023 | ?48?     |             3261 | 1304.4000244140625 | 4565.4000244140625 | Aetna                  |                      1 |
+| Psychiatry                | 2023 | ?48?     |             3261 | 1304.4000244140625 | 4565.4000244140625 | Centene Corporation    |                      1 |
+| Psychiatry                | 2023 | ?48?     |             3261 |                  0 |               3261 | Cigna                  |                      1 |
+| Psychiatry                | 2023 | ?48?     |             6522 | 1956.5999755859375 |  8478.599975585938 | Guardian Life          |                      2 |
+| Psychiatry                | 2023 | ?48?     |             3261 |                  0 |               3261 | Highmark Health        |                      1 |
+| Psychiatry                | 2023 | ?48?     |             6522 | 1630.5000305175781 |  8152.500030517578 | Kaiser Permanente      |                      2 |
+| Psychiatry                | 2023 | ?48?     |             3261 |  326.1000061035156 | 3587.1000061035156 | Mutual of Omaha        |                      1 |
+| Psychiatry                | 2023 | ?48?     |             3261 |                  0 |               3261 | Oscar Health           |                      1 |
+| Psychiatry                | 2023 | ?48?     |             3261 |  326.1000061035156 | 3587.1000061035156 | UnitedHealth Group     |                      1 |
+| Psychiatry                | 2024 | ?20?     |              148 |               1924 |               2072 | Anthem                 |                      1 |
+| Psychiatry                | 2024 | ?20?     |              296 |               3404 |               3700 | Centene Corporation    |                      2 |
+| Psychiatry                | 2024 | ?48?     |             3261 |                  0 |               3261 | Anthem                 |                      1 |
+| Psychiatry                | 2024 | ?48?     |             3261 |                  0 |               3261 | Cigna                  |                      1 |
+| Psychiatry                | 2024 | ?48?     |             3261 | 1304.4000244140625 | 4565.4000244140625 | Health Net             |                      1 |
+| Psychiatry                | 2024 | ?48?     |             3261 |                  0 |               3261 | Kaiser Permanente      |                      1 |
+| Psychiatry                | 2024 | ?48?     |             3261 |  652.2000122070312 | 3913.2000122070312 | Molina Healthcare      |                      1 |
+| Psychiatry                | 2025 | ?20?     |              148 |               1776 |               1924 | Cigna                  |                      1 |
+| Psychiatry                | 2025 | ?20?     |              148 |                444 |                592 | Guardian Life          |                      1 |
+| Psychiatry                | 2025 | ?20?     |              148 |               1184 |               1332 | Health Net             |                      1 |
+| Psychiatry                | 2025 | ?20?     |              148 |                592 |                740 | Highmark Health        |                      1 |
+| Psychiatry                | 2025 | ?20?     |              148 |                740 |                888 | Priority Health        |                      1 |
+| Psychiatry                | 2025 | ?48?     |             3261 |                  0 |               3261 | Anthem                 |                      1 |
+| Psychiatry                | 2025 | ?48?     |             3261 |                  0 |               3261 | Highmark Health        |                      1 |
+| Psychiatry                | 2026 | ?20?     |              148 |                740 |                888 | Health Net             |                      1 |
+| Psychiatry                | 2026 | ?20?     |              148 |                296 |                444 | Humana                 |                      1 |
+| Psychiatry                | 2026 | ?48?     |             3261 |                  0 |               3261 | Anthem                 |                      1 |
+| Psychiatry                | 2026 | ?48?     |             3261 |                  0 |               3261 | Centene Corporation    |                      1 |
+| Psychiatry                | 2026 | ?48?     |             3261 |                  0 |               3261 | Guardian Life          |                      1 |
+| Pulmonology               | 2021 | ?10?     |             4627 |            578.375 |           5205.375 | Beacon Health Options  |                      1 |
+| Pulmonology               | 2021 | ?10?     |             4627 |           2891.875 |           7518.875 | Blue Cross Blue Shield |                      1 |
+| Pulmonology               | 2021 | ?10?     |             4627 |                  0 |               4627 | MetLife                |                      1 |
+| Pulmonology               | 2021 | ?12?     |             1910 |               1910 |               3820 | Ambetter               |                      1 |
+| Pulmonology               | 2021 | ?12?     |             1910 |              21010 |              22920 | Health Net             |                      1 |
+| Pulmonology               | 2021 | ?12?     |             1910 |              13370 |              15280 | Kaiser Permanente      |                      1 |
+| Pulmonology               | 2021 | ?12?     |             1798 |                  0 |               1798 | Guardian Life          |                      1 |
+| Pulmonology               | 2021 | ?20?     |             2638 | 263.79998779296875 | 2901.7999877929688 | UnitedHealth Group     |                      1 |
+| Pulmonology               | 2021 | ?20?     |             2638 |                  0 |               2638 | WellCare               |                      1 |
+| Pulmonology               | 2022 | ?10?     |             9254 |           2891.875 |          12145.875 | Health Net             |                      2 |
+| Pulmonology               | 2022 | ?10?     |             4627 |            578.375 |           5205.375 | MetLife                |                      1 |
+| Pulmonology               | 2022 | ?10?     |             4627 |                  0 |               4627 | Priority Health        |                      1 |
+| Pulmonology               | 2022 | ?10?     |             4627 |            578.375 |           5205.375 | UnitedHealth Group     |                      1 |
+| Pulmonology               | 2022 | ?12?     |             3820 |              36290 |              40110 | Anthem                 |                      2 |
+| Pulmonology               | 2022 | ?12?     |             1910 |               5730 |               7640 | Magellan Health        |                      1 |
+| Pulmonology               | 2022 | ?12?     |             1910 |              11460 |              13370 | Molina Healthcare      |                      1 |
+| Pulmonology               | 2022 | ?12?     |             3820 |              15280 |              19100 | Mutual of Omaha        |                      2 |
+| Pulmonology               | 2022 | ?12?     |             1798 |                  0 |               1798 | Molina Healthcare      |                      1 |
+| Pulmonology               | 2022 | ?20?     |             2638 |                  0 |               2638 | Aetna                  |                      1 |
+| Pulmonology               | 2022 | ?20?     |             2638 |                  0 |               2638 | Health Net             |                      1 |
+| Pulmonology               | 2022 | ?20?     |             2638 | 263.79998779296875 | 2901.7999877929688 | Molina Healthcare      |                      1 |
+| Pulmonology               | 2023 | ?10?     |             4627 |                  0 |               4627 | Aetna                  |                      1 |
+| Pulmonology               | 2023 | ?10?     |             4627 |                  0 |               4627 | Anthem                 |                      1 |
+| Pulmonology               | 2023 | ?10?     |             4627 |            1156.75 |            5783.75 | Health Net             |                      1 |
+| Pulmonology               | 2023 | ?12?     |             1910 |              22920 |              24830 | Cigna                  |                      1 |
+| Pulmonology               | 2023 | ?12?     |             1910 |               9550 |              11460 | Health Net             |                      1 |
+| Pulmonology               | 2023 | ?12?     |             1910 |               3820 |               5730 | Highmark Health        |                      1 |
+| Pulmonology               | 2023 | ?12?     |             1798 |                  0 |               1798 | Ambetter               |                      1 |
+| Pulmonology               | 2023 | ?12?     |             1798 |  513.7142944335938 | 2311.7142944335938 | Beacon Health Options  |                      1 |
+| Pulmonology               | 2023 | ?12?     |             1798 |                  0 |               1798 | Cigna                  |                      1 |
+| Pulmonology               | 2023 | ?12?     |             1798 |               1798 |               3596 | Oscar Health           |                      1 |
+| Pulmonology               | 2023 | ?20?     |             2638 |  791.4000244140625 | 3429.4000244140625 | Molina Healthcare      |                      1 |
+| Pulmonology               | 2023 | ?20?     |             2638 |                  0 |               2638 | Oscar Health           |                      1 |
+| Pulmonology               | 2023 | ?20?     |             2638 |                  0 |               2638 | WellCare               |                      1 |
+| Pulmonology               | 2024 | ?10?     |             4627 |                  0 |               4627 | Anthem                 |                      1 |
+| Pulmonology               | 2024 | ?10?     |             9254 |               4627 |              13881 | Humana                 |                      2 |
+| Pulmonology               | 2024 | ?12?     |             1910 |               1910 |               3820 | Anthem                 |                      1 |
+| Pulmonology               | 2024 | ?12?     |             1910 |              15280 |              17190 | Centene Corporation    |                      1 |
+| Pulmonology               | 2024 | ?12?     |             1910 |              22920 |              24830 | Guardian Life          |                      1 |
+| Pulmonology               | 2024 | ?12?     |             1798 |  770.5714111328125 | 2568.5714111328125 | Guardian Life          |                      1 |
+| Pulmonology               | 2024 | ?20?     |             2638 |                  0 |               2638 | Beacon Health Options  |                      1 |
+| Pulmonology               | 2024 | ?20?     |             2638 |                  0 |               2638 | MetLife                |                      1 |
+| Pulmonology               | 2024 | ?20?     |             2638 |  791.4000244140625 | 3429.4000244140625 | Priority Health        |                      1 |
+| Pulmonology               | 2025 | ?10?     |             4627 |                  0 |               4627 | Ambetter               |                      1 |
+| Pulmonology               | 2025 | ?10?     |             4627 |            3470.25 |            8097.25 | Health Net             |                      1 |
+| Pulmonology               | 2025 | ?12?     |             1910 |              13370 |              15280 | Anthem                 |                      1 |
+| Pulmonology               | 2025 | ?12?     |             1798 |                  0 |               1798 | Blue Cross Blue Shield |                      1 |
+| Pulmonology               | 2025 | ?12?     |             1798 | 1284.2857666015625 | 3082.2857666015625 | Centene Corporation    |                      1 |
+| Pulmonology               | 2025 | ?12?     |             1798 |                  0 |               1798 | Health Net             |                      1 |
+| Pulmonology               | 2025 | ?12?     |             1798 |                  0 |               1798 | Humana                 |                      1 |
+| Pulmonology               | 2025 | ?12?     |             1798 |                  0 |               1798 | Magellan Health        |                      1 |
+| Pulmonology               | 2025 | ?12?     |             1798 |  1541.142822265625 |  3339.142822265625 | Molina Healthcare      |                      1 |
+| Pulmonology               | 2025 | ?20?     |             2638 |                  0 |               2638 | Blue Cross Blue Shield |                      1 |
+| Pulmonology               | 2025 | ?20?     |             2638 |                  0 |               2638 | Cigna                  |                      1 |
+| Pulmonology               | 2025 | ?20?     |             2638 |                  0 |               2638 | Kaiser Permanente      |                      1 |
+| Pulmonology               | 2025 | ?20?     |             2638 |  791.4000244140625 | 3429.4000244140625 | Oscar Health           |                      1 |
+| Pulmonology               | 2026 | ?10?     |             4627 |                  0 |               4627 | Anthem                 |                      1 |
+| Pulmonology               | 2026 | ?12?     |             1798 |  770.5714111328125 | 2568.5714111328125 | Molina Healthcare      |                      1 |
+| Surgical Department       | 2021 | ?11?     |              566 |               2547 |               3113 | Highmark Health        |                      1 |
+| Surgical Department       | 2021 | ?11?     |              566 |               3396 |               3962 | Humana                 |                      1 |
+| Surgical Department       | 2021 | ?11?     |              566 |               1132 |               1698 | MetLife                |                      1 |
+| Surgical Department       | 2021 | ?11?     |             1132 |                  0 |               1132 | Molina Healthcare      |                      2 |
+| Surgical Department       | 2022 | ?11?     |              566 |               2264 |               2830 | Blue Cross Blue Shield |                      1 |
+| Surgical Department       | 2022 | ?11?     |             1132 |               2830 |               3962 | Health Net             |                      2 |
+| Surgical Department       | 2022 | ?11?     |              566 |                  0 |                566 | Humana                 |                      1 |
+| Surgical Department       | 2022 | ?11?     |              566 |               1981 |               2547 | Kaiser Permanente      |                      1 |
+| Surgical Department       | 2022 | ?11?     |              566 |               2264 |               2830 | MetLife                |                      1 |
+| Surgical Department       | 2022 | ?11?     |              566 |               3113 |               3679 | Oscar Health           |                      1 |
+| Surgical Department       | 2022 | ?11?     |              566 |                  0 |                566 | Priority Health        |                      1 |
+| Surgical Department       | 2023 | ?11?     |              566 |               1132 |               1698 | Blue Cross Blue Shield |                      1 |
+| Surgical Department       | 2023 | ?11?     |              566 |               1698 |               2264 | Highmark Health        |                      1 |
+| Surgical Department       | 2024 | ?11?     |              566 |                283 |                849 | Aetna                  |                      1 |
+| Surgical Department       | 2024 | ?11?     |              566 |               1981 |               2547 | Centene Corporation    |                      1 |
+| Surgical Department       | 2024 | ?11?     |              566 |                  0 |                566 | Guardian Life          |                      1 |
+| Surgical Department       | 2024 | ?11?     |              566 |               2830 |               3396 | Molina Healthcare      |                      1 |
+| Surgical Department       | 2025 | ?11?     |              566 |               2830 |               3396 | Aetna                  |                      1 |
+| Surgical Department       | 2025 | ?11?     |              566 |               1415 |               1981 | Guardian Life          |                      1 |
+| Surgical Department       | 2025 | ?11?     |             1132 |               3113 |               4245 | Health Net             |                      2 |
++---------------------------+------+----------+------------------+--------------------+--------------------+------------------------+------------------------+
+459 rows in set (0.050 sec)
